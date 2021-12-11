@@ -9,7 +9,7 @@
 
 ## 라이선스
 
-Copyright © 2021, Lee Minseo (itoupluk427@gmail.com), with Reserved Font Name “Galmuri”.
+Copyright © 2021, Lee Minseo (itoupluk427@gmail.com), with reserved font name “Galmuri”.
 
 갈무리는 [SIL 오픈 폰트 라이선스 1.1](https://scripts.sil.org/OFL)에 따라 사용할 수 있으며, 폰트가 자체적으로 판매되지 않는 한 자유롭게 사용·연구·수정·재배포할 수 있습니다. 또한 어떠한 경우에도 저작권자는 계약·불법 행위 또는 기타 계약의 조치로 인한 일반·특수·간접·부수·결과적 손해를 포함하여 어떠한 청구·손해 또는 기타 책임도 지지 않습니다.
 
