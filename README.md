@@ -10,3 +10,7 @@ Outline fonts based on bitmap fonts in Nintendo DS.
 - Turkish
 
 and more...
+
+----
+
+Nintendo DS is a trademark of Nintendo.
