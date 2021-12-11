@@ -1,2 +1,2 @@
-# galmuri
-A outline font based on bitmap font in Nintendo DS.
+# Galmuri
+Outline fonts based on bitmap fonts in Nintendo DS.
