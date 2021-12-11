@@ -12,3 +12,7 @@
 갈무리를 수정하여 파생된 이차적 저작물 폰트는 이름에 Galmuri를 사용할 수 없으며, 다른 유형의 라이선스로 배포할 수 없습니다.
 
 [라이선스 전문](https://github.com/quiple/galmuri/blob/main/LICENSE)
+
+----
+
+닌텐도 DS는 닌텐도가부시키가이샤의 등록상표입니다.
