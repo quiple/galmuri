@@ -12,6 +12,13 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 remote_theme: emilbaehr/automatic-app-landing-page
 sass:
