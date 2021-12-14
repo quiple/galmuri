@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Galmuri
+title: 갈무리
 ---
 
 <link rel="stylesheet" href="./style.css">
