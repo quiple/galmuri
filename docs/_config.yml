@@ -5,5 +5,16 @@ url: https://quiple.github.io
 baseurl: /galmuri
 repository: quiple/galmuri
 owner_name: Lee Minseo (Quiple)
-markdown: kramdown
+
 remote_theme: emilbaehr/automatic-app-landing-page
+sass:
+  style: :compressed
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+markdown: kramdown
