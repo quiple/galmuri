@@ -3,7 +3,6 @@ description: 닌텐도 DS에 사용된 비트맵 폰트를 기반으로 한 픽�
 language: ko
 owner_name: Lee Minseo (Quiple)
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: dark
+remote_theme: emilbaehr/automatic-app-landing-page
 plugins:
   - jekyll-include-cache
