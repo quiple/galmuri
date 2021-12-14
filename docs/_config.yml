@@ -7,5 +7,3 @@ repository: quiple/galmuri
 owner_name: Lee Minseo (Quiple)
 markdown: kramdown
 remote_theme: emilbaehr/automatic-app-landing-page
-plugins:
-  - jekyll-include-cache
