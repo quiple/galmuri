@@ -2,6 +2,6 @@ title: 갈무리
 description: 닌텐도 DS에 사용된 비트맵 폰트를 기반으로 한 픽셀풍 윤곽선 폰트
 language: ko
 owner_name: Lee Minseo (Quiple)
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: emilbaehr/automatic-app-landing-page
 plugins:
   - jekyll-include-cache
