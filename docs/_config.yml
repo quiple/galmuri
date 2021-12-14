@@ -9,3 +9,4 @@ markdown: kramdown
 remote_theme: emilbaehr/automatic-app-landing-page
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
