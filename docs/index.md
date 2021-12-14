@@ -26,7 +26,7 @@ Copyright © 2021, Lee Minseo (itoupluk427@gmail.com), with reserved font name �
 
 [라이선스 원문](https://github.com/quiple/galmuri/blob/main/LICENSE)
 
-#### SIL 오픈 폰트 라이선스 전문 (번역)
+### SIL 오픈 폰트 라이선스 전문 (번역)
 
 버전 1.1 - 2007년 2월 26일
 
