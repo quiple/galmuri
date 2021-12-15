@@ -1,3 +1,4 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 html, .markdown-body { font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard Variable', Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif; font-feature-settings: 'palt'; }
 header { height: 0; overflow: hidden; }
+.markdown-body a { color: #06c; }
