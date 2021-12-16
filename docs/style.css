@@ -3,21 +3,21 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('https://github.com/quiple/galmuri/raw/main/dist/Galmuri11.ttf') format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri11.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Galmuri11';
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url('https://github.com/quiple/galmuri/raw/main/dist/Galmuri11-Bold.ttf') format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri11-Bold.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Galmuri9';
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('https://github.com/quiple/galmuri/raw/main/dist/Galmuri9.ttf') format("truetype");
+  src: url('https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri9.ttf') format("truetype");
 }
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 html, .markdown-body { font-size: 16px; font-family: 'Galmuri9', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard Variable', Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif; font-feature-settings: 'palt'; }
