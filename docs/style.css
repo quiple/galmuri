@@ -20,10 +20,9 @@
   src: url('https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri9.ttf') format("truetype");
 }
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
-html, .markdown-body { font-size: 16px; font-family: 'Galmuri9', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard Variable', Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif; font-feature-settings: 'palt'; }
+html, .markdown-body { font-family: 'Galmuri11', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard Variable', Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif; font-feature-settings: 'palt'; }
 header { height: 0; overflow: hidden; }
 .markdown-body a { color: #06c; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Galmuri11', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard Variable', Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', sans-serif !important; }
 h1 { font-size: 32px; }
 h2, h3 { font-size: 16px; }
 h4 { font-size: 16px; }
