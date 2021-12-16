@@ -13,9 +13,9 @@ title: 갈무리
 
 ## 다운로드
 
-- [Galmuri11](https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri11.ttf)
-- [Galmuri11 Bold](https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri11-Bold.ttf)
-- [Galmuri9](https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/Galmuri9.ttf)
+- [Galmuri11](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11.ttf)
+- [Galmuri11 Bold](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11-Bold.ttf)
+- [Galmuri9](https://github.com/quiple/galmuri/raw/main/dist/Galmuri9.ttf)
 
 ## 라이선스
 
