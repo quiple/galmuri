@@ -9,6 +9,8 @@ title: 갈무리
 
 갈무리는 한글 음절 2,780자와 한자 6,355자 등을 지원하는 픽셀풍의 윤곽선 폰트입니다. 닌텐도 DS 본체와 소프트웨어에 사용되었던 비트맵 폰트의 모양을 본따 만들어졌습니다. 또한 ‘갈무리’라는 이름은 2008년 6월 사용자 한글화 커뮤니티인 [한식구](https://cafe.naver.com/hansicgu)에서 폰트 파일로 제작되어 배포되었을 때 붙여진 이름입니다.
 
+<a class="github-button" href="https://github.com/quiple/gfd-viewer" data-size="large" aria-label="View quiple/gfd-viewer on GitHub">GitHub에서 보기</a>
+
 ## [글리프 미리보기](https://quiple.tistory.com/pages/galmuri)
 
 ## 다운로드
@@ -76,3 +78,4 @@ OFL은 라이선스가 부여된 폰트가 자체적으로 판매되지 않는 �
 ----
 
 닌텐도 DS는 닌텐도가부시키가이샤의 등록상표입니다.
+<script async defer src="https://buttons.github.io/buttons.js"></script>
