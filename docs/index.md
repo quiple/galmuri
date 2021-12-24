@@ -13,6 +13,12 @@ title: 갈무리
 
 ## [글리프 미리보기](https://quiple.tistory.com/pages/galmuri)
 
+> The quick brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+> 다람쥐 헌 쳇바퀴에 타고파. 정 참판 양반댁 규수 큰 교자 타고 혼례 치른 날. 키스의 고유 조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다. 찦차를 타고 온 펩시맨과 숏다리 똠방각하.
+
+> ヘッケはこれらのL-函数が全複素平面へ有理型接続を持ち、指標が自明であるときには s = 1 でオーダー 1 である極を持ち、それ以外では解析的であることを証明した。原始ヘッケ指標に対し、ヘッケは、これらのL-函数が指標の L-函数の函数等式を満たし、L-函数の複素共役指標であることを示した。
+
 ## 다운로드
 
 - [Galmuri11](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11.ttf)
