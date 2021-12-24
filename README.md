@@ -37,8 +37,8 @@ Outline fonts based on bitmap fonts in Nintendo DS.
 [^ks]: Only 268 CJK compatibility ideographs included in KS X 1001.
 
 ## Todo
-- [ ] JIS에 포함되지 않는 KS X 1001 한중일 호환용 한자 268자 추가
-- [ ] JIS에 포함되지 않는 KS X 1001 한중일 통합 한자 536자 추가
+- [ ] KS X 1001에 포함된 한중일 호환용 한자 중 JIS X 0208에 포함되지 않는 268자 추가
+- [ ] KS X 1001에 포함된 한중일 통합 한자 중 JIS X 0208에 포함되지 않는 536자 추가
 - [ ] Adobe-KR-1에 포함된 한글 음절 1,578자 추가
 
 ----
