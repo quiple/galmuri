@@ -31,7 +31,7 @@ Outline fonts based on bitmap fonts in Nintendo DS.
 | CJK Compatibility Forms       | :heavy_check_mark: | :x:                | :heavy_check_mark: |
 | Halfwidth and Fullwidth Forms | :heavy_check_mark: | :x:                | :heavy_check_mark: |
 
-[^old]: Excluding old hangul .
+[^old]: Excluding old hangul jamo.
 [^han]: Only 2,780 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
 [^jis]: Only 6,355 CJK unified ideographs included in JIS X 0208.
 [^ks]: Only 268 CJK compatibility ideographs included in KS X 1001.
