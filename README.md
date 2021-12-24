@@ -8,6 +8,34 @@ Outline fonts based on bitmap fonts in Nintendo DS.
 - Galmuri11 Bold<br>![Galmuri11 Bold](./docs/g11b.png)
 - Galmuri9<br>![Galmuri9](./docs/g9.png)
 
+## Supported Ranges
+
+| Range                         | Galmuri11          | Galmuri11 Bold     | Galmuri9           |
+|-------------------------------|--------------------|--------------------|--------------------|
+| Basic Latin                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Latin-1 Supplement            | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Latin Extended-A              | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Latin Extended-B              | :x:                | :x:                | :x:                |
+| Greek and Coptic              | :heavy_check_mark: | :x:                | :x:                |
+| Cyrillic                      | :heavy_check_mark: | :x:                | :x:                |
+| General Punctuation           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Geometric Shapes              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| CJK Symbols and Punctuation   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Hiragana                      | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Katakana                      | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:[^old] | :heavy_check_mark: |
+| CJK Unified Ideographs        | :heavy_check_mark:[^jis] | :x:                | :heavy_check_mark:[^jis] |
+| Hangul Syllables              | :heavy_check_mark:[^han] | :heavy_check_mark:[^han] | :heavy_check_mark:[^han] |
+| CJK Compatibility Ideographs  | :heavy_check_mark: | :x:                | :x:                |
+| Vertical Forms                | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| CJK Compatibility Forms       | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+| Halfwidth and Fullwidth Forms | :heavy_check_mark: | :x:                | :heavy_check_mark: |
+
+[^old]: Excluding old hangul.
+[^han]: Only 2,780 Hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
+[^jis]: Only 6,355 CJK Unified Ideographs included in JIS X 0208.
+[^jis]: Only 268 CJK Compatibility Ideographs included in KS X 1001.
+
 ----
 
 Nintendo DS is a trademark of Nintendo.
