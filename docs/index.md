@@ -78,4 +78,5 @@ OFL은 라이선스가 부여된 폰트가 자체적으로 판매되지 않는 �
 ----
 
 닌텐도 DS는 닌텐도가부시키가이샤의 등록상표입니다.
+
 <script async defer src="https://buttons.github.io/buttons.js"></script>
