@@ -7,7 +7,7 @@ title: Galmuri
 
 # Galmuri
 
-Galmuri는 한글 음절 2,780자와 한자 6,355자 등을 지원하는 픽셀풍의 윤곽선 폰트입니다. 닌텐도 DS 본체와 소프트웨어에 사용되었던 비트맵 폰트의 모양을 본따 만들어졌습니다. Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인 [한식구](https://cafe.naver.com/hansicgu)에서, 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘[갈무리M](https://cafe.naver.com/hansicgu/174)’에서 유래하였습니다.
+Galmuri는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 픽셀풍의 윤곽선 폰트입니다. 닌텐도 DS 본체와 소프트웨어에 사용되었던 비트맵 폰트의 모양을 본따 만들어졌습니다. Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인 [한식구](https://cafe.naver.com/hansicgu)에서, 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘[갈무리M](https://cafe.naver.com/hansicgu/174)’에서 유래하였습니다.
 
 <a class="github-button" href="https://github.com/quiple/galmuri" data-size="large" aria-label="View quiple/galmuri on GitHub">GitHub에서 보기</a>
 
