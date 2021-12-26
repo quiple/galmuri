@@ -17,7 +17,7 @@ Galmuri는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 픽
 
 ## 다운로드
 
-> Galmuri11부터 KS 한자가 순차적으로 업데이트되고 있습니다!
+> Galmuri11부터 Adobe-KR-1의 한글 음절과 KS 한자가 순차적으로 업데이트되고 있습니다!
 
 - [Galmuri11](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11.ttf)
 - [Galmuri11 Bold](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11-Bold.ttf)
