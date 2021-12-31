@@ -13,11 +13,14 @@ if (location.toString().endsWith('galmuri11')) {
 fetch('https://cdn.jsdelivr.net/gh/quiple/galmuri/'+ fileName +'.bdf')
   .then(async function(response) {
     const text = await response.text();
-    let glphsCnt = text.match(/CHARS .*/g)[0].split(' ');
-    let glphsArr = text.match(/STARTCHAR U\+.*/g);
-    var glphs;
-    for (let i = 0; i < glphsCnt[1]; i++) {
-      glphs += String.fromCodePoint(parseInt(glphsArr[i].split('+')[1], 16));
+    if (window.Worker) {
+      const worker = new Worker('./worker.js');
+      worker.postMessage(text);
+      worker.onmessage = function (glphs) {
+        document.getElementById('glyphs').innerHTML = glphs.data;
+      }
+    } else {
+      alert('Your browser does not support Web Workers.');
+      return false;
     }
-    document.getElementById('glyphs').innerHTML = glphs;
   });
