@@ -44,7 +44,7 @@ Outline fonts based on bitmap fonts in Nintendo DS.
   - [ ] Galmuri11 Bold
   - [ ] Galmuri9
 - [ ] KS X 1001에 포함된 한중일 호환용 한자 중 JIS X 0208에 포함되지 않는 268자 추가
-  - [ ] Galmuri11
+  - [x] Galmuri11
   - [ ] Galmuri9
 - [ ] KS X 1001에 포함된 한중일 통합 한자 중 JIS X 0208에 포함되지 않는 536자 추가
   - [ ] Galmuri11
