@@ -10,7 +10,7 @@ if (location.toString().endsWith('galmuri11')) {
   document.getElementById('glyphs').style.fontFamily = 'Galmuri9';
 }
 
-fetch('./'+ fileName +'.bdf')
+fetch('https://cdn.jsdelivr.net/gh/quiple/galmuri/'+ fileName +'.bdf')
   .then(async function(response) {
     const text = await response.text();
     if (window.Worker) {
