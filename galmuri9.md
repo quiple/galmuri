@@ -7,6 +7,6 @@ title: Galmuri9
 
 # Galmuri9 글리프 목록
 
-<div id="glyphs"></div>
+<div id="glyphs9"></div>
 
 <script src="./bdf.js"></script>
