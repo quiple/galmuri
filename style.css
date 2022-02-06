@@ -22,9 +22,9 @@
 html, .markdown-body,
 html *, .markdown-body * { font-family: Galmuri11, sans-serif; }
 header { height: 0; overflow: hidden; }
-.markdown-body { line-height: 1.25; }
+.markdown-body { font-size: 12px; line-height: 1.5; }
 .markdown-body a { color: #06c; }
-h1 { font-size: 32px !important; }
-h2, h3 { font-size: 24px !important; }
-h4 { font-size: 16px !important; }
+h1 { font-size: 24px !important; }
+h2, h3 { font-size: 18px !important; }
+h4 { font-size: 12px !important; }
 #glyphs { word-break: break-all; overflow-wrap: anywhere; font-size: 16px; filter: grayscale(100%); }
