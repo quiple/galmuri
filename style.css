@@ -34,7 +34,8 @@ header { height: 0; overflow: hidden; }
 h1 { font-size: 24px !important; }
 h2, h3 { font-size: 18px !important; }
 h4 { font-size: 12px !important; }
-#glyphs11, #glyphs9, #glyphsY { word-break: break-all; overflow-wrap: anywhere; filter: grayscale(100%); }
-#glyphs11 { font-size: 12px; }
-#glyphs9 { font-size: 10px; }
-#glyphsY { font-size: 8px; }
+#glyphs { word-break: break-all; overflow-wrap: anywhere; filter: grayscale(100%); }
+.galmuri11 { font-size: 12px; font-family: Galmuri11; }
+.galmuri11-bold { font-size: 12px; font-family: Galmuri11; font-weight: 700; }
+.galmuri9 { font-size: 10px; font-family: Galmuri9; }
+.yamche { font-size: 8px; font-family: Yamche; }

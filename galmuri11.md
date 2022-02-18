@@ -7,6 +7,6 @@ title: Galmuri11
 
 # Galmuri11 글리프 목록
 
-<div id="glyphs11"></div>
+<div id="glyphs" class="galmuri11"></div>
 
 <script src="./bdf.js"></script>

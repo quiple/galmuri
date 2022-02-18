@@ -7,6 +7,6 @@ title: Galmuri11 Bold
 
 # Galmuri11 Bold 글리프 목록
 
-<div id="glyphs11"></div>
+<div id="glyphs" class="galmuri11-bold"></div>
 
 <script src="./bdf.js"></script>

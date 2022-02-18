@@ -7,6 +7,6 @@ title: Galmuri9
 
 # Yamche 글리프 목록
 
-<div id="glyphsY"></div>
+<div id="glyphs" class="yamche"></div>
 
 <script src="./bdf.js"></script>
