@@ -27,6 +27,7 @@ header { height: 0; overflow: hidden; }
 h1 { font-size: 24px !important; }
 h2, h3 { font-size: 18px !important; }
 h4 { font-size: 12px !important; }
-#glyphs11, #glyphs9 { word-break: break-all; overflow-wrap: anywhere; filter: grayscale(100%); }
+#glyphs11, #glyphs9, #yamche { word-break: break-all; overflow-wrap: anywhere; filter: grayscale(100%); }
 #glyphs11 { font-size: 12px; }
 #glyphs9 { font-size: 10px; }
+#yamche { font-size: 8px; }
