@@ -11,7 +11,7 @@ Galmuri는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 픽
 
 <a class="github-button" href="https://github.com/quiple/galmuri" data-size="large" aria-label="View quiple/galmuri on GitHub">GitHub에서 보기</a>
 
-## [글리프 미리보기](https://quiple.tistory.com/pages/galmuri)
+## 글리프 미리보기
 
 - [Galmuri11 글리프 목록](./galmuri11)
 - [Galmuri11 Bold 글리프 목록](./galmuri11-bold)
