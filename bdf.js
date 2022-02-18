@@ -1,6 +1,5 @@
 if (location.toString().endsWith('galmuri11')) {
   var fileName = 'Galmuri11';
-  document.getElementById('glyphs').style.fontFamily = 'Galmuri11';
 } else if (location.toString().endsWith('galmuri11-bold')) {
   var fileName = 'Galmuri11-Bold';
 } else if (location.toString().endsWith('galmuri9')) {
