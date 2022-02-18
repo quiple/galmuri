@@ -16,6 +16,7 @@ Galmuri는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 픽
 - [Galmuri11 글리프 목록](./galmuri11)
 - [Galmuri11 Bold 글리프 목록](./galmuri11-bold)
 - [Galmuri9 글리프 목록](./galmuri9)
+- [Yamche 글리프 목록](./yamche)
 
 ## 다운로드
 
@@ -24,6 +25,7 @@ Galmuri는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 픽
 - [Galmuri11](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11.ttf)
 - [Galmuri11 Bold](https://github.com/quiple/galmuri/raw/main/dist/Galmuri11-Bold.ttf)
 - [Galmuri9](https://github.com/quiple/galmuri/raw/main/dist/Galmuri9.ttf)
+- [Yamche](https://github.com/quiple/galmuri/raw/main/dist/Yamche.ttf)
 
 ## 라이선스
 

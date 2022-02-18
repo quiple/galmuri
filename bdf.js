@@ -8,6 +8,9 @@ if (location.toString().endsWith('galmuri11')) {
 } else if (location.toString().endsWith('galmuri9')) {
   var fileName = 'Galmuri9';
   document.getElementById('glyphs').style.fontFamily = 'Galmuri9';
+} else if (location.toString().endsWith('yamche')) {
+  var fileName = 'Yamche';
+  document.getElementById('glyphs').style.fontFamily = 'Yamche';
 }
 
 fetch('./'+ fileName +'.bdf')
