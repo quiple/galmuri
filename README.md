@@ -33,7 +33,7 @@ Outline fonts based on bitmap fonts in Nintendo DS.
 
 [^old]: Excluding old hangul jamo.
 [^han]: Only 2,780 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
-[^han-1]: Only 4,358 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0), [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
+[^han-1]: Only 4,358 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0) and [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
 [^jis]: Only 6,355 CJK unified ideographs included in JIS X 0208.
 [^ks]: Only 268 CJK compatibility ideographs included in KS X 1001.
 
