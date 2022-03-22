@@ -28,6 +28,7 @@
 }
 html, .markdown-body,
 html *, .markdown-body * { font-family: Galmuri11, sans-serif; }
+body { transform: translateX(-.5px); }
 header { height: 0; overflow: hidden; }
 .markdown-body { font-size: 12px; line-height: 1.5; }
 .markdown-body a { color: #06c; }
