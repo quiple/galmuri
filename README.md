@@ -18,7 +18,7 @@ Outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold 
 | Latin Extended-B              |                    |                    |                    |
 | Greek and Coptic              | :heavy_check_mark: |                    |                    |
 | Cyrillic                      | :heavy_check_mark: |                    |                    |
-| General Punctuation           | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| General Punctuation           | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] |
 | Geometric Shapes              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | CJK Symbols and Punctuation   | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] |
 | Hiragana                      | :heavy_check_mark: |                    | :heavy_check_mark: |
@@ -36,6 +36,7 @@ Outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold 
 [^han-1]: Only 4,358 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0) and [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
 [^jis]: Only 6,355 CJK unified ideographs included in JIS X 0208.
 [^ks]: Only 268 CJK compatibility ideographs included in KS X 1001.
+[^ellipsis]: Unlike the Unicode Character Database, Two Dot Leader (`U+2025`) and Horizontal Ellipsis (`U+2026`) are made in vertically centered like the type it is often used in China, Japan and Korea.
 [^bracket]: Unlike the Unicode Character Database, brackets (`U+3008`-`U+3011`, `U+3014`-`U+301B`) are made in halfwidth like the type it is often used in Korea.
 
 ## Todo
