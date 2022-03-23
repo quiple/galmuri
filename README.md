@@ -1,6 +1,6 @@
 # Galmuri
 
-Outline fonts based on bitmap fonts used in Nintendo DS.
+Outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold is my pure work based on the Galmuri11.
 
 ## Preview
 
