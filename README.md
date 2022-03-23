@@ -31,11 +31,11 @@ Outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold 
 | CJK Compatibility Forms       | :heavy_check_mark: |                    | :heavy_check_mark: |
 | Halfwidth and Fullwidth Forms | :heavy_check_mark: |                    | :heavy_check_mark: |
 
-[^old]: Excluding old hangul jamo.
-[^han]: Only 2,780 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
-[^han-1]: Only 4,358 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0) and [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
-[^jis]: Only 6,355 CJK unified ideographs included in JIS X 0208.
-[^ks]: Only 268 CJK compatibility ideographs included in KS X 1001.
+[^old]: Excluding Old Hangul Jamo.
+[^han]: Only 2,780 Hangul Syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
+[^han-1]: Only 4,358 Hangul Syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0) and [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
+[^jis]: Only 6,355 CJK Unified Ideographs included in JIS X 0208.
+[^ks]: Only 268 CJK Compatibility Ideographs included in KS X 1001.
 [^ellipsis]: Unlike the Unicode Standard, Two Dot Leader (`U+2025`) and Horizontal Ellipsis (`U+2026`) are made in vertically centered like the type it is often used in China, Japan and Korea.
 [^bracket]: Unlike the Unicode Standard, brackets (`U+3008`-`U+3011`, `U+3014`-`U+301B`) are made in halfwidth like the type it is often used in Korea.
 
