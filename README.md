@@ -36,7 +36,7 @@ Outline fonts based on bitmap fonts in Nintendo DS.
 [^han-1]: Only 4,358 hangul syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0) and [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
 [^jis]: Only 6,355 CJK unified ideographs included in JIS X 0208.
 [^ks]: Only 268 CJK compatibility ideographs included in KS X 1001.
-[^bracket]: Unlike the Unicode Character Database, brackets (`U+3008`-`U+3011`, `U+3014`-`U+301B`) are made in a halfwidth like the type it is often used in Korea.
+[^bracket]: Unlike the Unicode Character Database, brackets (`U+3008`-`U+3011`, `U+3014`-`U+301B`) are made in halfwidth like the type it is often used in Korea.
 
 ## Todo
 
