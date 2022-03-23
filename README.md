@@ -1,12 +1,12 @@
 # Galmuri
 
-Outline fonts based on bitmap fonts in Nintendo DS.
+Outline fonts based on bitmap fonts used in Nintendo DS.
 
 ## Preview
 
-- Galmuri11<br>![Galmuri11](./g11.png)
-- Galmuri11 Bold<br>![Galmuri11 Bold](./g11b.png)
-- Galmuri9<br>![Galmuri9](./g9.png)
+- Galmuri11 (12px size)<br>![Galmuri11](./g11.png)
+- Galmuri11 Bold (12px size)<br>![Galmuri11 Bold](./g11b.png)
+- Galmuri9 (10px size)<br>![Galmuri9](./g9.png)
 
 ## Supported Ranges
 
