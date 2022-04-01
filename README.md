@@ -4,9 +4,9 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 
 ## Preview
 
-- Galmuri11 (12px size)<br>![Galmuri11](./g11.png)
-- Galmuri11 Bold (12px size)<br>![Galmuri11 Bold](./g11b.png)
-- Galmuri9 (10px size)<br>![Galmuri9](./g9.png)
+- Galmuri11 (12px size)<br><br>![Galmuri11](./g11.png#gh-light-mode-only)![Galmuri11](./g11l.png#gh-dark-mode-only)<br><br>
+- Galmuri11 Bold (12px size)<br><br>![Galmuri11 Bold](./g11b.png#gh-light-mode-only)![Galmuri11 Bold](./g11bl.png#gh-dark-mode-only)<br><br>
+- Galmuri9 (10px size)<br><br>![Galmuri9](./g9.png#gh-light-mode-only)![Galmuri9](./g9l.png#gh-dark-mode-only)<br><br>
 
 ## Supported Ranges
 
