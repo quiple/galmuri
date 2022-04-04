@@ -44,6 +44,7 @@
     .detail { line-height: 1.5; font-size: 12px; position: absolute; bottom: 0; display: flex; justify-content: space-between; gap: 12px; width: calc(100% - 180px); margin-bottom: 90px; }
     .detail span { display: block; }
     .highlight { color: var(--point-color); }
+    #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./files/bgs.png'); }
     @media (max-width: 1920px) {
       .wrap { width: calc(100% - 160px); height: calc(100% - 160px); padding: 80px; }
       .detail { width: calc(100% - 160px); margin-bottom: 80px; }
@@ -71,6 +72,7 @@
 </head>
 
 <body>
+  <div id="preload"></div>
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
