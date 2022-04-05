@@ -22,8 +22,7 @@ jobs:
         with:
           node-version: '16'
       - run: |
-          npm install
-          npm install ttf2woff2
+          npm install --no-fund ttf2woff2
       - run: |
           rm -rf ./dist/*.ttf
           rm -rf ./dist/*.woff2
