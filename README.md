@@ -46,13 +46,13 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 ### HTML `<link>`
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/galmuri/fonts.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/galmuri/galmuri.css">
 ```
 
 ### CSS `@import`
 
 ```css
-@import url('https://cdn.jsdelivr.net/gh/quiple/galmuri/fonts.css');
+@import url('https://cdn.jsdelivr.net/gh/quiple/galmuri/galmuri.css');
 ```
 
 ### CSS Rules to Specify Families
