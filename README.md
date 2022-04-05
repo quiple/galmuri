@@ -63,7 +63,7 @@ font-family: 'Galmuri9', sans-serif;
 font-family: 'Yamche', sans-serif;
 ```
 
-## Todo
+## To Do
 
 - [ ] Adobe-KR-1에 포함된 한글 음절 1,578자 추가
   - [x] Galmuri11
