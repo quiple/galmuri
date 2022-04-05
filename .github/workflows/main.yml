@@ -1,4 +1,4 @@
-name: Make TTF from BDF
+name: Make TTF from KBITS
 
 on:
   push:
