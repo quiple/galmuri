@@ -41,6 +41,28 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 [^ellipsis]: Unlike the Unicode Standard, Two Dot Leader (`U+2025`) and Horizontal Ellipsis (`U+2026`) are made in vertically centered like the type it is often used in China, Japan and Korea.
 [^bracket]: Unlike the Unicode Standard, brackets (`U+3008`-`U+3011`, `U+3014`-`U+301B`) are made in halfwidth like the type it is often used in Korea.
 
+## Use as Web Fonts
+
+### HTML
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/galmuri/fonts.css">
+```
+
+### CSS
+
+```
+@import url('https://cdn.jsdelivr.net/gh/quiple/galmuri/fonts.css');
+```
+
+### CSS rules to Specify Families
+
+```
+font-family: 'Galmuri11', sans-serif;
+font-family: 'Galmuri9', sans-serif;
+font-family: 'Yamche', sans-serif;
+```
+
 ## Todo
 
 - [ ] Adobe-KR-1에 포함된 한글 음절 1,578자 추가
