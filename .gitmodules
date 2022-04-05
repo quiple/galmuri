@@ -1,0 +1,3 @@
+[submodule "bitsnpicas"]
+	path = bitsnpicas
+	url = https://github.com/kreativekorp/bitsnpicas
