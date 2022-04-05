@@ -19,10 +19,10 @@ jobs:
           distribution: 'zulu'
           java-version: '11'
       - name: Make Galmuri11.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.bdf
+        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
       - name: Make Galmuri11-Bold.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.bdf
+        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.kbits
       - name: Make Galmuri9.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.bdf
-      - name: Make Yamche.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Yamche.ttf ./src/Yamche.bdf
+        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
+      - name: Make Galmuri7.ttf
+        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
