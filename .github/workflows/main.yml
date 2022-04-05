@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v2
+      - run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dists/Galmuri11.ttf ./src/Galmuri11.bdf
+      - run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dists/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.bdf
+      - run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dists/Galmuri9.ttf ./src/Galmuri9.bdf
+      - run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dists/Yamche.ttf ./src/Yamche.bdf
