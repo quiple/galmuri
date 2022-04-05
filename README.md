@@ -2,7 +2,7 @@
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/quiple/galmuri)](https://github.com/quiple/galmuri/commits) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/quiple/galmuri/Distribution)](https://github.com/quiple/galmuri/actions/workflows/main.yml) [![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/quiple/galmuri)](https://cdn.jsdelivr.net/gh/quiple/galmuri/)
 
-Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold is purely my work based on the Galmuri11.
+Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold is purely my work based on the Galmuri11. And Galmuri7's Hangul syllables are based on [Yamche](https://www.romhacking.net/fonts/135)'s.
 
 ## Preview
 
