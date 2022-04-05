@@ -18,25 +18,12 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '18'
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-      - run: |
-          npm install --no-fund ttf2woff2
-      - run: |
-          rm -rf ./dist/*.ttf
-          rm -rf ./dist/*.woff2
+      - run: rm -rf ./dist/*.ttf
       - name: Convert to TTF
         run: |
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
-      - name: Convert to WOFF2
-        run: |
-          cat ./dist/Galmuri11.ttf | ttf2woff2 > ./dist/Galmuri11.woff2
-          cat ./dist/Galmuri11-Bold.ttf | ttf2woff2 > ./dist/Galmuri11-Bold.woff2
-          cat ./dist/Galmuri9.ttf | ttf2woff2 > ./dist/Galmuri9.woff2
-          cat ./dist/Galmuri7.ttf | ttf2woff2 > ./dist/Galmuri7.woff2
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
