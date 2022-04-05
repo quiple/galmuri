@@ -28,9 +28,9 @@
   src: url('./dist/Galmuri9.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Yamche';
+  font-family: 'Galmuri7';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./dist/Yamche.ttf') format('truetype');
+  src: url('./dist/Galmuri7.ttf') format('truetype');
 }

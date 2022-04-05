@@ -60,7 +60,7 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 ```css
 font-family: 'Galmuri11', sans-serif;
 font-family: 'Galmuri9', sans-serif;
-font-family: 'Yamche', sans-serif;
+font-family: 'Galmuri7', sans-serif;
 ```
 
 ## To Do
