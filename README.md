@@ -1,5 +1,7 @@
 # Galmuri
 
+![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/quiple/galmuri)
+
 Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Galmuri11 Bold is purely my work based on the Galmuri11.
 
 ## Preview
