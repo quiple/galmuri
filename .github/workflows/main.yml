@@ -19,7 +19,7 @@ jobs:
           distribution: 'zulu'
           java-version: '11'
       - name: Clean distribute files
-        run: rm -rf ./dist
+        run: rm -rf ./dist/*.ttf
       - name: Make Galmuri11.ttf
         run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
       - name: Make Galmuri11-Bold.ttf
