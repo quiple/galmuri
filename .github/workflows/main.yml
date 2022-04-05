@@ -26,3 +26,5 @@ jobs:
         run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
       - name: Make Galmuri7.ttf
         run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
