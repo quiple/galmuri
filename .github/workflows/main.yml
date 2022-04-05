@@ -18,8 +18,9 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '18'
-      - run: rm -rf ./dist/*.ttf
-      - name: Convert to TTF
+      - name: Clean up Distribution Directory
+        run: rm -rf ./dist/*.ttf
+      - name: Convert to Truetype Fonts
         run: |
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.kbits
