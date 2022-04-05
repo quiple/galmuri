@@ -43,7 +43,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .detail span { display: block; }
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./files/bgs.png'); }
-#name { position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
+#name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
 @media (max-width: 1920px) {
   .wrap { width: calc(100% - 160px); height: calc(100% - 160px); padding: 80px; }
   .detail { width: calc(100% - 160px); margin-bottom: 80px; }
