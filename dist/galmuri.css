@@ -11,26 +11,26 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./dist/Galmuri11.ttf') format('truetype');
+  src: url('./Galmuri11.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Galmuri11';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('./dist/Galmuri11-Bold.ttf') format('truetype');
+  src: url('./Galmuri11-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Galmuri9';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./dist/Galmuri9.ttf') format('truetype');
+  src: url('./Galmuri9.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Galmuri7';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./dist/Galmuri7.ttf') format('truetype');
+  src: url('./Galmuri7.ttf') format('truetype');
 }
