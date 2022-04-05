@@ -21,20 +21,24 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm install ttf2woff2
-      - run: rm -rf ./dist/*.ttf
-      - run: rm -rf ./dist/*.woff2
-      - name: Make Galmuri11.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
-      - name: Make Galmuri11-Bold.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.kbits
-      - name: Make Galmuri9.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
-      - name: Make Galmuri7.ttf
-        run: java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
-      - run: cat ./dist/Galmuri11.ttf | ttf2woff2 > ./dist/Galmuri11.woff2
-      - run: cat ./dist/Galmuri11-Bold.ttf | ttf2woff2 > ./dist/Galmuri11-Bold.woff2
-      - run: cat ./dist/Galmuri9.ttf | ttf2woff2 > ./dist/Galmuri9.woff2
-      - run: cat ./dist/Galmuri7.ttf | ttf2woff2 > ./dist/Galmuri7.woff2
+          cache: 'npm'
+      - run: |
+          npm install
+          npm install ttf2woff2
+      - run: |
+          rm -rf ./dist/*.ttf
+          rm -rf ./dist/*.woff2
+      - name: Convert to TTF
+        run: |
+          java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
+          java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.kbits
+          java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
+          java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
+      - name: Convert to WOFF2
+        run: |
+          cat ./dist/Galmuri11.ttf | ttf2woff2 > ./dist/Galmuri11.woff2
+          cat ./dist/Galmuri11-Bold.ttf | ttf2woff2 > ./dist/Galmuri11-Bold.woff2
+          cat ./dist/Galmuri9.ttf | ttf2woff2 > ./dist/Galmuri9.woff2
+          cat ./dist/Galmuri7.ttf | ttf2woff2 > ./dist/Galmuri7.woff2
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
