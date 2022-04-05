@@ -21,8 +21,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm init
-      - run: npm install
       - run: npm install ttf2woff2
       - run: rm -rf ./dist/*.ttf
       - run: rm -rf ./dist/*.woff2
