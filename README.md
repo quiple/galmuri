@@ -43,19 +43,19 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 
 ## Use as Web Fonts
 
-### HTML
+### HTML `<link>`
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/galmuri/fonts.css">
 ```
 
-### CSS
+### CSS `@import`
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/quiple/galmuri/fonts.css');
 ```
 
-### CSS rules to Specify Families
+### CSS Rules to Specify Families
 
 ```css
 font-family: 'Galmuri11', sans-serif;
