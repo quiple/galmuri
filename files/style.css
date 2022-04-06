@@ -22,10 +22,10 @@
 }
 ::selection { background-color: var(--point-color); color: #fbfbfb; }
 html, body { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; font-size: 24px; word-break: keep-all; position: relative; height: 100%; font-family: Galmuri11, sans-serif; box-sizing: border-box; }
-.g11 { font-family: Galmuri11, sans-serif; font-weight: 400; }
-.g11b { font-family: Galmuri11, sans-serif; font-weight: 700; }
-.g9 { font-family: Galmuri9, sans-serif; font-weight: 400; }
-.g7 { font-family: Galmuri7, sans-serif; font-weight: 400; }
+.g11 { font-family: Galmuri11, sans-serif; font-weight: 400; font-size: 24px; }
+.g11b { font-family: Galmuri11, sans-serif; font-weight: 700; font-size: 24px; }
+.g9 { font-family: Galmuri9, sans-serif; font-weight: 400; font-size: 20px; }
+.g7 { font-family: Galmuri7, sans-serif; font-weight: 400; font-size: 16px; }
 p, .btns { line-height: 1.5; width: 62.5%; }
 p:first-child { margin-top: -12px; }
 a { color: var(--point-color); text-decoration: none; }
@@ -50,8 +50,8 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./bgs.png'); }
 #name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
-#list { --columns: 24; --columnsL: 32; --columnsS: 16; --columnsXS: 8; --tableWidth: 95vw; display: flex; flex-wrap: wrap; justify-content: center; width: var(--tableWidth); }
-#list .item { display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); font-size: calc(100vw / calc(var(--columns) * 2)); }
+#list { --columns: 24; --columnsL: 32; --columnsS: 16; --columnsXS: 8; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
+#list .item { display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
 .list-wrap { display: flex; justify-content: center; }
 @media (max-width: 1920px) {
