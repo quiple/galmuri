@@ -71,9 +71,10 @@ var HUDNotification = {
 }
 
 function copyGlyph(e) {
-  if (e.innerHTML == '&nbsp;') e.innerHTML = ' ';
-  navigator.clipboard.writeText(e.innerHTML);
-  HUDNotification.show('클립보드에 ‘' + e.innerText + '’을(를) 복사했습니다');
+  var glyph = e.innerHTML;
+  if (e.innerHTML == '&nbsp;') glyph = ' ';
+  navigator.clipboard.writeText(glyph);
+  HUDNotification.show('클립보드에 ‘' + glyph + '’을(를) 복사했습니다');
   clearTimeout(e._flashTimer);
   if (e.classList.contains('flash')) {
     e.classList.remove('flash');
