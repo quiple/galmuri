@@ -51,7 +51,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./bgs.png'); }
 #name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
-#list { --columns: 32; --columnsL: 56; --columnsS: 24; --columnsXS: 16; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
+#list { --columns: 48; --columnsL: 56; --columnsS: 24; --columnsXS: 16; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
 #list .item { cursor: cell; display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columnsL)); height: calc(var(--tableWidth) / var(--columnsL)); text-decoration: none; color: #000; }
 #list .item:hover { background: #222; color: #fbfbfb; }
 #list .item.flash { animation: charset-flash 300ms 1; animation-fill-mode: forwards; animation-timing-function: ease-out; }
