@@ -4,10 +4,10 @@ for (let i = 0; i < font.length; i++) {
   font[i].addEventListener('click', event => {
     var fileName = font[i].innerHTML;
     if (fileName == 'Galmuri11 Bold') var fileName = 'Galmuri11-Bold';
-    fetch('../dist/' + fileName + '.bdf').then(async function (response) {
+    fetch('./dist/' + fileName + '.bdf').then(async function (response) {
       const text = await response.text();
       if (window.Worker) {
-        const worker = new Worker('./worker.js');
+        const worker = new Worker('./files/worker.js');
         worker.postMessage(text);
         worker.onmessage = function (glphs) {
           document.getElementById('list').innerHTML = glphs.data;
