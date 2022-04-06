@@ -50,9 +50,10 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./bgs.png'); }
 #name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
-#list { --columns: 24; --columnsL: 32; --columnsS: 16; --columnsXS: 8; --tableWidth: 95vw; display: flex; flex-wrap: wrap; }
+#list { --columns: 24; --columnsL: 32; --columnsS: 16; --columnsXS: 8; --tableWidth: 95vw; display: flex; flex-wrap: wrap; justify-content: center; }
 #list .item { display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); font-size: calc(100vw / calc(var(--columns) * 2)); }
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
+.list-wrap { display: flex; justify-content: center; }
 @media (max-width: 1920px) {
   .wrap { width: calc(100% - 160px); height: calc(100% - 160px); padding: 80px; }
   .detail { width: calc(100% - 160px); margin-bottom: 80px; }
