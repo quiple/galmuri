@@ -1,10 +1,10 @@
 STARTFONT 2.1
-FONT -Galmuri-7-R-7--10-10-75-75-c-80-iso10646-1
+FONT -Galmuri7-Regular-R-Regular--10-10-75-75-c-80-iso10646-1
 SIZE 10 75 75
 FONTBOUNDINGBOX 11 9 0 -1
 STARTPROPERTIES 10
-FAMILY_NAME Galmuri
-WEIGHT_NAME 7
+FAMILY_NAME Galmuri7
+WEIGHT_NAME Regular
 FONT_VERSION Version 2.4.2
 COPYRIGHT Copyright (c) 2019-2022 Lee Minseo (itoupluk427@gmail.com)
 FOUNDRY Made with Bits'n'Picas by Kreative Software
