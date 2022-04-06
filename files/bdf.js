@@ -32,7 +32,7 @@ for (let i = 0; i < font.length; i++) {
         const worker = new Worker('./files/worker.js');
         worker.postMessage(text);
         worker.onmessage = function (glphs) {
-          document.getElementById('list').innerHTML = glphs.data;
+          list.innerHTML = glphs.data;
         }
       } else {
         alert('Your browser does not support Web Workers.');
@@ -40,4 +40,52 @@ for (let i = 0; i < font.length; i++) {
       }
     });
   });
+}
+
+var HUDNotification = {
+  el: document.getElementById('hud-notification'),
+  timer: null,
+  visible: false,
+  show: function(message, duration) {
+    var n = this
+    n.el.firstChild.innerText = message
+    n.el.classList.add('visible')
+    if (n.visible) {
+      n.hide()
+      setTimeout(function(){ n.show(message, duration) }, 120)
+      return
+    }
+    n.visible = true
+    n.el.style.visibility = null
+    clearTimeout(n.timer)
+    n.timer = setTimeout(function(){ n.hide() }, duration || 1200)
+  },
+
+  hide: function() {
+    var n = this
+    if (n.visible) {
+      n.el.classList.remove('visible')
+      n.visible = false
+      n.el.style.visibility = 'hidden'
+    }
+  }
+}
+
+function copyGlyph(e) {
+  navigator.clipboard.writeText(e.innerHTML);
+  HUDNotification.show('클립보드에 ‘' + e.innerText + '’을(를) 복사했습니다');
+  clearTimeout(e._flashTimer);
+  if (e.classList.contains('flash')) {
+    e.classList.remove('flash');
+    if (typeof requestAnimationFrame != 'undefined') {
+      requestAnimationFrame(function() { e.classList.add('flash') });
+    } else {
+      setTimeout(function() { e.classList.add('flash') }, 1);
+    }
+  } else {
+    e.classList.add('flash');
+  }
+  e._flashTimer = setTimeout(function() {
+    e.classList.remove('flash');
+  }, 300);
 }
