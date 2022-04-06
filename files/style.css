@@ -47,6 +47,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 #title { font-size: 100px; }
 .detail { line-height: 1.5; font-size: 12px; position: absolute; bottom: 0; display: flex; justify-content: space-between; gap: 12px; width: calc(100% - 180px); margin-bottom: 90px; }
 .detail span { display: block; }
+.detail div:last-child { text-align: right; }
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./bgs.png'); }
 #name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
@@ -78,13 +79,13 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 @media (max-width: 720px) {
   #list .item { width: calc(var(--tableWidth) / var(--columnsXS)); height: calc(var(--tableWidth) / var(--columnsXS)); }
   .wrap { width: calc(100% - 80px); height: calc(100% - 80px); padding: 50px 40px; }
-  .detail { width: calc(100% - 80px); margin-bottom: 40px; }
+  .detail { width: calc(100% - 80px); margin-bottom: 40px; flex-direction: column; gap: 12px; }
+  .detail div:last-child { text-align: left; }
   .btns { flex-wrap: wrap; gap: 20px; }
   .btn { padding: 0 18px; }
   p, .btns { width: 100%; }
   html, body { font-size: 14px; }
   h1, #title { font-size: 40px; }
-  .detail { flex-direction: column; gap: 12px; }
   #name { bottom: -1%; right: -100%; transform: scale(calc(100 / 300)); }
 }
 @keyframes charset-flash {
