@@ -31,8 +31,8 @@ h1 + .btns { margin-top: 30px; }
 p + .btns { margin-top: 36px; }
 .btn { cursor: pointer; position: relative; text-align: center; flex: 1; padding: 0 36px; font-size: 20px; font-family: Galmuri9, sans-serif; display: flex; justify-content: center; align-items: center; height: 81px; color: #000; border: 3px solid #fbfbfb; box-shadow: 0 0 0 3px #494949; }
 .btn::before { content: ''; position: absolute; width: 100%; height: 100%; z-index: -1; background-image: url('./bg.png'); background-size: contain; }
-.btn:hover { text-decoration: none; box-shadow: 0 0 0 3px #416179; }
-.btn:hover::before { background-image: url('./bgs.png'); }
+.btn:hover, .btn-check:checked + .btn { text-decoration: none; box-shadow: 0 0 0 3px #416179; }
+.btn:hover::before, .btn-check:checked + .btn::before { background-image: url('./bgs.png'); }
 .btn:active::before { transform: rotate(180deg); }
 .swiper { width: 100%; height: 100%; }
 .swiper-slide { overflow: hidden; }

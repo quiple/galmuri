@@ -3,7 +3,7 @@ onmessage = function (text) {
   var glphsArr = text.data.match(/STARTCHAR U\+.*/g);
   var glphs;
   for (let i = 0; i < glphsCnt[1]; i++) {
-    glphs += String.fromCodePoint(parseInt(glphsArr[i].split('+')[1], 16));
+    glphs += '<div class="item">' + String.fromCodePoint(parseInt(glphsArr[i].split('+')[1], 16)) + '</div>';
   }
   postMessage(glphs);
 }

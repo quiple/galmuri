@@ -1,7 +1,15 @@
-const fileName = document.querySelector('input[name=fonts]:checked').value;
+const font = document.getElementsByClassName('btn');
 
-fetch('../dist/'+ fileName +'.bdf')
-  .then(async function(response) {
+for (let i = 0; i < font.length; i++) {
+  font[i].addEventListener('click', event => {
+    var fileName = font[i].innerHTML;
+  });
+}
+
+if (fileName == 'Galmuri11 Bold') var fileName = 'Galmuri11-Bold';
+
+fetch('../dist/' + fileName + '.bdf')
+  .then(async function (response) {
     const text = await response.text();
     if (window.Worker) {
       const worker = new Worker('./worker.js');
