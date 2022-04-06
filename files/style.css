@@ -50,11 +50,12 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./bgs.png'); }
 #name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
-#list { --columns: 32; --columnsS: 24; --columnsXS: 16; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
-#list .item { display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
+#list { --columns: 32; --columnsL: 56; --columnsS: 24; --columnsXS: 16; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
+#list .item { display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columnsL)); height: calc(var(--tableWidth) / var(--columnsL)); }
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
 .list-wrap { display: flex; justify-content: center; }
 @media (max-width: 1920px) {
+  #list .item { width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
   .wrap { width: calc(100% - 160px); height: calc(100% - 160px); padding: 80px; }
   .detail { width: calc(100% - 160px); margin-bottom: 80px; }
   p, .btns { width: 75%; }
