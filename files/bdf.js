@@ -47,25 +47,25 @@ var HUDNotification = {
   timer: null,
   visible: false,
   show: function(message, duration) {
-    var n = this
-    n.el.firstChild.innerText = message
-    n.el.classList.add('visible')
+    var n = this;
+    n.el.firstChild.innerText = message;
+    n.el.classList.add('visible');
     if (n.visible) {
-      n.hide()
-      setTimeout(function(){ n.show(message, duration) }, 120)
-      return
+      n.hide();
+      setTimeout(function() { n.show(message, duration) }, 120);
+      return;
     }
-    n.visible = true
-    n.el.style.visibility = null
-    clearTimeout(n.timer)
-    n.timer = setTimeout(function(){ n.hide() }, duration || 1200)
+    n.visible = true;
+    n.el.style.visibility = null;
+    clearTimeout(n.timer);
+    n.timer = setTimeout(function() { n.hide() }, duration || 1200);
   },
   hide: function() {
-    var n = this
+    var n = this;
     if (n.visible) {
-      n.el.classList.remove('visible')
-      n.visible = false
-      n.el.style.visibility = 'hidden'
+      n.el.classList.remove('visible');
+      n.visible = false;
+      n.el.style.visibility = 'hidden';
     }
   }
 }
