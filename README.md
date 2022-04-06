@@ -65,7 +65,7 @@ font-family: 'Galmuri7', sans-serif;
 
 ## To Do
 
-- [ ] Adobe-KR-1에 포함된 한글 음절 중 KS X 1001에 포함되지 않는 430자 추가
+- [ ] Adobe-KR-0에 포함된 한글 음절 중 KS X 1001에 포함되지 않는 430자 추가
   - [x] Galmuri11
   - [x] Galmuri11 Bold
   - [x] Galmuri9
