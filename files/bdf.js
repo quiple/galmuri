@@ -71,6 +71,7 @@ var HUDNotification = {
 }
 
 function copyGlyph(e) {
+  if (e.innerHTML == '&nbsp;') e.innerHTML = ' ';
   navigator.clipboard.writeText(e.innerHTML);
   HUDNotification.show('클립보드에 ‘' + e.innerText + '’을(를) 복사했습니다');
   clearTimeout(e._flashTimer);
