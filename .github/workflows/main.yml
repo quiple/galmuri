@@ -2,6 +2,8 @@ name: Distribution
 
 on:
   push:
+    paths:
+      - 'src'
     branches: [ main ]
   pull_request:
     branches: [ main ]
