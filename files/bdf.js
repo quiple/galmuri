@@ -60,7 +60,6 @@ var HUDNotification = {
     clearTimeout(n.timer)
     n.timer = setTimeout(function(){ n.hide() }, duration || 1200)
   },
-
   hide: function() {
     var n = this
     if (n.visible) {
