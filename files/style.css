@@ -50,7 +50,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .highlight { color: var(--point-color); }
 #preload { position: absolute; overflow: hidden; left: -9999px; top: -9999px; height: 1px; width: 1px; background-image: url('./bgs.png'); }
 #name { z-index: -1; position: absolute; bottom: 25%; right: 15%; line-height: 1; font-size: 300px; color: #fff; animation: text-shadow 2s linear infinite; animation-direction: reverse; }
-#list { --columns: 24; --columnsL: 32; --columnsS: 16; --columnsXS: 8; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
+#list { --columns: 32; --columnsS: 24; --columnsXS: 16; --tableWidth: 95vw; display: flex; flex-wrap: wrap; width: var(--tableWidth); }
 #list .item { display: flex; align-items: center; justify-content: center; width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
 .list-wrap { display: flex; justify-content: center; }
@@ -61,6 +61,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
   #name { transform: scale(calc(25 / 30)); right: 10%; }
 }
 @media (max-width: 1280px) {
+  #list .item { width: calc(var(--tableWidth) / var(--columnsS)); height: calc(var(--tableWidth) / var(--columnsS)); }
   .wrap { width: calc(100% - 140px); height: calc(100% - 140px); padding: 70px; }
   .detail { width: calc(100% - 140px); margin-bottom: 70px; }
   p, .btns { width: 90%; }
@@ -69,6 +70,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
   #name { bottom: 20%; right: 0; transform: scale(calc(2 / 3)); }
 }
 @media (max-width: 720px) {
+  #list .item { width: calc(var(--tableWidth) / var(--columnsXS)); height: calc(var(--tableWidth) / var(--columnsXS)); }
   .wrap { width: calc(100% - 80px); height: calc(100% - 80px); padding: 50px 40px; }
   .detail { width: calc(100% - 80px); margin-bottom: 40px; }
   .btns { flex-wrap: wrap; gap: 20px; }
