@@ -26,7 +26,7 @@ html, body { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-
 .g11b { font-family: Galmuri11, sans-serif; font-weight: 700; font-size: 24px; }
 .g9 { font-family: Galmuri9, sans-serif; font-weight: 400; font-size: 20px; }
 .g7 { font-family: Galmuri7, sans-serif; font-weight: 400; font-size: 16px; }
-p, .btns { line-height: 1.5; width: 62.5%; }
+p, li, .btns { line-height: 1.5; width: 62.5%; }
 p:first-child { margin-top: -12px; }
 a { color: var(--point-color); text-decoration: none; }
 a:hover { text-decoration: underline; }
