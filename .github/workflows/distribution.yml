@@ -23,13 +23,6 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.x'
-      - name: Set up Wine
-        run: |
-          sudo dpkg --add-architecture i386
-          wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
-          sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport
-          sudo apt-add-repository "deb https://dl.winehq.org/wine-builds/ubuntu $(lsb_release -cs) main"
-          sudo apt install --install-recommends winehq-stable
       - name: Clean up Distribution Files
         run: |
           rm -rf ./dist/*.bdf
