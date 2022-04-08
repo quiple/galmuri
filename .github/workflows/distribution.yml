@@ -42,8 +42,6 @@ jobs:
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
 
-      - name: Clean up Distribution Files
-        run: del ./dist/*Bitmap.ttf
       - name: Convert BDF Font
         run: |
           python ./files/fix-yAxis.py ./dist/Galmuri11.bdf ./dist/g11_mod.bdf
