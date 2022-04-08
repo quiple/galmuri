@@ -3,7 +3,7 @@ name: Make Bitmap TrueType Font
 on:
   push:
     paths:
-      - 'dist/*.bdf'
+      - 'dist/**.bdf'
     branches: [ main ]
   pull_request:
     branches: [ main ]

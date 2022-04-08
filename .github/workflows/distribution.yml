@@ -3,7 +3,7 @@ name: Distribution
 on:
   push:
     paths:
-      - 'src/*'
+      - 'src/**'
     branches: [ main ]
   pull_request:
     branches: [ main ]
