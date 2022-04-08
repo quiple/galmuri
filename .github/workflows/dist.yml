@@ -61,7 +61,7 @@ jobs:
           wine ./files/bdf2ttf.exe ./dist/Galmuri9Bitmap.ttf ./files/g9.ini ./dist/g9_mod.bdf
           wine ./files/bdf2ttf.exe ./dist/Galmuri7Bitmap.ttf ./files/g7.ini ./dist/g7_mod.bdf
       - name: Clean up Temporary Files
-        run: del ./dist/g11_mod.bdf ./dist/g11b_mod.bdf ./dist/g9_mod.bdf ./dist/g7_mod.bdf
+        run: rm -rf ./dist/g11_mod.bdf ./dist/g11b_mod.bdf ./dist/g9_mod.bdf ./dist/g7_mod.bdf
 
       - name: Commit Changed Files
         uses: stefanzweifel/git-auto-commit-action@v4
