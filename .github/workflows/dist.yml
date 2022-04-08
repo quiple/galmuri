@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Set up Wine
-        run: sudo apt-get install wine
+        run: sudo apt-get install wine32
       - name: Clean up Distribution Files
         run: |
           rm -rf ./dist/*.bdf
