@@ -1,0 +1,37 @@
+name: Make Bitmap TrueType Font
+
+on:
+  push:
+    paths:
+      - 'dist/*.bdf'
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      - name: Clean up Distribution Files
+        run: del ./dist/*Bitmap.ttf
+      - name: Convert BDF Font
+        run: |
+          python ./files/fix-yAxis.py ./dist/Galmuri11.bdf ./dist/g11_mod.bdf
+          python ./files/fix-yAxis.py ./dist/Galmuri11-Bold.bdf ./dist/g11b_mod.bdf
+          python ./files/fix-yAxis.py ./dist/Galmuri9.bdf ./dist/g9_mod.bdf
+          python ./files/fix-yAxis.py ./dist/Galmuri7.bdf ./dist/g7_mod.bdf
+      - name: Convert to Glyph Bitmap Distribution Format
+        run: |
+          ./files/bdf2ttf.exe ./dist/Galmuri11Bitmap.ttf ./files/g11.ini ./dist/g11_mod.bdf
+          ./files/bdf2ttf.exe ./dist/Galmuri11Bitmap-Bold.ttf ./files/g11b.ini ./dist/g11b_mod.bdf
+          ./files/bdf2ttf.exe ./dist/Galmuri9Bitmap.ttf ./files/g9.ini ./dist/g9_mod.bdf
+          ./files/bdf2ttf.exe ./dist/Galmuri7Bitmap.ttf ./files/g7.ini ./dist/g7_mod.bdf
+      - name: Clean up Temp Files
+        run: del ./dist/g11_mod.bdf ./dist/g11b_mod.bdf ./dist/g9_mod.bdf ./dist/g7_mod.bdf
+      - name: Commit Changed Files
+        uses: stefanzweifel/git-auto-commit-action@v4
