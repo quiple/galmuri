@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.x'
+      - name: Set up Wine
+        run: sudo apt-get install wine
       - name: Clean up Distribution Files
         run: |
           rm -rf ./dist/*.bdf
