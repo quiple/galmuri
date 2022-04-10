@@ -86,7 +86,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
   p, .btns { width: 100%; }
   html, body { font-size: 14px; }
   h1, #title { font-size: 40px; }
-  #name { bottom: -1%; right: -100%; transform: scale(calc(100 / 300)); }
+  #name { bottom: -1%; right: -90%; transform: scale(calc(75 / 300)); }
 }
 @keyframes charset-flash {
   0%    { background-color: #fbfbfb; color: #222; }
