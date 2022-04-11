@@ -1,5 +1,6 @@
 const font = document.getElementsByClassName('btn');
 const list = document.getElementById('list');
+const tameshi = document.getElementById('tameshi');
 
 for (let i = 0; i < font.length; i++) {
   font[i].addEventListener('click', event => {
@@ -9,22 +10,38 @@ for (let i = 0; i < font.length; i++) {
       list.classList.remove('g11b');
       list.classList.remove('g9');
       list.classList.remove('g7');
+      tameshi.classList.add('g11');
+      tameshi.classList.remove('g11b');
+      tameshi.classList.remove('g9');
+      tameshi.classList.remove('g7');
     } else if (fileName == 'Galmuri11 Bold') {
       var fileName = 'Galmuri11-Bold';
       list.classList.add('g11b');
       list.classList.remove('g11');
       list.classList.remove('g9');
       list.classList.remove('g7');
+      tameshi.classList.add('g11b');
+      tameshi.classList.remove('g11');
+      tameshi.classList.remove('g9');
+      tameshi.classList.remove('g7');
     } else if (fileName == 'Galmuri9') {
       list.classList.add('g9');
       list.classList.remove('g11');
       list.classList.remove('g11b');
       list.classList.remove('g7');
+      tameshi.classList.add('g9');
+      tameshi.classList.remove('g11');
+      tameshi.classList.remove('g11b');
+      tameshi.classList.remove('g7');
     } else if (fileName == 'Galmuri7') {
       list.classList.add('g7');
       list.classList.remove('g11');
       list.classList.remove('g11b');
       list.classList.remove('g9');
+      tameshi.classList.add('g7');
+      tameshi.classList.remove('g11');
+      tameshi.classList.remove('g11b');
+      tameshi.classList.remove('g9');
     }
     fetch('./dist/' + fileName + '.bdf').then(async function (response) {
       const text = await response.text();

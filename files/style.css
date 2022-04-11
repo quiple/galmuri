@@ -60,6 +60,8 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 #hud-notification.visible .msg { transform: translate3d(0,0,0); transition: 120ms all cubic-bezier(.25,.47,.44,.93); opacity: 1; }
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
 .list-wrap { display: flex; justify-content: center; padding-bottom: 2.5vw; }
+.tameshi { height: auto !important; padding-top: 0 !important; padding-bottom: 2.5vw !important; }
+#tameshi { width: 100%; box-sizing: border-box; min-height: 100px; height: 100px; resize: vertical; line-height: 1.5; padding: 8px 14px; }
 @media (max-width: 1920px) {
   #list .item { width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
   .wrap { width: calc(100% - 160px); height: calc(100% - 160px); padding: 80px; }
