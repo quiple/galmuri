@@ -1,16 +1,14 @@
-Copyright (c) 2019-2022 Lee Minseo (itoupluk427@gmail.com),
+Copyright &copy; 2019-2022 Lee Minseo (itoupluk427@gmail.com),
 with Reserved Font Name "Galmuri".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+[https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)
 
+# SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
------------------------------------------------------------
-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
------------------------------------------------------------
+## PREAMBLE
 
-PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
 development of collaborative font projects, to support the font creation
 efforts of academic and linguistic communities, and to provide a free and
@@ -26,7 +24,8 @@ however, cannot be released under any other type of license. The
 requirement for fonts to remain under this license does not apply
 to any document created using the fonts or their derivatives.
 
-DEFINITIONS
+## DEFINITIONS
+
 "Font Software" refers to the set of files released by the Copyright
 Holder(s) under this license and clearly marked as such. This may
 include source files, build scripts and documentation.
@@ -45,7 +44,8 @@ new environment.
 "Author" refers to any designer, engineer, programmer, technical
 writer or other person who contributed to the Font Software.
 
-PERMISSION & CONDITIONS
+## PERMISSION & CONDITIONS
+
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of the Font Software, to use, study, copy, merge, embed, modify,
 redistribute, and sell modified and unmodified copies of the Font
@@ -78,11 +78,13 @@ distributed under any other license. The requirement for fonts to
 remain under this license does not apply to any document created
 using the Font Software.
 
-TERMINATION
+## TERMINATION
+
 This license becomes null and void if any of the above conditions are
 not met.
 
-DISCLAIMER
+## DISCLAIMER
+
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
