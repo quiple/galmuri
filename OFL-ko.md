@@ -1,3 +1,7 @@
+Copyright &copy; 2019-2022 Lee Minseo (itoupluk427@gmail.com), with Reserved Font Name "Galmuri".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: [https://scripts.sil.org/OFL](https://scripts.sil.org/OFL)
+
 ## 전문
 
 오픈 폰트 라이선스(OFL)의 목표는 전세계 공동 폰트 프로젝트의 개발을 촉진하고 학술 및 언어 커뮤니티의 폰트 제작 활동을 지원하며 폰트를 다른 사람들과 공유하고 개선할 수 있는 자유롭고 개방된 프레임워크를 제공하는 것입니다.
