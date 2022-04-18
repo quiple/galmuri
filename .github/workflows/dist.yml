@@ -1,4 +1,4 @@
-name: Distribution
+name: Distribute
 
 on:
   push:
