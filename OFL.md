@@ -1,4 +1,4 @@
-Copyright &copy; 2019-2022 Lee Minseo (itoupluk427@gmail.com),
+Copyright &copy; 2019-2022 Minseo Lee (itoupluk427@gmail.com),
 with Reserved Font Name "Galmuri".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
