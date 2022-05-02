@@ -22,10 +22,10 @@
 }
 ::selection { background-color: var(--point-color); color: #fbfbfb; }
 html, body { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; font-size: 24px; word-break: keep-all; position: relative; height: 100%; font-family: Galmuri11, sans-serif; box-sizing: border-box; }
-.g11 { font-family: Galmuri11, sans-serif; font-weight: 400; font-size: 24px; }
-.g11b { font-family: Galmuri11, sans-serif; font-weight: 700; font-size: 24px; }
-.g9 { font-family: Galmuri9, sans-serif; font-weight: 400; font-size: 20px; }
-.g7 { font-family: Galmuri7, sans-serif; font-weight: 400; font-size: 16px; }
+.g11 { font-family: Galmuri11, serif; font-weight: 400; font-size: 24px; }
+.g11b { font-family: Galmuri11, serif; font-weight: 700; font-size: 24px; }
+.g9 { font-family: Galmuri9, serif; font-weight: 400; font-size: 20px; }
+.g7 { font-family: Galmuri7, serif; font-weight: 400; font-size: 16px; }
 p, li, .btns { line-height: 1.5; width: 62.5%; }
 p:first-child { margin-top: -12px; }
 a { color: var(--point-color); text-decoration: none; }
@@ -45,7 +45,7 @@ p + .btns { margin-top: 36px; }
 .wrap { width: calc(100% - 180px); height: calc(100% - 180px); padding: 90px; }
 h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-family: Galmuri9, sans-serif; font-size: 80px; }
 #title { font-size: 100px; }
-.detail { line-height: 1.5; font-size: 12px; position: absolute; bottom: 0; display: flex; justify-content: space-between; gap: 12px; width: calc(100% - 180px); margin-bottom: 90px; align-items: flex-end; }
+.detail { line-height: 1.5; font-size: 16px; font-family: Galmuri7, sans-serif; position: absolute; bottom: 0; display: flex; justify-content: space-between; gap: 12px; width: calc(100% - 180px); margin-bottom: 90px; align-items: flex-end; }
 .detail span { display: block; }
 .detail div:last-child { text-align: right; }
 .highlight { color: var(--point-color); }
@@ -61,7 +61,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
 .list-wrap { display: flex; justify-content: center; padding-bottom: 2.5vw; }
 .tameshi { height: auto !important; padding-top: 0 !important; padding-bottom: 2.5vw !important; }
-#tameshi { width: 100%; box-sizing: border-box; min-height: 100px; height: 100px; resize: vertical; line-height: 1.5; padding: 8px 14px; }
+#tameshi { width: 100%; box-sizing: border-box; min-height: 200px; height: 100px; resize: vertical; line-height: 1.5; padding: 8px 14px; }
 @media (max-width: 1920px) {
   #list .item { width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
   .wrap { width: calc(100% - 160px); height: calc(100% - 160px); padding: 80px; }
