@@ -12,26 +12,26 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 
 ## Supported Ranges
 
-| Range                         | Galmuri11          | Galmuri11 Bold     | Galmuri9           |
-|-------------------------------|--------------------|--------------------|--------------------|
-| Basic Latin                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Latin-1 Supplement            | :heavy_check_mark: |                    | :heavy_check_mark: |
-| Latin Extended-A              | :heavy_check_mark: |                    | :heavy_check_mark: |
-| Latin Extended-B              |                    |                    |                    |
-| Greek and Coptic              | :heavy_check_mark: |                    |                    |
-| Cyrillic                      | :heavy_check_mark: |                    |                    |
-| General Punctuation           | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] |
-| Geometric Shapes              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| CJK Symbols and Punctuation   | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] |
-| Hiragana                      | :heavy_check_mark: |                    | :heavy_check_mark: |
-| Katakana                      | :heavy_check_mark: |                    | :heavy_check_mark: |
-| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:[^old] | :heavy_check_mark: |
-| CJK Unified Ideographs        | :heavy_check_mark:[^jis] |                    | :heavy_check_mark:[^jis] |
-| Hangul Syllables              | :heavy_check_mark:[^han-1] | :heavy_check_mark:[^han] | :heavy_check_mark:[^han] |
-| CJK Compatibility Ideographs  | :heavy_check_mark:[^ks] |                    |                    |
-| Vertical Forms                | :heavy_check_mark: |                    | :heavy_check_mark: |
-| CJK Compatibility Forms       | :heavy_check_mark: |                    | :heavy_check_mark: |
-| Halfwidth and Fullwidth Forms | :heavy_check_mark: |                    | :heavy_check_mark: |
+| Range                         | Galmuri11          | Galmuri11 Bold     | Galmuri9           | Galmuri7           |
+|-------------------------------|--------------------|--------------------|--------------------|--------------------|
+| Basic Latin                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Latin-1 Supplement            | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| Latin Extended-A              | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
+| Latin Extended-B              |                    |                    |                    |                    |
+| Greek and Coptic              | :heavy_check_mark: |                    |                    |                    |
+| Cyrillic                      | :heavy_check_mark: |                    |                    |                    |
+| General Punctuation           | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] | :heavy_check_mark:[^ellipsis] |
+| Geometric Shapes              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| CJK Symbols and Punctuation   | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] | :heavy_check_mark:[^bracket] |
+| Hiragana                      | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| Katakana                      | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:[^old] | :heavy_check_mark: | :heavy_check_mark:[^old] |
+| CJK Unified Ideographs        | :heavy_check_mark:[^jis] |                    | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis] |
+| Hangul Syllables              | :heavy_check_mark:[^han-1] | :heavy_check_mark:[^han] | :heavy_check_mark:[^han] | :heavy_check_mark:[^han-1] |
+| CJK Compatibility Ideographs  | :heavy_check_mark:[^ks] |                    |                    |                    |
+| Vertical Forms                | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| CJK Compatibility Forms       | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| Halfwidth and Fullwidth Forms | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
 
 [^old]: Excluding Old Hangul Jamo.
 [^han]: Only 2,780 Hangul Syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
