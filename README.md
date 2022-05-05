@@ -15,7 +15,7 @@ Pixel style outline fonts based on bitmap fonts used in Nintendo DS. But the Gal
 | Range                         | Galmuri11          | Galmuri11 Bold     | Galmuri9           | Galmuri7           |
 |-------------------------------|--------------------|--------------------|--------------------|--------------------|
 | Basic Latin                   | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Latin-1 Supplement            | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
+| Latin-1 Supplement            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Latin Extended-A              | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
 | Latin Extended-B              |                    |                    |                    |                    |
 | Greek and Coptic              | :heavy_check_mark: |                    |                    |                    |
