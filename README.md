@@ -27,7 +27,7 @@ Bitmap fonts based on the font design from Nintendo DS. But the Galmuri7's Hangu
 | Katakana                      | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
 | Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:[^old] | :heavy_check_mark: | :heavy_check_mark:[^old] |
 | CJK Unified Ideographs        | :heavy_check_mark:[^jis] |                    | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis] |
-| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:[^han] | :heavy_check_mark:[^han] | :heavy_check_mark:[^han-1] |
+| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:[^han] | :heavy_check_mark:[^han-1] | :heavy_check_mark:[^han-1] |
 | CJK Compatibility Ideographs  | :heavy_check_mark:[^ks] |                    |                    |                    |
 | Vertical Forms                | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
 | CJK Compatibility Forms       | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
