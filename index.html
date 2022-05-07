@@ -38,7 +38,7 @@
       </div>
       <div class="swiper-slide">
         <div class="wrap">
-          <p><strong>Galmuri</strong>는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 픽셀풍의 윤곽선 폰트입니다. 닌텐도 DS 본체와 소프트웨어에 사용되었던 비트맵 폰트의 모양을 본따 만들어졌습니다. Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인 <a href="https://cafe.naver.com/hansicgu" target="_blank">한식구</a>에서 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘<a href="https://cafe.naver.com/hansicgu/174" target="_blank">갈무리M</a>’에서 유래하였습니다.</p>
+          <p><strong>Galmuri</strong>는 한글 음절 2,780자와 JIS 한자 6,355자 등을 지원하는 비트맵 폰트입니다. 닌텐도 DS 본체와 소프트웨어에 사용되었던 폰트 디자인을 본따 만들어졌습니다. Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인 <a href="https://cafe.naver.com/hansicgu" target="_blank">한식구</a>에서 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘<a href="https://cafe.naver.com/hansicgu/174" target="_blank">갈무리M</a>’에서 유래하였습니다.</p>
           <p>기존의 한글 음절 2,355자¹에 Adobe-KR-0의 425자를 추가하였으며, 지금은 Adobe-KR-1의 한글 음절 1,578자 및 KS X 1001의 한중일 호환용 한자, 한중일 통합 한자를 추가하는 중입니다.</p>
           <div class="btns">
             <a class="btn" href="./glyphs" style="flex:initial">글리프 미리보기</a>
@@ -78,20 +78,16 @@
     <div class="swiper-pagination"></div>
   </div>
   <script>
-    var swiper = new Swiper(".swiper", {
-      direction: "vertical",
+    var swiper = new Swiper('.swiper', {
+      direction: 'vertical',
       slidesPerView: 1,
       spaceBetween: 0,
       simulateTouch: false,
       speed: 500,
       mousewheel: true,
       pagination: {
-        el: ".swiper-pagination",
+        el: '.swiper-pagination',
         clickable: true
-      },
-      on: {
-        slideChange: function() {
-        }
       }
     });
   </script>
