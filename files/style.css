@@ -19,9 +19,12 @@
   --c14: #f7bb00;
   --c15: #fb9200;
   --c16: #fb0018;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --bg: #fbfbfb;
+  --cr: #222;
 }
-::selection { background-color: var(--point-color); color: #fbfbfb; }
-html, body { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; font-size: 24px; word-break: keep-all; position: relative; height: 100%; font-family: Galmuri11, sans-serif; box-sizing: border-box; }
+::selection { background-color: var(--point-color); color: var(--bg); }
+html, body { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; font-size: 24px; word-break: keep-all; position: relative; height: 100%; font-family: Galmuri11, sans-serif; box-sizing: border-box; background-color: var(--bg); color: var(--cr); }
 .g11 { font-family: Galmuri11, serif; font-weight: 400; font-size: 24px; }
 .g11b { font-family: Galmuri11, serif; font-weight: 700; font-size: 24px; }
 .g9 { font-family: Galmuri9, serif; font-weight: 400; font-size: 20px; }
@@ -91,13 +94,18 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
   #name { bottom: -1%; right: -90%; transform: scale(calc(75 / 300)); }
 }
 @keyframes charset-flash {
-  0%    { background-color: #fbfbfb; color: #222; }
-  20%   { background-color: #222; color: #fbfbfb; }
-  20.1% { background-color: #fbfbfb; color: inherit; }
-  40%   { background-color: #fbfbfb; color: inherit; }
-  40.1% { background-color: #222; color: #fbfbfb; }
-  60%   { background-color: #222; color: #fbfbfb; }
-  100% { background-color: #fbfbfb; color: inherit; }
+  0%    { background-color: var(--bg); color: var(--cr); }
+  20%   { background-color: var(--cr); color: var(--bg); }
+  20.1% { background-color: var(--bg); color: var(--cr); }
+  40%   { background-color: var(--bg); color: var(--cr); }
+  40.1% { background-color: var(--cr); color: var(--bg); }
+  60%   { background-color: var(--cr); color: var(--bg); }
+  100%  { background-color: var(--bg); color: var(--cr); }
+}
+@media (prefers-color-scheme: dark) {
+  :root { --point-color: #bbc2f7; --swiper-pagination-bullet-inactive-color: #fff; --bg: #222; --cr: #fbfbfb; }
+  .btn { box-shadow: 0 0 0 3px #b6b6b6; }
+  .btn:hover { box-shadow: 0 0 0 3px #88a7bf; }
 }
 @keyframes text-shadow {
   from, 6.249% { text-shadow:
