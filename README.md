@@ -75,7 +75,7 @@ font-family: 'Galmuri7', sans-serif;
   - [ ] Galmuri11 Bold
   - [x] Galmuri9
   - [x] Galmuri7
-- [ ] 모든 한글 음절 11,172자 추가
+- [ ] 모든 한글 음절 11,172자 지원
   - [x] Galmuri11
   - [ ] Galmuri11 Bold
   - [ ] Galmuri9
