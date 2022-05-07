@@ -75,6 +75,11 @@ font-family: 'Galmuri7', sans-serif;
   - [ ] Galmuri11 Bold
   - [x] Galmuri9
   - [x] Galmuri7
+- [ ] 모든 한글 음절 11,172자 추가
+  - [x] Galmuri11
+  - [ ] Galmuri11 Bold
+  - [ ] Galmuri9
+  - [ ] Galmuri7
 - [ ] KS X 1001에 포함된 한중일 호환용 한자 중 JIS X 0208에 포함되지 않는 268자 추가
   - [x] Galmuri11
   - [ ] Galmuri9
