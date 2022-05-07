@@ -65,7 +65,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 .btn-check { position: absolute; clip: rect(0,0,0,0); pointer-events: none; }
 .list-wrap { display: flex; justify-content: center; padding-bottom: 2.5vw; }
 .tameshi { height: auto !important; padding-top: 0 !important; }
-#tameshi { background-color: transparent; color: var(--cr); width: calc(100% + 6px); box-sizing: border-box; min-height: 200px; height: 100px; resize: vertical; line-height: 1.5; padding: 8px 14px; border: 3px solid var(--cro); transition: .1s; margin: 0 -3px; }
+#tameshi { background-color: transparent; color: var(--cr); width: calc(100% + 6px); box-sizing: border-box; min-height: 200px; height: 100px; resize: vertical; line-height: 1.5; padding: 8px 14px; border: 3px solid var(--cro); transition: font-size .1s, border-color .1s; margin: 0 -3px; }
 #tameshi:focus { border-color: var(--cr); outline: none; }
 @media (max-width: 1920px) {
   #list .item { width: calc(var(--tableWidth) / var(--columns)); height: calc(var(--tableWidth) / var(--columns)); }
