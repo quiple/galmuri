@@ -48,7 +48,7 @@ p + .btns { margin-top: 36px; }
 .showcase { width: 100%; height: 50vh; margin-top: 30px; }
 .swiper-slide { width: auto; max-width: 100%; overflow: hidden; display: flex; flex-direction: column; justify-content: start; align-items: center; }
 .showcase .swiper-slide { justify-content: space-between; }
-.swiper-slide img { display: block; width: 100%; height: 96%; object-fit: cover; }
+.swiper-slide img { display: block; width: 100%; height: 95%; object-fit: cover; }
 .swiper-pagination-bullet { box-shadow: 0 0 1px 1px var(--bgo); border-radius: 0; margin: 8px 0 8px 8px !important; }
 .swiper-pagination-bullet-active { background: var(--point-color); box-shadow: none; }
 .capt { font-family: 'Galmuri7', sans-serif; font-size: 16px; }
