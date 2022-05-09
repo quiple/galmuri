@@ -37,10 +37,11 @@ a:hover { text-decoration: underline; }
 .btns { margin: 0 3px; display: flex; gap: 2%; }
 h1 + .btns { margin-top: 30px; }
 p + .btns { margin-top: 36px; }
-.btn { cursor: pointer; position: relative; text-align: center; flex: 1; padding: 0 36px; font-size: 20px; font-family: Galmuri9, sans-serif; display: flex; justify-content: center; align-items: center; height: 81px; color: #000; border: 3px solid #fbfbfb; box-shadow: 0 0 0 3px #494949; z-index: 0; }
+.btn { cursor: pointer; position: relative; text-align: center; flex: 1; padding: 0 36px; font-size: 20px; font-family: Galmuri9, sans-serif; display: flex; justify-content: center; align-items: center; height: 81px; color: #000; border: 3px solid #fbfbfb; outline: 3px solid #494949; z-index: 0; }
 .btn::before { content: ''; position: absolute; width: 100%; height: 100%; z-index: -1; background-image: url('./bg.png'); background-size: contain; }
-.btn:hover, .btn-check:checked + .btn { text-decoration: none; box-shadow: 0 0 0 3px #416179; }
-.btn:hover::before, .btn-check:checked + .btn::before { background-image: url('./bgs.png'); }
+.btn:hover { text-decoration: none; outline-color: #416179; }
+.btn-check:checked + .btn { box-shadow: 0 0 0 6px var(--bg), 0 0 0 9px var(--cr); }
+.btn:hover::before { background-image: url('./bgs.png'); }
 .btn:active::before { transform: rotate(180deg); }
 .swiper { width: 100%; height: 100%; }
 .swiper-slide { overflow: hidden; }
@@ -106,8 +107,8 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
 }
 @media (prefers-color-scheme: dark) {
   :root { --point-color: #bbc2f7; --swiper-pagination-bullet-inactive-color: #fff; --bg: #222; --cr: #fbfbfb; --cro: rgba(255,255,255,.5); }
-  .btn { box-shadow: 0 0 0 3px #b6b6b6; }
-  .btn:hover { box-shadow: 0 0 0 3px #88a7bf; }
+  .btn { outline-color: #b6b6b6; }
+  .btn:hover { outline-color: #88a7bf; }
 }
 @keyframes text-shadow {
   from, 6.249% { text-shadow:
