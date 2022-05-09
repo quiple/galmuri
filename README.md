@@ -43,13 +43,13 @@ Bitmap fonts based on the font design from Nintendo DS. With additional characte
 
 ## Use as Web Fonts
 
-### HTML `<link>`
+### HTML
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/galmuri.css">
 ```
 
-### CSS `@import`
+### CSS
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/quiple/galmuri/dist/galmuri.css');
