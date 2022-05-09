@@ -24,7 +24,7 @@
 
 <body>
   <div id="preload"></div>
-  <div class="swiper">
+  <div class="swiper mainSwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="wrap">
@@ -74,11 +74,29 @@
           <small class="detail"><div>&copy; Lee Minseo. Galmuri 및 Quiple은 Lee Minseo의 상표입니다.</div><div>닌텐도 DS는 Nintendo의 상표입니다.<br>이 프로젝트는 Nintendo와 어떠한 관련도 없습니다.</div></small>
         </div>
       </div>
+      <div class="swiper-slide">
+        <div class="wrap" style="height:auto;padding-bottom:0;">
+          <h1>쇼케이스</h1>
+          <small class="detail">각 게임은 해당 소유자 및 사용 허가자의 상표 및 저작권 자산입니다.</small>
+        </div>
+        <div class="swiper showcase">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./files/showcase/220507.png" alt="Monster Sanctuary (사용자 패치)"><span class="capt"><a href="https://blog.naver.com/ansewo/222702695752" target="_blank">Monster Sanctuary</a> (사용자 패치) by 솔라리어스</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/220220.jpg" alt="NEEDY GIRL OVERDOSE (사용자 패치)"><span class="capt"><a href="https://cosmicdeluge.tistory.com/5" target="_blank">NEEDY GIRL OVERDOSE</a> (사용자 패치) by 코스믹딜루즈 & Quiple</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/210302.jpg" alt="Teamfight Manager"><span class="capt"><a href="https://store.steampowered.com/app/1372810" target="_blank">Teamfight Manager</a> &copy; Team Samoyed</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/210223.jpg" alt="BLUE REVOLVER (사용자 패치)"><span class="capt"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2405396574" target="_blank">BLUE REVOLVER</a> (사용자 패치) by Sepheille</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/210105.jpg" alt="Duke Dashington Remastered (사용자 패치)"><span class="capt"><a href="https://blog.naver.com/bleach1491/222196942354" target="_blank">Duke Dashington Remastered</a> (사용자 패치) by 바람 번역단</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/201221.jpg" alt="Rev (사용자 패치)"><span class="capt"><a href="https://blog.naver.com/bleach1491/222180900832" target="_blank">Rev</a> (사용자 패치) by 바람 번역단</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/200622.jpg" alt="Alwa's Legacy (사용자 패치)"><span class="capt"><a href="https://blog.naver.com/bleach1491/222008221688" target="_blank">Alwa's Legacy</a> (사용자 패치) by 바람 번역단</span></div>
+            <div class="swiper-slide"><img src="./files/showcase/200223.png" alt="Westerado: Double Barreled (사용자 패치)"><span class="capt"><a href="https://blog.naver.com/bleach1491/221820971383" target="_blank">Westerado: Double Barreled</a> (사용자 패치) by 바람 번역단</span></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="swiper-pagination"></div>
   </div>
   <script>
-    var swiper = new Swiper('.swiper', {
+    var swiper = new Swiper('.mainSwiper', {
       direction: 'vertical',
       slidesPerView: 1,
       spaceBetween: 0,
@@ -88,6 +106,17 @@
       pagination: {
         el: '.swiper-pagination',
         clickable: true
+      }
+    });
+    var swiper = new Swiper('.showcase', {
+      loop: true,
+      grabCursor: true,
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: true
       }
     });
   </script>

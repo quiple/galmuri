@@ -21,6 +21,7 @@
   --c16: #fb0018;
   --swiper-pagination-bullet-inactive-color: #000;
   --bg: #fbfbfb;
+  --bgo: rgba(255,255,255,.5);
   --cr: #222;
   --cro: rgba(0,0,0,.5);
 }
@@ -43,10 +44,14 @@ p + .btns { margin-top: 36px; }
 .btn-check:checked + .btn { box-shadow: 0 0 0 6px var(--bg), 0 0 0 9px var(--cr); }
 .btn:hover::before { background-image: url('./bgs.png'); }
 .btn:active::before { transform: rotate(180deg); }
-.swiper { width: 100%; height: 100%; }
-.swiper-slide { overflow: hidden; }
-.swiper-pagination-bullet { border-radius: 0; margin: 8px 0 !important; }
-.swiper-pagination-bullet-active { background: var(--point-color); }
+.mainSwiper { width: 100%; height: 100%; }
+.showcase { width: 100%; height: 50vh; margin-top: 30px; }
+.swiper-slide { width: auto; max-width: 100%; overflow: hidden; display: flex; flex-direction: column; justify-content: start; align-items: center; }
+.showcase .swiper-slide { justify-content: space-between; }
+.swiper-slide img { display: block; width: 100%; height: 96%; object-fit: cover; }
+.swiper-pagination-bullet { box-shadow: 0 0 1px 1px var(--bgo); border-radius: 0; margin: 8px 0 8px 8px !important; }
+.swiper-pagination-bullet-active { background: var(--point-color); box-shadow: none; }
+.capt { font-family: 'Galmuri7', sans-serif; font-size: 16px; }
 .wrap { width: calc(100% - 180px); height: calc(100% - 180px); padding: 90px; }
 h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-family: Galmuri9, sans-serif; font-size: 80px; }
 #title { font-size: 100px; }
@@ -106,7 +111,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
   100%  { background-color: var(--bg); color: var(--cr); }
 }
 @media (prefers-color-scheme: dark) {
-  :root { --point-color: #bbc2f7; --swiper-pagination-bullet-inactive-color: #fff; --bg: #222; --cr: #fbfbfb; --cro: rgba(255,255,255,.5); }
+  :root { --point-color: #bbc2f7; --swiper-pagination-bullet-inactive-color: #fff; --bg: #222; --bgo: rgba(0,0,0,.5); --cr: #fbfbfb; --cro: rgba(255,255,255,.5); }
   .btn { outline-color: #b6b6b6; }
   .btn:hover { outline-color: #88a7bf; }
 }
