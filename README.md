@@ -9,6 +9,7 @@ Bitmap fonts based on the font design from Nintendo DS. With additional characte
 - Galmuri11 (12px size)<br><br>![Galmuri11](./files/g11.png#gh-light-mode-only)![Galmuri11](./files/g11l.png#gh-dark-mode-only)<br><br>
 - Galmuri11 Bold (12px size)<br><br>![Galmuri11 Bold](./files/g11b.png#gh-light-mode-only)![Galmuri11 Bold](./files/g11bl.png#gh-dark-mode-only)<br><br>
 - Galmuri9 (10px size)<br><br>![Galmuri9](./files/g9.png#gh-light-mode-only)![Galmuri9](./files/g9l.png#gh-dark-mode-only)<br><br>
+- Galmuri7 (8px size)<br><br>![Galmuri7](./files/g7.png#gh-light-mode-only)![Galmuri7](./files/g7l.png#gh-dark-mode-only)<br><br>
 
 ## Supported Ranges
 
