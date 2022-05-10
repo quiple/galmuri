@@ -2,7 +2,8 @@ Copyright &copy; 2019-2022 Minseo Lee (itoupluk427@gmail.com),
 with Reserved Font Name "Galmuri".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at: <https://scripts.sil.org/OFL>
+This license is copied below, and is also available with a FAQ at:
+<https://scripts.sil.org/OFL>
 
 # SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
