@@ -1,7 +1,7 @@
-@font-face { font-family: Galmuri11; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri11.ttf') format("truetype"); }
-@font-face { font-family: Galmuri11; font-weight: 700; font-style: normal; font-display: block; src: url('../dist/Galmuri11-Bold.ttf') format("truetype"); }
-@font-face { font-family: Galmuri9; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri9.ttf') format("truetype"); }
-@font-face { font-family: Galmuri7; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri7.ttf') format("truetype"); }
+@font-face { font-family: Galmuri11; font-weight: 400; font-style: normal; font-display: block; src: local('Galmuri11 Regular'), url('../dist/Galmuri11.woff2') format('woff2'), url('../dist/Galmuri11.ttf') format('truetype'); }
+@font-face { font-family: Galmuri11; font-weight: 700; font-style: normal; font-display: block; src: local('Galmuri11 Bold'), url('../dist/Galmuri11-Bold.woff2') format('woff2'), url('../dist/Galmuri11-Bold.ttf') format('truetype'); }
+@font-face { font-family: Galmuri9; font-weight: 400; font-style: normal; font-display: block; src: local('Galmuri9 Regular'), url('../dist/Galmuri9.woff2') format('woff2'), url('../dist/Galmuri9.ttf') format('truetype'); }
+@font-face { font-family: Galmuri7; font-weight: 400; font-style: normal; font-display: block; src: local('Galmuri7 Regular'), url('../dist/Galmuri7.woff2') format('woff2'), url('../dist/Galmuri7.ttf') format('truetype'); }
 :root { --point-color: #6171eb;
   --c01: #fb0092;
   --c02: #d300eb;
