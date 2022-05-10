@@ -73,10 +73,10 @@ jobs:
 
       - name: Compress to WOFF2
         run: |
-          fontTools.ttLib.woff2.compress("./dist/Galmuri11.ttf", "./dist/Galmuri11.woff2", transform_tables=None)
-          fontTools.ttLib.woff2.compress("./dist/Galmuri11-Bold.ttf", "./dist/Galmuri11-Bold.woff2", transform_tables=None)
-          fontTools.ttLib.woff2.compress("./dist/Galmuri9.ttf", "./dist/Galmuri9.woff2", transform_tables=None)
-          fontTools.ttLib.woff2.compress("./dist/Galmuri7.ttf", "./dist/Galmuri7.woff2", transform_tables=None)
+          fontTools.ttLib.woff2.compress(./dist/Galmuri11.ttf, ./dist/Galmuri11.woff2, transform_tables=None)
+          fontTools.ttLib.woff2.compress(./dist/Galmuri11-Bold.ttf, ./dist/Galmuri11-Bold.woff2, transform_tables=None)
+          fontTools.ttLib.woff2.compress(./dist/Galmuri9.ttf, ./dist/Galmuri9.woff2, transform_tables=None)
+          fontTools.ttLib.woff2.compress(./dist/Galmuri7.ttf, ./dist/Galmuri7.woff2, transform_tables=None)
 
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
