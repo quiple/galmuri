@@ -16,13 +16,17 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
-      - uses: actions/setup-java@v2
+      - name: Set up Java
+        uses: actions/setup-java@v2
         with:
           distribution: 'zulu'
           java-version: '18'
-      - uses: actions/setup-python@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
         with:
           python-version: '3.x'
+      - name: Set up fontTools
+        run: pip install fonttools[woff]
       - name: Set up Wine
         run: |
           sudo dpkg --add-architecture i386
@@ -31,30 +35,32 @@ jobs:
           sudo apt -qq update
           sudo apt install -y --allow-downgrades libpcre2-8-0=10.34-7
           sudo apt install -y wine32
-      - name: Clean up Distribution Files
+
+      - name: Clean up distribution files
         run: |
           rm -rf ./dist/*.bdf
           rm -rf ./dist/*.ttf
-      - name: Convert to BDF Font
+
+      - name: Convert to BDF fonts
         run: |
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o ./dist/Galmuri11.bdf ./src/Galmuri11.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o ./dist/Galmuri11-Bold.bdf ./src/Galmuri11-Bold.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o ./dist/Galmuri9.bdf ./src/Galmuri9.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o ./dist/Galmuri7.bdf ./src/Galmuri7.kbits
-      - name: Convert to TrueType Font
+      - name: Convert to TrueType fonts
         run: |
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11.ttf ./src/Galmuri11.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri11-Bold.ttf ./src/Galmuri11-Bold.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri9.ttf ./src/Galmuri9.kbits
           java -jar ./bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o ./dist/Galmuri7.ttf ./src/Galmuri7.kbits
 
-      - name: Convert BDF Font
+      - name: Convert BDF fonts
         run: |
           python ./files/fix-yAxis.py ./dist/Galmuri11.bdf ./dist/g11_mod.bdf
           python ./files/fix-yAxis.py ./dist/Galmuri11-Bold.bdf ./dist/g11b_mod.bdf
           python ./files/fix-yAxis.py ./dist/Galmuri9.bdf ./dist/g9_mod.bdf
           python ./files/fix-yAxis.py ./dist/Galmuri7.bdf ./dist/g7_mod.bdf
-      - name: Convert to TrueType Font
+      - name: Convert to TrueType bitmap fonts
         run: |
           wine ./files/bdf2ttf.exe ./dist/Galmuri11Bitmap.ttf ./files/g11.ini ./dist/g11_mod.bdf
           wine ./files/bdf2ttf.exe ./dist/Galmuri11Bitmap-Bold.ttf ./files/g11b.ini ./dist/g11b_mod.bdf
@@ -63,5 +69,12 @@ jobs:
       - name: Clean up Temporary Files
         run: rm -rf ./dist/g11_mod.bdf ./dist/g11b_mod.bdf ./dist/g9_mod.bdf ./dist/g7_mod.bdf
 
-      - name: Commit Changed Files
+      - name: Compress to WOFF2
+        run: |
+          fontTools.ttLib.woff2.compress("./dist/Galmuri11.ttf", "./dist/Galmuri11.woff2", transform_tables=None)
+          fontTools.ttLib.woff2.compress("./dist/Galmuri11-Bold.ttf", "./dist/Galmuri11-Bold.woff2", transform_tables=None)
+          fontTools.ttLib.woff2.compress("./dist/Galmuri9.ttf", "./dist/Galmuri9.woff2", transform_tables=None)
+          fontTools.ttLib.woff2.compress("./dist/Galmuri7.ttf", "./dist/Galmuri7.woff2", transform_tables=None)
+
+      - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
