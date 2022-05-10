@@ -42,6 +42,7 @@ jobs:
         run: |
           rm -rf ./dist/*.bdf
           rm -rf ./dist/*.ttf
+          rm -rf ./dist/*.woff2
 
       - name: Convert to BDF fonts
         run: |
