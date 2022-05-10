@@ -59,9 +59,9 @@ Bitmap fonts based on the font design from Nintendo DS. With additional characte
 ### CSS Rules to Specify Families
 
 ```css
-font-family: 'Galmuri11', sans-serif;
-font-family: 'Galmuri9', sans-serif;
-font-family: 'Galmuri7', sans-serif;
+font-family: Galmuri11, sans-serif;
+font-family: Galmuri9, sans-serif;
+font-family: Galmuri7, sans-serif;
 ```
 
 ## To Do
