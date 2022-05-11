@@ -64,6 +64,12 @@ font-family: Galmuri9, sans-serif;
 font-family: Galmuri7, sans-serif;
 ```
 
+## Install as npm package
+
+```bash
+npm i galmuri
+```
+
 ## To Do
 
 - [x] Adobe-KR-0에 포함된 한글 음절 중 KS X 1001에 포함되지 않는 430자 추가
