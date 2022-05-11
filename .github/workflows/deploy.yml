@@ -80,7 +80,9 @@ jobs:
           fonttools ttLib.woff2 compress dist/Galmuri7.ttf
 
       - name: Update npm package version
-        run: python files/version.py dist/Galmuri11.bdf package.json
+        run: |
+          python files/version.py dist/Galmuri11.bdf package.json
+          python files/version.py dist/Galmuri11.bdf package-lock.json
 
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
