@@ -1,0 +1,25 @@
+{
+  "name": "galmuri",
+  "version": "2.13.17",
+  "description": "Bitmap fonts based on the font design from Nintendo DS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiple/galmuri.git"
+  },
+  "keywords": [
+    "font",
+    "fonts",
+    "typeface",
+    "truetype",
+    "ttf",
+    "bitmap-font",
+    "bdf",
+    "nintendo-ds"
+  ],
+  "author": "Minseo Lee (itoupluk427@gmail.com)",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/quiple/galmuri/issues"
+  },
+  "homepage": "https://galmuri.quiple.dev"
+}
