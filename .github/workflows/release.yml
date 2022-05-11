@@ -12,12 +12,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run: zip Galmuri-${{ github.ref }}.zip dist
+      - run: zip Galmuri-${{ github.event.release.tag_name }}.zip dist
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: Galmuri-${{ github.ref }}.zip
+          files: Galmuri-${{ github.event.release.tag_name }}.zip
 
   publish:
     needs: release
