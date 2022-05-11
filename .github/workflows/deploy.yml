@@ -80,7 +80,7 @@ jobs:
           python files/version.py dist/Galmuri11.bdf package.json
           python files/version.py dist/Galmuri11.bdf package-lock.json
 
-      - name: get-npm-version
+      - name: Get npm package version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
 
