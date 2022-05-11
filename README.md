@@ -1,6 +1,6 @@
 # Galmuri
 
-[![License](https://img.shields.io/github/license/quiple/galmuri)](https://github.com/quiple/galmuri/blob/main/OFL.md) [![GitHub Workflow Status](https://github.com/quiple/galmuri/workflows/distribute/badge.svg)](https://github.com/quiple/galmuri/actions/workflows/dist.yml) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/gh/quiple/galmuri/badge?style=rounded)](https://www.jsdelivr.com/package/gh/quiple/galmuri)
+[![License](https://img.shields.io/github/license/quiple/galmuri)](https://github.com/quiple/galmuri/blob/main/OFL.md) [![GitHub Workflow Status](https://github.com/quiple/galmuri/workflows/deploy/badge.svg)](https://github.com/quiple/galmuri/actions/workflows/dist.yml) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/gh/quiple/galmuri/badge?style=rounded)](https://www.jsdelivr.com/package/gh/quiple/galmuri)
 
 Bitmap fonts based on the font design from Nintendo DS. With additional characters support.
 
