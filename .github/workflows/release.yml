@@ -19,21 +19,8 @@ jobs:
         with:
           files: Galmuri-${{ github.ref }}.zip
 
-  build:
-    needs: release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm ci
-      - run: npm test
-
   publish:
-    needs: build
+    needs: release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
