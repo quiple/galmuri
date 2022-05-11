@@ -80,5 +80,11 @@ jobs:
           python files/version.py dist/Galmuri11.bdf package.json
           python files/version.py dist/Galmuri11.bdf package-lock.json
 
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@main
+
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          tagging_message: '${{ steps.package-version.outputs.current-version}}'
