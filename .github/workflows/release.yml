@@ -100,5 +100,3 @@ jobs:
 
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          tagging_message: 'v${{ steps.package-version.outputs.current-version }}'
