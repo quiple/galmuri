@@ -1,4 +1,4 @@
-![Cover](files/cover_light.png)![Cover](files/cover_dark.png#gh-dark-mode-only)
+![Cover](files/cover_light.png#gh-light-mode-only)![Cover](files/cover_dark.png#gh-dark-mode-only)
 
 <p align="center">
   <a href="https://www.npmjs.com/package/galmuri" target="_blank"><img src="https://img.shields.io/npm/v/galmuri" alt="npm Package Version"></a>
