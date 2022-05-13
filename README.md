@@ -1,15 +1,17 @@
-# Galmuri
+![Cover](files/cover_light.png)![Cover](files/cover_dark.png#gh-dark-mode-only)
 
-[![npm](https://img.shields.io/npm/v/galmuri)](https://www.npmjs.com/package/galmuri) [![License](https://img.shields.io/github/license/quiple/galmuri)](https://github.com/quiple/galmuri/blob/main/OFL.md) [![GitHub Workflow Status](https://github.com/quiple/galmuri/workflows/release/badge.svg)](https://github.com/quiple/galmuri/actions/workflows/release.yml) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/gh/quiple/galmuri/badge?style=rounded)](https://www.jsdelivr.com/package/gh/quiple/galmuri)
+<p align="center">
+  <a href="https://www.npmjs.com/package/galmuri" target="_blank"><img src="https://img.shields.io/npm/v/galmuri" alt="npm Package Version"></a>
+  <a href="https://github.com/quiple/galmuri/blob/main/OFL.md" target="_blank"><img src="https://img.shields.io/github/license/quiple/galmuri" alt="License"></a>
+  <a href="https://github.com/quiple/galmuri/actions/workflows/release.yml" target="_blank"><img src="https://github.com/quiple/galmuri/workflows/release/badge.svg" alt="GitHub Workflow Status"></a>
+  <a href="https://www.jsdelivr.com/package/gh/quiple/galmuri" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/quiple/galmuri/badge?style=rounded" alt="jsDelivr Hits"></a>
+</p>
 
 Bitmap fonts based on the font design from Nintendo DS. With additional characters support.
 
-## Preview
+## Character Preview
 
-- Galmuri11 (12px size)<br><br>![Galmuri11](./files/g11.png#gh-light-mode-only)![Galmuri11](./files/g11l.png#gh-dark-mode-only)<br><br>
-- Galmuri11 Bold (12px size)<br><br>![Galmuri11 Bold](./files/g11b.png#gh-light-mode-only)![Galmuri11 Bold](./files/g11bl.png#gh-dark-mode-only)<br><br>
-- Galmuri9 (10px size)<br><br>![Galmuri9](./files/g9.png#gh-light-mode-only)![Galmuri9](./files/g9l.png#gh-dark-mode-only)<br><br>
-- Galmuri7 (8px size)<br><br>![Galmuri7](./files/g7.png#gh-light-mode-only)![Galmuri7](./files/g7l.png#gh-dark-mode-only)<br><br>
+- [Galmuri Character Preview](https://galmuri.quiple.dev/glyphs)
 
 ## Supported Ranges
 
