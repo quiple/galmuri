@@ -88,15 +88,15 @@ jobs:
           files: Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
           tag_name: 'v${{ steps.package-version.outputs.current-version }}'
 
+      - name: Clean up Temporary Files
+        run: rm -rf dist/g11_mod.bdf dist/g11b_mod.bdf dist/g9_mod.bdf dist/g7_mod.bdf Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
+
       - name: Publish to npm
         run: |
           npm ci
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Clean up Temporary Files
-        run: rm -rf dist/g11_mod.bdf dist/g11b_mod.bdf dist/g9_mod.bdf dist/g7_mod.bdf Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
 
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
