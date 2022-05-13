@@ -23,6 +23,11 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: '3.x'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          registry-url: https://registry.npmjs.org/
       - name: Set up fontTools
         run: pip install fonttools[woff]
       - name: Set up Wine
@@ -84,20 +89,6 @@ jobs:
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
 
-      - name: Commit changed files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          tagging_message: 'v${{ steps.package-version.outputs.current-version }}'
-
-  release:
-    needs: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Get npm package version
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@main
       - name: Make zip
         run: zip -r Galmuri-v${{ steps.package-version.outputs.current-version }}.zip dist
       - name: Release
@@ -105,3 +96,14 @@ jobs:
         with:
           files: Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
           tag_name: 'v${{ steps.package-version.outputs.current-version }}'
+
+      - run: npm ci
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          tagging_message: 'v${{ steps.package-version.outputs.current-version }}'
