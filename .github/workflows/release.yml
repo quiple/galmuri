@@ -70,15 +70,19 @@ jobs:
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
           fonttools ttLib.woff2 compress dist/Galmuri7.ttf
 
-      - name: Update npm package version and get npm package version
+      - name: Update npm package version
         run: |
           python files/version.py dist/Galmuri11.bdf package.json
           python files/version.py dist/Galmuri11.bdf package-lock.json
+
+      - name: Get npm package version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
 
-      - name: Make zip and release
+      - name: Make zip
         run: zip -r Galmuri-v${{ steps.package-version.outputs.current-version }}.zip dist
+
+      - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
@@ -91,8 +95,10 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Clean up Temporary Files and commit changed files
+      - name: Clean up Temporary Files
         run: rm -rf dist/g11_mod.bdf dist/g11b_mod.bdf dist/g9_mod.bdf dist/g7_mod.bdf Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
+
+      - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           tagging_message: 'v${{ steps.package-version.outputs.current-version }}'
