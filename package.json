@@ -16,6 +16,16 @@
   ],
   "author": "Minseo Lee (itoupluk427@gmail.com)",
   "license": "OFL-1.1",
+  "funding": [
+    {
+      "type" : "patreon",
+      "url" : "https://patreon.com/quiple"
+    },
+    {
+      "type" : "liberapay",
+      "url" : "https://liberapay.com/quiple"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/quiple/galmuri/issues"
   },
