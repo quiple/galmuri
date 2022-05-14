@@ -128,7 +128,7 @@ h1 { font-weight: normal; margin: 0; margin-top: -20px; line-height: 1.5; font-f
   .btns { gap: 20px; overflow-x: scroll; margin: 0; padding: 3px; }
   .btn { padding: 0 18px; }
   p, .btns { width: 100%; }
-  html, body { font-size: 16px; }
+  html, body { font-size: 16px; word-break: initial; }
   h1, #title * { font-size: 7.5vw; }
   #name { font-size: 20vw; }
 }
