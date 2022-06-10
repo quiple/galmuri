@@ -19,7 +19,7 @@ jobs:
           distribution: 'zulu'
           java-version: '18'
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
       - name: Set up Node.js
