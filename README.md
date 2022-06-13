@@ -10,7 +10,7 @@
 
 Bitmap fonts based on the font design from Nintendo DS. With additional characters support.
 
-All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 are my pure creations.
+All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 Bold are my pure creations.
 
 ## Character Preview
 
@@ -107,7 +107,7 @@ npm i galmuri
 
 <summary>Legal Stuff</summary>
 
-All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 are my pure creations. But it doesn't mean that Nintendo owns the rights to glyphs that I didn't create and I'm violating Nintendo's rights.
+All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 Bold are my pure creations. But it doesn't mean that Nintendo owns the rights to glyphs that I didn't create and I'm violating Nintendo's rights.
 
 At least in the US and South Korea, the font file and code are copyrighted, but the font design cannot be copyrighted. And likewise in both countries, bitmap fonts in general cannot be copyrighted. See also: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://www.faqs.org/faqs/fonts-faq/part2/)
 
