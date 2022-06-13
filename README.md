@@ -10,6 +10,8 @@
 
 Bitmap fonts based on the font design from Nintendo DS. With additional characters support.
 
+All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 are my pure creations.
+
 ## Character Preview
 
 - [Galmuri Character Preview](https://galmuri.quiple.dev/glyphs)
