@@ -33,7 +33,7 @@ All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9
 | Katakana                      | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
 | Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:[^old] | :heavy_check_mark: | :heavy_check_mark:[^old] |
 | CJK Unified Ideographs        | :heavy_check_mark:[^jis] |                    | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis] |
-| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:[^han] | :heavy_check_mark:[^han-1] | :heavy_check_mark:[^han-1] |
+| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:[^han] | :heavy_check_mark: | :heavy_check_mark:[^han-1] |
 | CJK Compatibility Ideographs  | :heavy_check_mark:[^ks] |                    | :heavy_check_mark:[^ks] |                    |
 | Vertical Forms                | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
 | CJK Compatibility Forms       | :heavy_check_mark: |                    | :heavy_check_mark: | :heavy_check_mark: |
