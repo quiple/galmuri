@@ -1,3 +1,4 @@
+@charset "utf-8";
 @font-face { font-family: Galmuri11; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri11.woff2') format('woff2'), url('../dist/Galmuri11.ttf') format('truetype'); }
 @font-face { font-family: Galmuri11; font-weight: 700; font-style: normal; font-display: block; src: url('../dist/Galmuri11-Bold.woff2') format('woff2'), url('../dist/Galmuri11-Bold.ttf') format('truetype'); }
 @font-face { font-family: Galmuri9; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri9.woff2') format('woff2'), url('../dist/Galmuri9.ttf') format('truetype'); }
@@ -18,7 +19,8 @@ html, body { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-
 .g11b { font-family: Galmuri11, serif; font-weight: 700; font-size: 24px; }
 .g9 { font-family: Galmuri9, serif; font-weight: 400; font-size: 20px; }
 .g7 { font-family: Galmuri7, serif; font-weight: 400; font-size: 16px; }
-ul { list-style-type: square; font-size: 20px; font-family: Galmuri9, sans-serif; }
+ul { list-style-type: none; font-size: 20px; font-family: Galmuri9, sans-serif; padding-left: 20px; position: relative; }
+li::before { content: '•'; left: 0; position: absolute; }
 h3 { font-size: 24px; }
 p, li, .btns { line-height: 1.5; width: 62.5%; }
 p:first-child { margin-top: -12px; }
@@ -131,6 +133,9 @@ h1, h2:not(#title) { font-weight: normal; margin: 0; margin-top: -20px; line-hei
   .btn { padding: 0 18px; }
   p, .btns { width: 100%; }
   html, body { font-size: 16px; word-break: initial; }
+  ul { font-size: calc(13px + 1px / 3); }
+  li { width: 100%; }
+  h3 { font-size: 16px; }
   h1, h2:not(#title), #title * { font-size: 7.5vw; }
   #name { font-size: 20vw; }
 }
