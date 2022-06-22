@@ -23,7 +23,7 @@ h2 { line-height: 1; }
 p, ul, small { line-height: 1.5; }
 ul { list-style-type: none; font-size: 16px; font-family: Galmuri7, sans-serif; padding-left: 16px; position: relative; }
 li { margin: .25em 0; }
-li::before { content: '•'; left: 0; position: absolute; }
+li::before { content: '•'; left: 2px; position: absolute; }
 .doc { max-width: 768px; padding: 0 24px; margin: 0 auto; }
 h2 { font-family: Galmuri11, sans-serif; font-size: 24px; font-weight: 700; margin: 24px 0; }
 a { color: var(--point-color); text-decoration: none; }
