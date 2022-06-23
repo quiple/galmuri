@@ -62,7 +62,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
 .tameshi { height: auto !important; padding-top: 0 !important; }
 #tameshi { background-color: transparent; color: var(--cr); width: calc(100% + 6px); box-sizing: border-box; min-height: 200px; height: 100px; resize: vertical; line-height: 1.5; padding: 8px 14px; border: 3px solid var(--cro); transition: font-size .1s, border-color .1s; margin: 0 -3px; }
 #tameshi:focus { border-color: var(--cr); outline: none; }
-.donate-wrap { display: flex; gap: 16px; }
+.donate-wrap { display: flex; gap: 16px; flex-wrap: wrap; }
 .donate { display: flex; align-items: stretch; position: relative; border: 2px solid var(--cro); padding: 12px; border-radius: 16px; }
 .donate-logo { display: block; height: 18px; position: absolute; top: -10px; border-left: 4px solid var(--bg); border-right: 4px solid var(--bg); background-color: var(--bg); }
 .donate-img { display: block; padding: 4px; width: 148px; background-color: #fff; box-shadow: 0 0 2px rgba(0,0,0,.75); border-radius: 4px; }
