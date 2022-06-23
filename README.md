@@ -75,6 +75,10 @@ font-family: Galmuri7, sans-serif;
 npm i galmuri
 ```
 
+## Donate
+
+<img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/donate.png" alt="Donate" style="height:240px">
+
 ## To Do
 
 - [x] Adobe-KR-0에 포함된 한글 음절 중 KS X 1001에 포함되지 않는 430자 추가
