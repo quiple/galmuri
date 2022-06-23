@@ -88,6 +88,8 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
 }
 @media (max-width: 720px) {
   html, body { font-size: 16px; }
+  ul { list-style-type: none; font-size: 12.8px; }
+  .swiper .capt { font-size: 12.8px; }
   .doc { padding: 0 16px; }
   #list .item { width: calc(var(--tableWidth) / var(--columnsXS)); height: calc(var(--tableWidth) / var(--columnsXS)); }
   .detail { width: calc(100% - 80px); margin-bottom: 40px; flex-direction: column; gap: 12px; align-items: stretch; font-size: 12px; }
