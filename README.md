@@ -75,7 +75,7 @@ font-family: Galmuri7, sans-serif;
 npm i galmuri
 ```
 
-## Donate
+## Sponsor
 
 <img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/donate.png" alt="Donate" style="height:240px">
 
