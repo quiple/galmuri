@@ -29,14 +29,20 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Set up fontTools
         run: pip install fonttools[woff]
+      - name: Set up FontForge
+        run: |
+          sudo apt-get install -y software-properties-common
+          sudo add-apt-repository ppa:fontforge/fontforge
+          sudo apt-get update
+          sudo apt-get install -y fontforge
       - name: Set up Wine
         run: |
           sudo dpkg --add-architecture i386
           sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 86B72ED9
           sudo add-apt-repository "deb [arch=amd64] https://mirror.mxe.cc/repos/apt focal main"
-          sudo apt -qq update
-          sudo apt install -y --allow-downgrades libpcre2-8-0=10.34-7
-          sudo apt install -y wine32
+          sudo apt-get -qq update
+          sudo apt-get install -y --allow-downgrades libpcre2-8-0=10.34-7
+          sudo apt-get install -y wine32
 
       - name: Clean up distribution files
         run: |
@@ -65,6 +71,7 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri11-Bold.ttf src/Galmuri11-Bold.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri9.ttf src/Galmuri9.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri7.ttf src/Galmuri7.kbits
+          fontforge -lang=ff -script fontforge.sh
           fonttools ttLib.woff2 compress dist/Galmuri11.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11-Bold.ttf
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
