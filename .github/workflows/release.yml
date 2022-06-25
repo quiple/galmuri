@@ -9,32 +9,39 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: true
+
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
           java-version: '18'
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
           registry-url: https://registry.npmjs.org/
+
       - name: Set up fontTools
         run: pip install fonttools[woff]
+
       - name: Set up FontForge
         run: |
           sudo apt-get install -y software-properties-common
           sudo add-apt-repository ppa:fontforge/fontforge
-          sudo apt-get update
+          sudo apt-get -qq update
           sudo apt-get install -y fontforge
+
       - name: Set up Wine
         run: |
           sudo dpkg --add-architecture i386
