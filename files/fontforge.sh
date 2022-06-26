@@ -4,6 +4,8 @@
 
 Open('dist/Galmuri11.ttf', 32)
 
+Reencode('unicode')
+
 SetFontNames('Galmuri11-Regular', 'Galmuri11', 'Galmuri11 Regular', 'Regular')
 
 SetOS2Value('Weight',      400) # 400 Regular
@@ -42,6 +44,8 @@ Generate('dist/Galmuri11.ttf')
 # Galmuri11 Bold
 
 Open('dist/Galmuri11-Bold.ttf', 32)
+
+Reencode('unicode')
 
 SetFontNames('Galmuri11-Bold', 'Galmuri11', 'Galmuri11 Bold', 'Bold')
 
@@ -82,6 +86,8 @@ Generate('dist/Galmuri11-Bold.ttf')
 
 Open('dist/Galmuri9.ttf', 32)
 
+Reencode('unicode')
+
 SetFontNames('Galmuri9-Regular', 'Galmuri9', 'Galmuri9 Regular', 'Regular')
 
 SetOS2Value('Weight',      400) # 400 Regular
@@ -120,6 +126,8 @@ Generate('dist/Galmuri9.ttf')
 # Galmuri7
 
 Open('dist/Galmuri7.ttf', 32)
+
+Reencode('unicode')
 
 SetFontNames('Galmuri7-Regular', 'Galmuri7', 'Galmuri7 Regular', 'Regular')
 
