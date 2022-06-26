@@ -4,11 +4,10 @@
 
 Open('dist/Galmuri11.ttf', 32)
 
-Reencode('unicode')
-
 SetFontNames('Galmuri11-Regular', 'Galmuri11', 'Galmuri11 Regular', 'Regular')
 
 SetOS2Value('Weight',      400) # 400 Regular
+SetOS2Value('StyleMap',      6) # Regular
 SetOS2Value('VendorID', 'QPLE')
 SetOS2Value('IBMFamily',  2048) # Sans Serif
 
@@ -45,11 +44,10 @@ Generate('dist/Galmuri11.ttf')
 
 Open('dist/Galmuri11-Bold.ttf', 32)
 
-Reencode('unicode')
-
 SetFontNames('Galmuri11-Bold', 'Galmuri11', 'Galmuri11 Bold', 'Bold')
 
 SetOS2Value('Weight',      700) # 700 Bold
+SetOS2Value('StyleMap',      5) # Bold
 SetOS2Value('VendorID', 'QPLE')
 SetOS2Value('IBMFamily',  2048) # Sans Serif
 
@@ -86,11 +84,10 @@ Generate('dist/Galmuri11-Bold.ttf')
 
 Open('dist/Galmuri9.ttf', 32)
 
-Reencode('unicode')
-
 SetFontNames('Galmuri9-Regular', 'Galmuri9', 'Galmuri9 Regular', 'Regular')
 
 SetOS2Value('Weight',      400) # 400 Regular
+SetOS2Value('StyleMap',      6) # Regular
 SetOS2Value('VendorID', 'QPLE')
 SetOS2Value('IBMFamily',  2048) # Sans Serif
 
@@ -127,11 +124,10 @@ Generate('dist/Galmuri9.ttf')
 
 Open('dist/Galmuri7.ttf', 32)
 
-Reencode('unicode')
-
 SetFontNames('Galmuri7-Regular', 'Galmuri7', 'Galmuri7 Regular', 'Regular')
 
 SetOS2Value('Weight',      400) # 400 Regular
+SetOS2Value('StyleMap',      6) # Regular
 SetOS2Value('VendorID', 'QPLE')
 SetOS2Value('IBMFamily',  2048) # Sans Serif
 
