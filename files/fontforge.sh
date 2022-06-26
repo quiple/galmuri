@@ -2,7 +2,7 @@
 
 # Galmuri11
 
-Open('../dist/Galmuri11.ttf', 32)
+Open('dist/Galmuri11.ttf', 32)
 
 SetFontNames('Galmuri11-Regular', 'Galmuri11', 'Galmuri11 Regular', 'Regular')
 
@@ -36,11 +36,11 @@ SetGasp(12,1,24,1,36,1,48,1,60,1,72,1,65535,2)
 
 SetFontHasVerticalMetrics(1)
 
-Generate('../dist/Galmuri11.ttf')
+Generate('dist/Galmuri11.ttf')
 
 # Galmuri11 Bold
 
-Open('../dist/Galmuri11-Bold.ttf', 32)
+Open('dist/Galmuri11-Bold.ttf', 32)
 
 SetFontNames('Galmuri11-Bold', 'Galmuri11', 'Galmuri11 Bold', 'Bold')
 
@@ -74,11 +74,11 @@ SetGasp(12,1,24,1,36,1,48,1,60,1,72,1,65535,2)
 
 SetFontHasVerticalMetrics(1)
 
-Generate('../dist/Galmuri11-Bold.ttf')
+Generate('dist/Galmuri11-Bold.ttf')
 
 # Galmuri9
 
-Open('../dist/Galmuri9.ttf', 32)
+Open('dist/Galmuri9.ttf', 32)
 
 SetFontNames('Galmuri9-Regular', 'Galmuri9', 'Galmuri9 Regular', 'Regular')
 
@@ -112,11 +112,11 @@ SetGasp(10,1,20,1,30,1,40,1,50,1,60,1,70,1,65535,2)
 
 SetFontHasVerticalMetrics(1)
 
-Generate('../dist/Galmuri9.ttf')
+Generate('dist/Galmuri9.ttf')
 
 # Galmuri7
 
-Open('../dist/Galmuri7.ttf', 32)
+Open('dist/Galmuri7.ttf', 32)
 
 SetFontNames('Galmuri7-Regular', 'Galmuri7', 'Galmuri7 Regular', 'Regular')
 
@@ -150,6 +150,6 @@ SetGasp(8,1,16,1,24,1,32,1,40,1,48,1,56,1,64,1,72,1,65535,2)
 
 SetFontHasVerticalMetrics(1)
 
-Generate('../dist/Galmuri7.ttf')
+Generate('dist/Galmuri7.ttf')
 
 Close()
