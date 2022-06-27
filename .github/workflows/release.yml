@@ -37,6 +37,7 @@ jobs:
 
       - name: Set up AFDKO
         run: |
+          sudo apt-get -qq update
           sudo apt-get install libxml2
           pip install afdko
 
