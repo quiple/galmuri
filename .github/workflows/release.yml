@@ -38,7 +38,7 @@ jobs:
       - name: Set up AFDKO
         run: |
           sudo apt-get -qq update
-          sudo apt-get install ia32-libs
+          sudo apt-get install libxml2=2.9.1
           pip install afdko
 
       - name: Set up Wine
