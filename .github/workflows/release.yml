@@ -102,7 +102,10 @@ jobs:
           tag_name: 'v${{ steps.package-version.outputs.current-version }}'
 
       - name: Clean up Temporary Files
-        run: rm -rf dist/g11_mod.bdf dist/g11b_mod.bdf dist/g9_mod.bdf dist/g7_mod.bdf Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
+        run: |
+          rm -rf dist/*_mod.bdf
+          rm -rf Galmuri-v*.zip
+          rm -rf tGalmuri*.ttf
 
       - name: Publish to npm
         run: |
