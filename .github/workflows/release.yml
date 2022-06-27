@@ -85,8 +85,8 @@ jobs:
 
       - name: Update npm package version
         run: |
-          python files/version.py dist/Galmuri11.bdf package.json
-          python files/version.py dist/Galmuri11.bdf package-lock.json
+          python files/version.py files/g11.fea package.json
+          python files/version.py files/g11.fea package-lock.json
 
       - name: Get npm package version
         id: package-version
