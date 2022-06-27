@@ -35,6 +35,9 @@ jobs:
       - name: Set up fontTools
         run: pip install fonttools[woff]
 
+      - name: Set up AFDKO
+        run: pip install afdko
+
       - name: Set up Wine
         run: |
           sudo dpkg --add-architecture i386
@@ -67,10 +70,14 @@ jobs:
 
       - name: Convert to TrueType fonts and compress to WOFF2
         run: |
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri11.ttf src/Galmuri11.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri11-Bold.ttf src/Galmuri11-Bold.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri9.ttf src/Galmuri9.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o dist/Galmuri7.ttf src/Galmuri7.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11.ttf src/Galmuri11.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Bold.ttf src/Galmuri11-Bold.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri9.ttf src/Galmuri9.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbits
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6 -addn
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Bold.ttf -ff files/g11b.fea -o dist/Galmuri11-Bold.ttf -osbOn 5 -addn
+          makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6 -addn
+          makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6 -addn
           fonttools ttLib.woff2 compress dist/Galmuri11.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11-Bold.ttf
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
