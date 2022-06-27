@@ -33,13 +33,10 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Set up fontTools
-        run: pip install fonttools[woff]
+        run: pip3 install fonttools[woff]
 
       - name: Set up AFDKO
-        run: |
-          sudo apt-get -qq update
-          sudo apt-get install libxml2=2.9.1
-          pip install afdko
+        run: pip3 install afdko
 
       - name: Set up Wine
         run: |
