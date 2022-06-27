@@ -36,7 +36,9 @@ jobs:
         run: pip3 install fonttools[woff]
 
       - name: Set up AFDKO
-        run: pip3 install afdko
+        run: |
+          pip3 install afdko
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Set up Wine
         run: |
