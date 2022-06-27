@@ -36,7 +36,9 @@ jobs:
         run: pip install fonttools[woff]
 
       - name: Set up AFDKO
-        run: pip install afdko
+        run: |
+          sudo apt-get install libxml2
+          pip install afdko
 
       - name: Set up Wine
         run: |
