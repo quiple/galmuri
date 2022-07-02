@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.304;
+  FontRevision   2.305;
 
 } head;
 
@@ -21,11 +21,9 @@ feature kern {
   pos [i j l fi fl uniFB03 uniFB04] [i j l] -100;
   pos [f t] j -100;
   pos A V -100;
-  pos [slash V] A -100;
-  pos V [slash A] -100;
   pos A W -100;
-  pos [slash W] A -100;
-  pos W [slash A] -100;
+  pos [slash V W] A -100;
+  pos [V W] slash -100;
 
 } kern;
 
