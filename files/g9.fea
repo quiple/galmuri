@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.306;
+  FontRevision   2.307;
 
 } head;
 
@@ -16,11 +16,68 @@ feature liga {
 
 feature kern {
 
-  pos T [a c e g m-s u-z] -100;
-  pos [a c e g m-s u-z] T -100;
-  pos f j -100;
+  pos T [a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] -100;
+  pos [L a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] T -100;
+  pos [f hyphen equal asciitilde uni2010-uni2012 endash emdash afii00208] [J j] -100;
 
 } kern;
+
+feature vert {
+
+  sub uni2025 by uniFE30; # ‥
+  sub ellipsis by uniFE19; # …
+
+  sub uni3001 by uniFE11; # 、
+  sub uni3002 by uniFE12; # 。
+  sub uni3008 by uniFE3F; # 〈
+  sub uni3009 by uniFE40; # 〉
+  sub uni300A by uniFE3D; # 《
+  sub uni300B by uniFE3E; # 》
+  sub uni300C by uniFE41; # 「
+  sub uni300D by uniFE42; # 」
+  sub uni300E by uniFE43; # 『
+  sub uni300F by uniFE44; # 』
+  sub uni3010 by uniFE3B; # 【
+  sub uni3011 by uniFE3C; # 】
+  sub uni3014 by uniFE39; # 〔
+  sub uni3015 by uniFE3A; # 〕
+  sub uni3016 by uniFE17; # 〖
+  sub uni3017 by uniFE18; # 〗
+
+  sub uni3041 by uniF020; # ぁ
+  sub uni3043 by uniF021; # ぃ
+  sub uni3045 by uniF022; # ぅ
+  sub uni3047 by uniF023; # ぇ
+  sub uni3049 by uniF024; # ぉ
+  sub uni3063 by uniF025; # っ
+  sub uni3083 by uniF026; # ゃ
+  sub uni3085 by uniF027; # ゅ
+  sub uni3087 by uniF028; # ょ
+  sub uni3095 by uniF029; # ゕ
+  sub uni3096 by uniF02A; # ゖ
+  sub uni30A1 by uniF030; # ァ
+  sub uni30A3 by uniF031; # ィ
+  sub uni30A5 by uniF032; # ゥ
+  sub uni30A7 by uniF033; # ェ
+  sub uni30A9 by uniF034; # ォ
+  sub uni30C3 by uniF035; # ッ
+  sub uni30E3 by uniF036; # ャ
+  sub uni30E5 by uniF037; # ュ
+  sub uni30E7 by uniF038; # ョ
+  sub uni30F5 by uniF039; # ヵ
+  sub uni30F6 by uniF03A; # ヶ
+  sub uni30A0 by uniF03B; # ゠
+  sub uni30FB by uniF03C; # ・
+  sub uni30FC by uniF03D; # ー
+
+  sub uniFF08 by uniFE35; # （
+  sub uniFF09 by uniFE36; # ）
+  sub uniFF3B by uniFE47; # ［
+  sub uniFF3D by uniFE48; # ］
+  sub uniFF5B by uniFE37; # ｛
+  sub uniFF5D by uniFE38; # ｝
+
+} vert;
 
 feature tnum {
 
@@ -39,6 +96,14 @@ table hhea {
   LineGap      200;
 
 } hhea;
+
+table vhea {
+
+  VertTypoAscender   500;
+  VertTypoDescender -500;
+  VertTypoLineGap      0;
+
+} vhea;
 
 table name {
 

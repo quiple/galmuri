@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.306;
+  FontRevision   2.307;
 
 } head;
 
@@ -16,16 +16,37 @@ feature liga {
 
 feature kern {
 
-  pos T [a c e g m-s u-z] -100;
-  pos [a c e g m-s u-z] T -100;
+  pos T [a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] -100;
+  pos [a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] T -100;
+  pos L T -200;
+  pos [f t hyphen equal asciitilde uni2010-uni2012 endash emdash afii00208] j -100;
   pos [i j l fi fl uniFB03 uniFB04] [i j l] -100;
-  pos [f t] j -100;
   pos [A backslash] [V W backslash] -100;
   pos [V W slash] [A slash] -100;
 
 } kern;
 
 feature vert {
+
+  sub uni2025 by uniFE30; # ‥
+  sub ellipsis by uniFE19; # …
+
+  sub uni3001 by uniFE11; # 、
+  sub uni3002 by uniFE12; # 。
+  sub uni3008 by uniFE3F; # 〈
+  sub uni3009 by uniFE40; # 〉
+  sub uni300A by uniFE3D; # 《
+  sub uni300B by uniFE3E; # 》
+  sub uni300C by uniFE41; # 「
+  sub uni300D by uniFE42; # 」
+  sub uni300E by uniFE43; # 『
+  sub uni300F by uniFE44; # 』
+  sub uni3010 by uniFE3B; # 【
+  sub uni3011 by uniFE3C; # 】
+  sub uni3014 by uniFE39; # 〔
+  sub uni3015 by uniFE3A; # 〕
+  sub uni3016 by uniFE17; # 〖
+  sub uni3017 by uniFE18; # 〗
 
   sub uni3041 by uniF020; # ぁ
   sub uni3043 by uniF021; # ぃ
@@ -49,6 +70,16 @@ feature vert {
   sub uni30E7 by uniF038; # ョ
   sub uni30F5 by uniF039; # ヵ
   sub uni30F6 by uniF03A; # ヶ
+  sub uni30A0 by uniF03B; # ゠
+  sub uni30FB by uniF03C; # ・
+  sub uni30FC by uniF03D; # ー
+
+  sub uniFF08 by uniFE35; # （
+  sub uniFF09 by uniFE36; # ）
+  sub uniFF3B by uniFE47; # ［
+  sub uniFF3D by uniFE48; # ］
+  sub uniFF5B by uniFE37; # ｛
+  sub uniFF5D by uniFE38; # ｝
 
 } vert;
 
@@ -64,6 +95,14 @@ table hhea {
   LineGap      200;
 
 } hhea;
+
+table vhea {
+
+  VertTypoAscender   600;
+  VertTypoDescender -600;
+  VertTypoLineGap      0;
+
+} vhea;
 
 table name {
 

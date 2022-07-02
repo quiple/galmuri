@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.306;
+  FontRevision   2.307;
 
 } head;
 
@@ -16,9 +16,10 @@ feature liga {
 
 feature kern {
 
-  pos T [a c e g m-s u-z] -100;
-  pos [a c e g m-s u-z] T -100;
-  pos f j -100;
+  pos T [a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] -100;
+  pos [a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] T -100;
+  pos L T -200;
+  pos [f hyphen equal asciitilde uni2010-uni2012 endash emdash afii00208] j -100;
 
 } kern;
 
@@ -34,6 +35,14 @@ table hhea {
   LineGap      200;
 
 } hhea;
+
+table vhea {
+
+  VertTypoAscender   600;
+  VertTypoDescender -600;
+  VertTypoLineGap      0;
+
+} vhea;
 
 table name {
 
