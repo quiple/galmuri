@@ -1,25 +1,24 @@
 table head {
 
-  FontRevision   2.302;
+  FontRevision   2.303;
 
 } head;
 
 feature liga {
 
-  substitute f f by uniFB00;
-  substitute f i by fi;
-  substitute f l by fl;
-  substitute f f i by uniFB03;
-  substitute f f l by uniFB04;
+  sub f f by uniFB00;
+  sub f i by fi;
+  sub f l by fl;
+  sub f f i by uniFB03;
+  sub f f l by uniFB04;
 
 } liga;
 
 feature kern {
 
   pos T [a c e g m-s u-z] -100;
-  pos [i j l] [i j l] -100;
-  pos f [c d e g o q] -100;
-  pos [b e o p] f -100;
+  pos [a c e g m-s u-z] T -100;
+  pos [i j l uniFB03 uniFB04] [i j l] -100;
   pos [f t] j -100;
   pos A V -100;
   pos V A -100;
@@ -27,6 +26,18 @@ feature kern {
   pos W A -100;
 
 } kern;
+
+feature tnum {
+
+  sub one by uniF001;
+
+} tnum;
+
+feature zero {
+
+  sub zero by uniF000;
+
+} zero;
 
 table hhea {
 
