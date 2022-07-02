@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.300;
+  FontRevision   2.301;
 
 } head;
 
@@ -106,7 +106,7 @@ table OS/2 {
   TypoAscender    1200;
   TypoDescender   -200;
   TypoLineGap      200;
-  winAscent       1600;
+  winAscent       1300;
   winDescent       200;
   XHeight          800;
   CapHeight       1100;
