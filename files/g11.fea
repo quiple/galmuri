@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.305;
+  FontRevision   2.306;
 
 } head;
 
@@ -20,31 +20,48 @@ feature kern {
   pos [a c e g m-s u-z] T -100;
   pos [i j l fi fl uniFB03 uniFB04] [i j l] -100;
   pos [f t] j -100;
-  pos A V -100;
-  pos A W -100;
-  pos [slash V W] A -100;
-  pos [V W] slash -100;
+  pos [A backslash] [V W backslash] -100;
+  pos [V W slash] [A slash] -100;
 
 } kern;
 
-feature tnum {
+feature vert {
 
-  sub one by uniF001;
+  sub uni3041 by uniF020; # ぁ
+  sub uni3043 by uniF021; # ぃ
+  sub uni3045 by uniF022; # ぅ
+  sub uni3047 by uniF023; # ぇ
+  sub uni3049 by uniF024; # ぉ
+  sub uni3063 by uniF025; # っ
+  sub uni3083 by uniF026; # ゃ
+  sub uni3085 by uniF027; # ゅ
+  sub uni3087 by uniF028; # ょ
+  sub uni3095 by uniF029; # ゕ
+  sub uni3096 by uniF02A; # ゖ
+  sub uni30A1 by uniF030; # ァ
+  sub uni30A3 by uniF031; # ィ
+  sub uni30A5 by uniF032; # ゥ
+  sub uni30A7 by uniF033; # ェ
+  sub uni30A9 by uniF034; # ォ
+  sub uni30C3 by uniF035; # ッ
+  sub uni30E3 by uniF036; # ャ
+  sub uni30E5 by uniF037; # ュ
+  sub uni30E7 by uniF038; # ョ
+  sub uni30E5 by uniF039; # ヵ
+  sub uni30E6 by uniF03A; # ヶ
 
-} tnum;
+} vert;
 
-feature zero {
+feature tnum { sub one by uniF001; } tnum;
 
-  sub zero by uniF000;
-
-} zero;
+feature zero { sub zero by uniF000; } zero;
 
 table hhea {
 
-  CaretOffset        0;
-  Ascender        1200;
-  Descender        200;
-  LineGap          200;
+  CaretOffset    0;
+  Ascender    1200;
+  Descender    200;
+  LineGap      200;
 
 } hhea;
 

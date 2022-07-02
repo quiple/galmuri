@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.305;
+  FontRevision   2.306;
 
 } head;
 
@@ -22,24 +22,16 @@ feature kern {
 
 } kern;
 
-feature tnum {
+feature tnum { sub one by uniF001; } tnum;
 
-  sub one by uniF001;
-
-} tnum;
-
-feature zero {
-
-  sub zero by uniF000;
-
-} zero;
+feature zero { sub zero by uniF000; } zero;
 
 table hhea {
 
-  CaretOffset        0;
-  Ascender        1200;
-  Descender        200;
-  LineGap          200;
+  CaretOffset    0;
+  Ascender    1200;
+  Descender    200;
+  LineGap      200;
 
 } hhea;
 
