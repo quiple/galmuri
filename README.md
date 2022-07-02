@@ -104,7 +104,6 @@ npm i galmuri
   - [ ] Galmuri11
   - [ ] Galmuri9
   - [ ] Galmuri7
-- [ ] [AFDKO](https://github.com/adobe-type-tools/afdko)를 사용하여 폰트 메타데이터 수정
 
 ----
 
