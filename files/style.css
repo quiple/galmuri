@@ -20,6 +20,16 @@ html, body { font-size: 20px; position: relative; height: 100%; font-family: Gal
 .g11b { font-family: Galmuri11, serif; font-weight: 700; font-size: 24px; }
 .g9 { font-family: Galmuri9, serif; font-weight: 400; font-size: 20px; }
 .g7 { font-family: Galmuri7, serif; font-weight: 400; font-size: 16px; }
+.fea { display: flex; gap: 16px; }
+.fea pre { flex: 1; font-family: Galmuri11, sans-serif; font-size: 24px; line-height: 1.5; margin: 0; margin-top: -10px; }
+.fea.liga pre:first-child { font-feature-settings: 'liga' 0; }
+.fea.liga pre:last-child { font-feature-settings: 'liga' 1; }
+.fea.kern pre:first-child { font-feature-settings: 'kern' 0; }
+.fea.kern pre:last-child { font-feature-settings: 'kern' 1; }
+.fea.tnum pre:first-child { font-feature-settings: 'tnum' 0; }
+.fea.tnum pre:last-child { font-feature-settings: 'tnum' 1; }
+.fea.zero pre:first-child { font-feature-settings: 'zero' 0; }
+.fea.zero pre:last-child { font-feature-settings: 'zero' 1; }
 h2 { line-height: 1; }
 p, ul, small { line-height: 1.5; }
 ul { list-style-type: none; font-size: 16px; font-family: Galmuri7, sans-serif; padding-left: 16px; position: relative; }

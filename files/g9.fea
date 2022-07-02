@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.303;
+  FontRevision   2.304;
 
 } head;
 
@@ -19,8 +19,6 @@ feature kern {
   pos T [a c e g m-s u-z] -100;
   pos [a c e g m-s u-z] T -100;
   pos f j -100;
-  pos A V -100;
-  pos V A -100;
 
 } kern;
 
