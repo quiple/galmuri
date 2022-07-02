@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.307;
+  FontRevision   2.308;
 
 } head;
 
@@ -21,7 +21,7 @@ feature kern {
   pos L T -200;
   pos [f t hyphen equal asciitilde uni2010-uni2012 endash emdash afii00208] j -100;
   pos [i j l fi fl uniFB03 uniFB04] [i j l] -100;
-  pos [A backslash] [V W backslash] -100;
+  pos [A L backslash] [V W backslash] -100;
   pos [V W slash] [A slash] -100;
 
 } kern;
