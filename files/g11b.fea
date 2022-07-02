@@ -25,7 +25,6 @@ feature kern {
 feature tnum {
 
   sub one by uniF001;
-  sub four by uniF002;
 
 } tnum;
 

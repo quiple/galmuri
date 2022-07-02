@@ -18,7 +18,7 @@ feature kern {
 
   pos T [a c e g m-s u-z] -100;
   pos [a c e g m-s u-z] T -100;
-  pos [i j l uniFB03 uniFB04] [i j l] -100;
+  pos [i j l fi fl uniFB03 uniFB04] [i j l] -100;
   pos [f t] j -100;
   pos A V -100;
   pos V A -100;
