@@ -47,8 +47,8 @@ feature vert {
   sub uni30E3 by uniF036; # ャ
   sub uni30E5 by uniF037; # ュ
   sub uni30E7 by uniF038; # ョ
-  sub uni30E5 by uniF039; # ヵ
-  sub uni30E6 by uniF03A; # ヶ
+  sub uni30F5 by uniF039; # ヵ
+  sub uni30F6 by uniF03A; # ヶ
 
 } vert;
 
