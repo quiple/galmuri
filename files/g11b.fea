@@ -1,8 +1,18 @@
 table head {
 
-  FontRevision   2.301;
+  FontRevision   2.302;
 
 } head;
+
+feature liga {
+
+  substitute f f by uniFB00;
+  substitute f i by fi;
+  substitute f l by fl;
+  substitute f f i by uniFB03;
+  substitute f f l by uniFB04;
+
+} liga;
 
 table hhea {
 
@@ -106,7 +116,7 @@ table OS/2 {
   TypoAscender    1200;
   TypoDescender   -200;
   TypoLineGap      200;
-  winAscent       1300;
+  winAscent       1400;
   winDescent       200;
   XHeight          800;
   CapHeight       1100;
