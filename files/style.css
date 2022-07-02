@@ -20,7 +20,7 @@ html, body { font-size: 20px; position: relative; height: 100%; font-family: Gal
 .g11b { font-family: Galmuri11, serif; font-weight: 700; font-size: 24px; }
 .g9 { font-family: Galmuri9, serif; font-weight: 400; font-size: 20px; }
 .g7 { font-family: Galmuri7, serif; font-weight: 400; font-size: 16px; }
-.fea { display: flex; gap: 16px; }
+.fea { display: flex; gap: 10px; }
 .fea pre { flex: 1; font-family: Galmuri11, sans-serif; font-size: 24px; line-height: 1.5; margin: 0; margin-top: -10px; }
 .fea pre span { color: var(--point-color); }
 .fea.liga pre:first-child { font-feature-settings: 'liga' 0; }
