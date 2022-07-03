@@ -1,8 +1,10 @@
 table head {
 
-  FontRevision   2.308;
+  FontRevision   2.309;
 
 } head;
+
+languagesystem DFLT dflt;
 
 feature liga {
 
@@ -16,9 +18,18 @@ feature liga {
 
 feature kern {
 
-  pos T [a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] -100;
-  pos [L a c e g m-s u-z hyphen equal underscore asciitilde uni2010-uni2012 endash emdash afii00208] T -100;
-  pos [f hyphen equal asciitilde uni2010-uni2012 endash emdash afii00208] [J j] -100;
+  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
+  @mid = [a c e g m-s u-z hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
+  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
+  @btm = [comma period underscore];
+
+  enum pos T [d @mid] -100;
+  enum pos [L b h k @mid] T -100;
+  enum pos [F f r T V v W w Y y @hor] [J j] -100;
+  enum pos A W 0;
+  enum pos W A 0;
+  enum pos [A L backslash @btm] [T V W Y backslash @top] -100;
+  enum pos [T V W Y slash @top] [A slash @btm] -100;
 
 } kern;
 
