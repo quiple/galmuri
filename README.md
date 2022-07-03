@@ -109,6 +109,7 @@ npm i galmuri
 
 <details>
 <summary>Legal Stuff</summary>
+
 All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 Bold are my pure creations. But it does not mean that Nintendo owns the rights to glyphs that I did not create and I'm violating Nintendo's rights.
 
 At least in the US and South Korea, the font file and code are copyrighted, but the font design cannot be copyrighted. And likewise in both countries, bitmap fonts in general cannot be copyrighted. See also: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://www.faqs.org/faqs/fonts-faq/part2/) Also, Galmuri's outline (scalable) font file is purely my creation for the first time, so I own the copyright, and I do not claim any rights to the "typeface design".
