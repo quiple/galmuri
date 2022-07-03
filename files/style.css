@@ -9,9 +9,9 @@
   --bg: #fbfbfb;
   --bgo: rgba(255,255,255,.5);
   --cr: #222;
-  --cro: rgba(0,0,0,.5);
-  --croo: rgba(0,0,0,.2);
-  --crooo: rgba(0,0,0,.05);
+  --cro: rgba(0,0,4,.5);
+  --croo: rgba(0,0,4,.2);
+  --crooo: rgba(0,0,4,.05);
 }
 ::selection { background-color: var(--point-color); color: var(--bg); }
 * { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
