@@ -158,7 +158,7 @@ table OS/2 {
   Panose             2   # Latin Text
                     11   # Normal Sans
                      5   # Book
-                     0   # Any
+                     3   # Modern
                      2   # None
                      2   # No Variation
                      2   # Straight Arms/Horizontal
