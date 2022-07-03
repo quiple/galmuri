@@ -94,6 +94,9 @@ jobs:
         id: package-version
         uses: martinbeentjes/npm-get-version-action@main
 
+      - name: Clean up Temporary Files
+        run: rm -rf dist/*_mod.bdf
+
       - name: Make zip
         run: zip -r Galmuri-v${{ steps.package-version.outputs.current-version }}.zip dist
 
@@ -105,7 +108,6 @@ jobs:
 
       - name: Clean up Temporary Files
         run: |
-          rm -rf dist/*_mod.bdf
           rm -rf Galmuri-v*.zip
           rm -rf tGalmuri*.ttf
 
