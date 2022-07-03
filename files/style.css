@@ -84,7 +84,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
 @media (prefers-color-scheme: dark) {
   :root {
     --point-color: #bbc2f7;
-    --bg: #222;
+    --bg: #222226;
     --bgo: rgba(0,0,0,.5);
     --cr: #fbfbfb;
     --cro: rgba(255,255,255,.5);
