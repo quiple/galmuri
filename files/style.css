@@ -31,7 +31,7 @@ html, body { font-size: 20px; position: relative; height: 100%; font-family: Gal
 .fea.tnum pre:last-child { font-feature-settings: 'tnum' 1; }
 .fea.zero pre:first-child { font-feature-settings: 'zero' 0; }
 .fea.zero pre:last-child { font-feature-settings: 'zero' 1; }
-small a img { height: 42px; vertical-align: bottom; filter: grayscale(1); transition: .1s; }
+small a img { image-rendering: initial; height: 42px; vertical-align: bottom; filter: grayscale(1); transition: .1s; }
 small a:hover img { filter: none; }
 h2 { line-height: 1; }
 p, ul, small { line-height: 1.5; }
