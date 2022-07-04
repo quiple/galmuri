@@ -59,14 +59,17 @@ jobs:
         run: |
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11.bdf src/Galmuri11.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Bold.bdf src/Galmuri11-Bold.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Condensed.bdf src/Galmuri11-Condensed.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri9.bdf src/Galmuri9.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri7.bdf src/Galmuri7.kbits
           python files/fix-yAxis.py dist/Galmuri11.bdf dist/g11_mod.bdf
           python files/fix-yAxis.py dist/Galmuri11-Bold.bdf dist/g11b_mod.bdf
+          python files/fix-yAxis.py dist/Galmuri11-Condensed.bdf dist/g11c_mod.bdf
           python files/fix-yAxis.py dist/Galmuri9.bdf dist/g9_mod.bdf
           python files/fix-yAxis.py dist/Galmuri7.bdf dist/g7_mod.bdf
           wine files/bdf2ttf.exe dist/Galmuri11Bitmap.ttf files/g11.ini dist/g11_mod.bdf
           wine files/bdf2ttf.exe dist/Galmuri11Bitmap-Bold.ttf files/g11b.ini dist/g11b_mod.bdf
+          wine files/bdf2ttf.exe dist/Galmuri11Bitmap-Condensed.ttf files/g11c.ini dist/g11c_mod.bdf
           wine files/bdf2ttf.exe dist/Galmuri9Bitmap.ttf files/g9.ini dist/g9_mod.bdf
           wine files/bdf2ttf.exe dist/Galmuri7Bitmap.ttf files/g7.ini dist/g7_mod.bdf
 
@@ -74,14 +77,17 @@ jobs:
         run: |
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11.ttf src/Galmuri11.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Bold.ttf src/Galmuri11-Bold.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Condensed.ttf src/Galmuri11-Condensed.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri9.ttf src/Galmuri9.kbits
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbits
           makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri11-Bold.ttf -ff files/g11b.fea -o dist/Galmuri11-Bold.ttf -osbOn 5 -addn
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Condensed.ttf -ff files/g11c.fea -o dist/Galmuri11-Condensed.ttf -osbOn 5 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6 -addn
           fonttools ttLib.woff2 compress dist/Galmuri11.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11-Bold.ttf
+          fonttools ttLib.woff2 compress dist/Galmuri11-Condensed.ttf
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
           fonttools ttLib.woff2 compress dist/Galmuri7.ttf
 
