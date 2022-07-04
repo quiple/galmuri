@@ -19,15 +19,15 @@ feature liga {
 feature kern {
 
   @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
-  @mid = [a c e g m-s u-z hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
+  @mid = [a c e g m-s u-z];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
   @bar = [i j l];
   @cpj = [F K L P R T V-Z f i-l r v-z];
   @smj = [B-D F G J O P S-W Y b c f o p r-t u-w y];
 
-  enum pos [T @top] [d @mid] -100;
-  enum pos [b h k @mid] [T @top] -100;
+  enum pos [T Y @top] [d @mid @hor] -100;
+  enum pos [b h k @mid @hor] [T Y @top] -100;
   enum pos T @btm -200;
   enum pos @btm T -200;
   enum pos L [T @top] -200;
