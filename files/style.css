@@ -5,6 +5,7 @@
 @font-face { font-family: Galmuri9; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri9.woff2') format('woff2'), url('../dist/Galmuri9.ttf') format('truetype'); }
 @font-face { font-family: Galmuri7; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri7.woff2') format('woff2'), url('../dist/Galmuri7.ttf') format('truetype'); }
 :root {
+  --yellow: #eab308;
   --point-color: #6171eb;
   --point-fixed: #6171eb;
   --bg: #fbfbfb;
@@ -33,6 +34,8 @@ html, body { font-size: 20px; position: relative; height: 100%; font-family: Gal
 .fea.tnum pre:last-child { font-feature-settings: 'tnum' 1; }
 .fea.zero pre:first-child { font-feature-settings: 'zero' 0; }
 .fea.zero pre:last-child { font-feature-settings: 'zero' 1; }
+.yellow { color: var(--yellow); }
+.note { opacity: .5; }
 small a img { image-rendering: initial; height: 42px; vertical-align: bottom; filter: grayscale(1); transition: .1s; }
 small a:hover img { filter: none; }
 h2 { line-height: 1; }
@@ -85,6 +88,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
 .donate-img { display: block; padding: 4px; width: 148px; background-color: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.5); border-radius: 4px; }
 @media (prefers-color-scheme: dark) {
   :root {
+    --yellow: #fde047;
     --point-color: #bbc2f7;
     --bg: #222226;
     --bgo: rgba(0,0,0,.5);
