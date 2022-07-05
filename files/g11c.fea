@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.313;
+  FontRevision   2.314;
 
 } head;
 
@@ -27,9 +27,6 @@ feature kern {
 
   enum pos [T Y @top] [d @mid @hor] -100;
   enum pos [b h k @mid @hor] [T Y @top] -100;
-  enum pos T @btm -200;
-  enum pos @btm T -200;
-  enum pos L [T @top] -200;
   enum pos [@smj @hor] j -100;
   enum pos [@cpj @hor] J -100;
   enum pos [L backslash @btm] [T V Y backslash @top] -100;
