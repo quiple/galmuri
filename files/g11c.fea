@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.312;
+  FontRevision   2.313;
 
 } head;
 
@@ -101,8 +101,15 @@ table OS/2 {
                      2   # No Variation
                      2   # Straight Arms/Horizontal
                  0 0 0;  # Any
-  UnicodeRange      56;  # Hangul Syllables
-  CodePageRange    949;  # Korean Wansung
+  UnicodeRange       0   # Basic Latin
+                    31   # General Punctuation
+                    36   # Number Forms
+                    48   # CJK Symbols And Punctuation
+                    52   # Hangul Compatibility Jamo
+                    56   # Hangul Syllables
+                    60;  # Private Use Area
+  CodePageRange   1252   # Latin 1
+                   949;  # Korean Wansung
   TypoAscender    1200;
   TypoDescender   -200;
   TypoLineGap      200;
