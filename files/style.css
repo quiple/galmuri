@@ -17,11 +17,11 @@
 ::selection { background-color: var(--point-color); color: var(--bg); }
 * { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
 html, body { font-size: 20px; position: relative; height: 100%; font-family: Galmuri9, sans-serif; box-sizing: border-box; background-color: var(--bg); color: var(--cr); }
-.g11 { font-family: Galmuri11, serif; font-weight: 400; font-size: 24px; }
-.g11b { font-family: Galmuri11, serif; font-weight: 700; font-size: 24px; }
-.g11c { font-family: Galmuri11, serif; font-weight: 700; font-stretch: condensed; font-size: 24px; }
-.g9 { font-family: Galmuri9, serif; font-weight: 400; font-size: 20px; }
-.g7 { font-family: Galmuri7, serif; font-weight: 400; font-size: 16px; }
+.g11 { font-family: Galmuri11, serif; font-weight: 400; font-stretch: normal; font-size: 24px; }
+.g11b { font-family: Galmuri11, serif; font-weight: 700; font-stretch: normal; font-size: 24px; }
+.g11c { font-family: Galmuri11, serif; font-weight: 400; font-stretch: condensed; font-size: 24px; }
+.g9 { font-family: Galmuri9, serif; font-weight: 400; font-stretch: normal; font-size: 20px; }
+.g7 { font-family: Galmuri7, serif; font-weight: 400; font-stretch: normal; font-size: 16px; }
 .fea { display: flex; gap: 10px; }
 .fea pre { flex: 1; font-family: Galmuri11, sans-serif; font-size: 24px; line-height: 1.5; margin: 0; margin-top: -10px; }
 .fea pre span { color: var(--point-color); }
