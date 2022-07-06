@@ -125,7 +125,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
   #name { font-size: 20vw; }
   .fea { flex-direction: column; gap: 20px; }
 }
-.octocat { border: 0; color:#fbfbfb; fill: var(--point-fixed); height: 5.2rem; position: absolute; right: 0; top: 0; width: 5.2rem; z-index: 2; }
+.octocat { border: 0; color: #fbfbfb; fill: var(--point-fixed); height: 5.2rem; position: fixed; right: 0; top: 0; width: 5.2rem; z-index: 2; }
 .octocat:hover .octocat-arm { animation: b .56s infinite; transform-origin: 7rem 5.25rem; }
 .octocat .octocat-arm, .octocat .octocat-body { fill: #fbfbfb; }
 @keyframes b {
