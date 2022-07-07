@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.314;
+  FontRevision   2.315;
 
 } head;
 
@@ -22,8 +22,8 @@ feature kern {
   @mid = [a c e g m-s u-z];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
-  @cpj = [F P T V W Y f r v w y];
-  @smj = [B-D F G J O P S-W Y b c e f o p r s u-w y];
+  @cpj = [F P T V W Y f r v w];
+  @smj = [B-D F G J O P S-W Y b c e f o p r s u-w];
 
   enum pos [T Y @top] [d @mid @hor] -100;
   enum pos [b h k @mid @hor] [T Y @top] -100;
