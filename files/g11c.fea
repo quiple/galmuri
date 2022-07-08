@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.315;
+  FontRevision   2.316;
 
 } head;
 
@@ -18,7 +18,7 @@ feature liga {
 
 feature kern {
 
-  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
+  @top = [quotedbl quotesingle grave];
   @mid = [a c e g m-s u-z];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
