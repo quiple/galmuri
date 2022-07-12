@@ -82,7 +82,7 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbits
           makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri11-Bold.ttf -ff files/g11b.fea -o dist/Galmuri11-Bold.ttf -osbOn 5 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Condensed.ttf -ff files/g11c.fea -o dist/Galmuri11-Condensed.ttf -osbOn 5 -addn
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Condensed.ttf -ff files/g11c.fea -o dist/Galmuri11-Condensed.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6 -addn
           fonttools ttLib.woff2 compress dist/Galmuri11.ttf
