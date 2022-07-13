@@ -85,6 +85,7 @@ jobs:
           makeotf -mf files/FontMenuNameDB -f tGalmuri11-Condensed.ttf -ff files/g11c.fea -o dist/Galmuri11-Condensed.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6 -addn
+          otf2otc -o dist/Galmuri.ttc dist/Galmuri11.ttf dist/Galmuri11-Bold.ttf dist/Galmuri11-Condensed.ttf dist/Galmuri9.ttf dist/Galmuri7.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11-Bold.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11-Condensed.ttf
