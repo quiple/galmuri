@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.321;
+  FontRevision   2.322;
 
 } head;
 
@@ -98,6 +98,11 @@ table OS/2 {
                      2   # Straight Arms/Horizontal
                  0 0 0;  # Any
   UnicodeRange       0   # Basic Latin
+                     1   # Latin-1 Supplement
+                     2   # Latin Extended-A
+                     3   # Latin Extended-B
+                     4   # IPA Extensions
+                     9   # Cyrillic
                     31   # General Punctuation
                     36   # Number Forms
                     48   # CJK Symbols And Punctuation
@@ -105,6 +110,9 @@ table OS/2 {
                     56   # Hangul Syllables
                     60;  # Private Use Area
   CodePageRange   1252   # Latin 1
+                  1250   # Latin 2: Eastern Europe
+                  1251   # Cyrillic
+                  1254   # Turkish
                    949;  # Korean Wansung
   TypoAscender    1200;
   TypoDescender   -200;
