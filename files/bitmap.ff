@@ -1,0 +1,16 @@
+#!/usr/local/bin/fontforge
+
+Open('dist/Galmuri11.bdf')
+Generate('dist/Galmuri11Bitmap.', 'ttf')
+
+Open('dist/Galmuri11-Bold.bdf')
+Generate('dist/Galmuri11Bitmap-Bold.', 'ttf')
+
+Open('dist/Galmuri11-Condensed.bdf')
+Generate('dist/Galmuri11Bitmap-Condensed.', 'ttf')
+
+Open('dist/Galmuri9.bdf')
+Generate('dist/Galmuri9Bitmap.', 'ttf')
+
+Open('dist/Galmuri7.bdf')
+Generate('dist/Galmuri7Bitmap.', 'ttf')
