@@ -16,7 +16,7 @@ All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9
 
 - [Galmuri Character Preview](https://galmuri.quiple.dev/glyphs)
 
-## Supported Ranges
+## Summary of Supported Ranges
 
 | Range                         | Galmuri11          | Galmuri11 Bold     | Galmuri11 Condensed | Galmuri9           | Galmuri7           |
 |-------------------------------|--------------------|--------------------|---------------------|--------------------|--------------------|
