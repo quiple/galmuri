@@ -50,7 +50,7 @@ a { color: var(--point-color); text-decoration: none; }
 a:hover { text-decoration: underline; }
 small { display: block; font-size: 16px; font-family: Galmuri7, sans-serif; padding-bottom: .5em; color: var(--cro); }
 small:not(.detail):last-child { padding-bottom: 2em; }
-.btns { padding: 2px 0; margin: 0 2px; display: flex; gap: 2%; overflow-x: scroll; }
+.btns { padding: 2px 0; margin: 0 2px; display: flex; gap: 2%; }
 .btn { cursor: pointer; position: relative; text-align: center; flex: 1; padding: 0 36px; font-size: 16px; font-family: Galmuri7, sans-serif; display: flex; justify-content: center; align-items: center; height: 54px; color: #000; border: 2px solid #fbfbfb; outline: 2px solid #494949; z-index: 0; line-height: 1.5; }
 .btn::before { content: ''; position: absolute; width: 100%; height: 100%; z-index: -1; background-image: url('./bg.png'); background-size: contain; }
 .btn:hover { text-decoration: none; outline-color: #416179; }
@@ -133,6 +133,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
   #name { font-size: 20vw; }
   .fea { flex-direction: column; gap: 20px; }
   .octocat:hover .octocat-arm { animation: b .56s infinite; transform-origin: 8.5rem 6.5rem; }
+  .btns { overflow-x: scroll; }
 }
 @keyframes b {
   0%, 50% { transform: rotate(0); }
