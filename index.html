@@ -170,7 +170,7 @@
     var uttLight = document.getElementById('light-mode');
     var uttDark = document.getElementById('dark-mode');
     let initTheme = 'light';
-    if ($('html[mode=dark]').length > 0 || ($('html[mode]').length == 0 && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       initTheme = 'dark';
     }
     if (initTheme === 'dark') {
