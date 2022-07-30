@@ -111,6 +111,24 @@
       </ul>
       <h2>Issues</h2>
       <p>You can report issues on <a href="https://github.com/quiple/galmuri/issues" target="_blank">GitHub Issues</a>.</p>
+      <div id="light-mode">
+        <script src="https://utteranc.es/client.js"
+          repo="quiple/galmuri"
+          issue-term="title"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
+      <div id="dark-mode">
+        <script src="https://utteranc.es/client.js"
+          repo="quiple/galmuri"
+          issue-term="title"
+          theme="github-dark"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
       <small>&copy; 2019-2022 Minseo Lee. Galmuri and Quiple are trademarks of Minseo Lee. Nintendo DS is a trademark of Nintendo and this project has no relation with Nintendo. Each font and game are trademarks and copyright properties of their respective owners and licensors.</small>
       <small>Also available on: <a href="https://www.sandollcloud.com" target="_blank"><img class="sandoll" src="./files/sandoll.png" alt="산돌구름"></a><a href="https://noonnu.cc" target="_blank"><img class="noonnu" src="./files/noonnu.png" alt="눈누"></a></small>
     </div>
@@ -127,6 +145,17 @@
         disableOnInteraction: false
       }
     });
+    var uttLight = document.getElementById('light-mode');
+    var uttDark = document.getElementById('dark-mode');
+    let initTheme = 'light';
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      initTheme = 'dark';
+    }
+    if (initTheme === 'dark') {
+      uttLight.parentNode.removeChild(uttLight);
+    } else {
+      uttDark.parentNode.removeChild(uttDark);
+    }
   </script>
 </body>
 
