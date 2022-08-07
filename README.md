@@ -8,9 +8,7 @@
   <a href="https://www.jsdelivr.com/package/npm/galmuri?version=latest" target="_blank"><img src="https://data.jsdelivr.com/v1/package/npm/galmuri/badge?style=rounded" alt="jsDelivr Hits"></a>
 </p>
 
-Bitmap fonts based on the font design from Nintendo DS. With additional characters support.
-
-All Hangul syllables except for 2,355 Hangul syllables in Galmuri11 and Galmuri9, all Hangul glyphs in Galmuri7 and All glyphs in Galmuri11 Bold and Galmuri11 Condensed are my pure creations.
+Bitmap fonts inspired by the font design from Nintendo DS.
 
 ## Character Preview
 
