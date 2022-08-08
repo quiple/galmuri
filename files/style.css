@@ -5,7 +5,7 @@
 @font-face { font-family: Galmuri9; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri9.woff2') format('woff2'), url('../dist/Galmuri9.ttf') format('truetype'); }
 @font-face { font-family: Galmuri7; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri7.woff2') format('woff2'), url('../dist/Galmuri7.ttf') format('truetype'); }
 :root {
-  --yellow: #eab308;
+  --yellow: #eac54f;
   --point-color: #6171eb;
   --point-fixed: #6171eb;
   --bg: #fbfbfb;
@@ -96,7 +96,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
 #lang:active { background-color: var(--croo); }
 @media (prefers-color-scheme: dark) {
   :root {
-    --yellow: #fde047;
+    --yellow: #e3b341;
     --point-color: #bbc2f7;
     --bg: #222226;
     --bgo: rgba(0,0,0,.5);
