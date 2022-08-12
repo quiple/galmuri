@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.329;
+  FontRevision   2.330;
 
 } head;
 
@@ -176,6 +176,7 @@ table OS/2 {
                      1   # Latin-1 Supplement
                      2   # Latin Extended-A
                      3   # Latin Extended-B
+                    29   # Latin Extended Additional
                     31   # General Punctuation
                     33   # Currency Symbols
                     35   # Letterlike Symbols
