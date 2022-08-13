@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.330;
+  FontRevision   2.331;
 
 } head;
 
@@ -104,6 +104,7 @@ table OS/2 {
                      2   # Latin Extended-A
                      3   # Latin Extended-B
                      4   # IPA Extensions
+                     5   # Spacing Modifier Letters
                      9   # Cyrillic
                     29   # Latin Extended Additional
                     31   # General Punctuation
