@@ -16,14 +16,14 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 
 ## Summary of Supported Ranges
 
-| Range                         | Galmuri11          | Galmuri11 Bold     | Galmuri11 Condensed | Galmuri9           | Galmuri7           |
-|-------------------------------|--------------------|--------------------|---------------------|--------------------|--------------------|
-| Hiragana                      | :heavy_check_mark: |                    | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |
-| Katakana                      | :heavy_check_mark: |                    | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |
-| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:[^old] | :heavy_check_mark:[^old] | :heavy_check_mark: | :heavy_check_mark:[^old] |
-| CJK Unified Ideographs        | :heavy_check_mark:[^jis] |                    |                     | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis] |
-| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:[^han] | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark:[^han-1] |
-| CJK Compatibility Ideographs  | :heavy_check_mark:[^ks] |                     |                    | :heavy_check_mark:[^ks] |                    |
+| Range                         | Galmuri14          | Galmuri11                | Galmuri11 Bold           | Galmuri11 Condensed      | Galmuri9                 | Galmuri7                   |
+|-------------------------------|--------------------|--------------------------|--------------------------|--------------------------|--------------------------|----------------------------|
+| Hiragana                      | :heavy_check_mark: | :heavy_check_mark:       |                          | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:         |
+| Katakana                      | :heavy_check_mark: | :heavy_check_mark:       |                          | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:         |
+| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:       | :heavy_check_mark:[^old] | :heavy_check_mark:[^old] | :heavy_check_mark:       | :heavy_check_mark:[^old]   |
+| CJK Unified Ideographs        |                    | :heavy_check_mark:[^jis] |                          |                          | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis]   |
+| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:       | :heavy_check_mark:[^han] | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:[^han-1] |
+| CJK Compatibility Ideographs  |                    | :heavy_check_mark:[^ks]  |                          |                          | :heavy_check_mark:[^ks]  |                            |
 
 [^old]: Excluding Old Hangul Jamo.
 [^han]: Only 2,780 Hangul Syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
@@ -53,6 +53,7 @@ Galmuri is licensed under the [SIL Open Font License 1.1](https://github.com/qui
 ### CSS Rules to Specify Families
 
 ```css
+font-family: Galmuri14, sans-serif;
 font-family: Galmuri11, sans-serif;
 font-family: Galmuri9, sans-serif;
 font-family: Galmuri7, sans-serif;
@@ -73,11 +74,11 @@ npm i galmuri
 <details>
 <summary>Legal Stuff</summary>
 
-All glyphs except for Latin-1, some symbols and 2,355 Hangul syllables in Galmuri11 and Galmuri9; and all glyphs except for Latin-1 and some symbols in Galmuri7; and all glyphs in Galmuri11 Bold and Galmuri11 Condensed are my pure creations. But it does not mean that Nintendo owns the rights to glyphs that I did not create and I'm violating Nintendo's rights.
+All glyphs except for Latin-1, some symbols and 2,355 Hangul syllables in Galmuri14, Galmuri11 and Galmuri9; and all glyphs except for Latin-1 and some symbols in Galmuri7; and all glyphs in Galmuri11 Bold and Galmuri11 Condensed are my pure creations. But it does not mean that Nintendo owns the rights to glyphs that I did not create and I'm violating Nintendo's rights.
 
 At least in the US and South Korea, the font file and code are copyrighted, but the font design cannot be copyrighted. And likewise in both countries, bitmap fonts in general cannot be copyrighted. See also: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://www.faqs.org/faqs/fonts-faq/part2/) Also, Galmuri's outline (scalable) font file is purely my creation for the first time, so I own the copyright, and I do not claim any rights to the "font design".
 
-Galmuri11과 Galmuri9의 경우 라틴-1, 일부 약물과 한글 음절 2,355자를 제외한 모든 글리프, Galmuri7의 경우 라틴-1과 일부 약물을 제외한 모든 글리프, Galmuri11 Bold와 Galmuri11 Condensed의 경우 모든 글리프가 Nintendo와 관련이 없는 저의 순수한 창작물입니다. 그러나 이는 제가 창작하지 않은 글리프의 권리가 Nintendo에게 있으며 제가 Nintendo의 권리를 침해하고 있다는 의미가 아닙니다.
+Galmuri14와 Galmuri11, Galmuri9의 경우 라틴-1, 일부 약물과 한글 음절 2,355자를 제외한 모든 글리프, Galmuri7의 경우 라틴-1과 일부 약물을 제외한 모든 글리프, Galmuri11 Bold와 Galmuri11 Condensed의 경우 모든 글리프가 Nintendo와 관련이 없는 저의 순수한 창작물입니다. 그러나 이는 제가 창작하지 않은 글리프의 권리가 Nintendo에게 있으며 제가 Nintendo의 권리를 침해하고 있다는 의미가 아닙니다.
 
 적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 Galmuri의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
 </details>

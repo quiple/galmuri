@@ -16,6 +16,33 @@ feature liga {
 
 } liga;
 
+feature kern {
+
+  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
+  @mid = [a c e g m-s u-z];
+  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
+  @btm = [comma period underscore];
+  @bar = [i j l];
+  @cpj = [F K L P R T V-Z f i-l r v-z];
+  @smj = [B-D F G J O P S-W Y b c f o p r-w y];
+
+  enum pos [T Y] [d @mid @hor] -200;
+  enum pos [b h k @mid @hor] [T Y] -200;
+  enum pos @top [d @mid @hor] -100;
+  enum pos [b h k @mid @hor] @top -100;
+  enum pos L @hor -200;
+  enum pos T @btm -300;
+  enum pos @btm T -300;
+  enum pos L [T @top] -300;
+  # enum pos [@smj @hor] j -100;
+  enum pos [@cpj @hor] J -100;
+  enum pos [@bar fi fl uniFB03 uniFB04] @bar -100;
+  enum pos [A L backslash @btm] [T V W Y backslash @top] -200;
+  enum pos [T V W Y slash @top] [A slash @btm] -200;
+  enum pos [F P V W Y f r v w y @hor] [@btm] -200;
+
+} kern;
+
 feature tnum { sub one by uniF001; } tnum;
 
 feature zero { sub zero by uniF000; } zero;
