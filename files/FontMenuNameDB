@@ -1,3 +1,14 @@
+[Galmuri14-Regular]
+
+  f = 3, 1, 0x0409,Galmuri14
+  f = 1, 0,      0,Galmuri14
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,Galmuri14 Regular
+  m = 1, 0,      0,Galmuri14 Regular
+
 [Galmuri11-Regular]
 
   f = 3, 1, 0x0409,Galmuri11

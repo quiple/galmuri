@@ -16,88 +16,6 @@ feature liga {
 
 } liga;
 
-feature kern {
-
-  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
-  @mid = [a c e g m-s u-z];
-  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
-  @btm = [comma period underscore];
-  @bar = [i j l];
-  @cpj = [F K L P R T V-Z f i-l r v-z];
-  @smj = [B-D F G J O P S-W Y b c f o p r-w y];
-
-  enum pos [T Y @top] [d @mid @hor] -100;
-  enum pos [b h k @mid @hor] [T Y @top] -100;
-  enum pos L @hor -100;
-  enum pos T @btm -200;
-  enum pos @btm T -200;
-  enum pos L [T @top] -200;
-  enum pos [@smj @hor] j -100;
-  enum pos [@cpj @hor] J -100;
-  enum pos [@bar fi fl uniFB03 uniFB04] @bar -100;
-  enum pos [A L backslash @btm] [T V W Y backslash @top] -100;
-  enum pos [T V W Y slash @top] [A slash @btm] -100;
-  enum pos [F P V W Y f r v w y @hor] [@btm] -100;
-
-} kern;
-
-feature vert {
-
-  sub uni2025 by uniFE30; # ‥
-  sub ellipsis by uniFE19; # …
-
-  sub uni3001 by uniFE11; # 、
-  sub uni3002 by uniFE12; # 。
-  sub uni3008 by uniFE3F; # 〈
-  sub uni3009 by uniFE40; # 〉
-  sub uni300A by uniFE3D; # 《
-  sub uni300B by uniFE3E; # 》
-  sub uni300C by uniFE41; # 「
-  sub uni300D by uniFE42; # 」
-  sub uni300E by uniFE43; # 『
-  sub uni300F by uniFE44; # 』
-  sub uni3010 by uniFE3B; # 【
-  sub uni3011 by uniFE3C; # 】
-  sub uni3014 by uniFE39; # 〔
-  sub uni3015 by uniFE3A; # 〕
-  sub uni3016 by uniFE17; # 〖
-  sub uni3017 by uniFE18; # 〗
-
-  sub uni3041 by uniF020; # ぁ
-  sub uni3043 by uniF021; # ぃ
-  sub uni3045 by uniF022; # ぅ
-  sub uni3047 by uniF023; # ぇ
-  sub uni3049 by uniF024; # ぉ
-  sub uni3063 by uniF025; # っ
-  sub uni3083 by uniF026; # ゃ
-  sub uni3085 by uniF027; # ゅ
-  sub uni3087 by uniF028; # ょ
-  sub uni3095 by uniF029; # ゕ
-  sub uni3096 by uniF02A; # ゖ
-  sub uni30A1 by uniF030; # ァ
-  sub uni30A3 by uniF031; # ィ
-  sub uni30A5 by uniF032; # ゥ
-  sub uni30A7 by uniF033; # ェ
-  sub uni30A9 by uniF034; # ォ
-  sub uni30C3 by uniF035; # ッ
-  sub uni30E3 by uniF036; # ャ
-  sub uni30E5 by uniF037; # ュ
-  sub uni30E7 by uniF038; # ョ
-  sub uni30F5 by uniF039; # ヵ
-  sub uni30F6 by uniF03A; # ヶ
-  sub uni30A0 by uniF03B; # ゠
-  sub uni30FB by uniF03C; # ・
-  sub uni30FC by uniF03D; # ー
-
-  sub uniFF08 by uniFE35; # （
-  sub uniFF09 by uniFE36; # ）
-  sub uniFF3B by uniFE47; # ［
-  sub uniFF3D by uniFE48; # ］
-  sub uniFF5B by uniFE37; # ｛
-  sub uniFF5D by uniFE38; # ｝
-
-} vert;
-
 feature tnum { sub one by uniF001; } tnum;
 
 feature zero { sub zero by uniF000; } zero;
@@ -105,16 +23,16 @@ feature zero { sub zero by uniF000; } zero;
 table hhea {
 
   CaretOffset    0;
-  Ascender    1200;
-  Descender    200;
-  LineGap      200;
+  Ascender    1500;
+  Descender    300;
+  LineGap      300;
 
 } hhea;
 
 table vhea {
 
-  VertTypoAscender   600;
-  VertTypoDescender -600;
+  VertTypoAscender   750;
+  VertTypoDescender -750;
   VertTypoLineGap      0;
 
 } vhea;
@@ -151,8 +69,8 @@ table name {
   nameid 14 3 1 0x0409 "https:\002f\002fscripts.sil.org\002fOFL";
   nameid 14 1 0      0 "https:\2f\2fscripts.sil.org\2fOFL";
 
-  nameid 21 3 1 0x0409 "Galmuri11";
-  nameid 21 1 0      0 "Galmuri11";
+  nameid 21 3 1 0x0409 "Galmuri14";
+  nameid 21 1 0      0 "Galmuri14";
 
   nameid 22 3 1 0x0409 "Regular";
   nameid 22 1 0      0 "Regular";
@@ -172,18 +90,11 @@ table OS/2 {
                  0 0 0;  # Any
   UnicodeRange       0   # Basic Latin
                      1   # Latin-1 Supplement
-                     2   # Latin Extended-A
-                     3   # Latin Extended-B
-                     4   # IPA Extensions
-                     7   # Greek and Coptic
-                     9   # Cyrillic
-                    29   # Latin Extended Additional
                     31   # General Punctuation
                     33   # Currency Symbols
                     35   # Letterlike Symbols
                     36   # Number Forms
                     37   # Arrows
-                    38   # Mathematical Operators
                     42   # Enclosed Alphanumerics
                     43   # Box Drawing
                     44   # Block Elements
@@ -197,26 +108,19 @@ table OS/2 {
                     54   # Enclosed CJK Letters And Months
                     55   # CJK Compatibility
                     56   # Hangul Syllables
-                    59   # CJK Unified Ideographs
                     60   # Private Use Area
                     62   # Alphabetic Presentation Forms
-                    65   # Vertical Forms
                     68   # Halfwidth And Fullwidth Forms
                     69;  # Specials
   CodePageRange   1252   # Latin 1
-                  1250   # Latin 2: Eastern Europe
-                  1251   # Cyrillic
-                  1253   # Greek
-                  1254   # Turkish
-                   932   # JIS/Japan
                    949;  # Korean Wansung
-  TypoAscender    1200;
-  TypoDescender   -200;
-  TypoLineGap      200;
-  winAscent       1400;
-  winDescent       200;
-  XHeight          800;
-  CapHeight       1100;
+  TypoAscender    1500;
+  TypoDescender   -300;
+  TypoLineGap      300;
+  winAscent       1800;
+  winDescent       300;
+  XHeight         1000;
+  CapHeight       1400;
   WeightClass      400;  # Normal (Regular)
   WidthClass         5;  # Medium (Normal)
   Vendor        "QPLE";
