@@ -20,7 +20,7 @@
 ::selection { background-color: var(--point-color); color: var(--bg); }
 * { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
 html, body { font-size: 20px; position: relative; height: 100%; font-family: Galmuri9, sans-serif; box-sizing: border-box; background-color: var(--bg); color: var(--cr); }
-.g14 { font-family: Galmuri14, serif; font-weight: 400; font-stretch: normal; font-size: 24px; }
+.g14 { font-family: Galmuri14, serif; font-weight: 400; font-stretch: normal; font-size: 30px; }
 .g11 { font-family: Galmuri11, serif; font-weight: 400; font-stretch: normal; font-size: 24px; }
 .g11b { font-family: Galmuri11, serif; font-weight: 700; font-stretch: normal; font-size: 24px; }
 .g11c { font-family: Galmuri11, serif; font-weight: 400; font-stretch: condensed; font-size: 24px; }
