@@ -1,6 +1,6 @@
 {
   "name": "galmuri",
-  "version": "2.33.6",
+  "version": "2.33.7",
   "description": "Bitmap fonts based on the font design from Nintendo DS",
   "main": "dist/galmuri.css",
   "repository": "quiple/galmuri",
