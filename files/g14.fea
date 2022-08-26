@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.335;
+  FontRevision   2.336;
 
 } head;
 
@@ -117,6 +117,7 @@ table OS/2 {
                  0 0 0;  # Any
   UnicodeRange       0   # Basic Latin
                      1   # Latin-1 Supplement
+                     2   # Latin Extended-A
                     31   # General Punctuation
                     33   # Currency Symbols
                     35   # Letterlike Symbols
