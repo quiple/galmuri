@@ -48,21 +48,21 @@ jobs:
 
       - name: Convert to BDF font
         run: |
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri14.bdf src/Galmuri14.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11.bdf src/Galmuri11.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Bold.bdf src/Galmuri11-Bold.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Condensed.bdf src/Galmuri11-Condensed.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri9.bdf src/Galmuri9.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri7.bdf src/Galmuri7.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri14.bdf src/Galmuri14.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11.bdf src/Galmuri11.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Bold.bdf src/Galmuri11-Bold.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Condensed.bdf src/Galmuri11-Condensed.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri9.bdf src/Galmuri9.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri7.bdf src/Galmuri7.kbitx
 
       - name: Convert to TrueType font and compress to WOFF2
         run: |
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri14.ttf src/Galmuri14.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11.ttf src/Galmuri11.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Bold.ttf src/Galmuri11-Bold.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Condensed.ttf src/Galmuri11-Condensed.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri9.ttf src/Galmuri9.kbits
-          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbits
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri14.ttf src/Galmuri14.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11.ttf src/Galmuri11.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Bold.ttf src/Galmuri11-Bold.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11-Condensed.ttf src/Galmuri11-Condensed.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri9.ttf src/Galmuri9.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbitx
           makeotf -mf files/FontMenuNameDB -f tGalmuri14.ttf -ff files/g14.fea -o dist/Galmuri14.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6 -addn
           makeotf -mf files/FontMenuNameDB -f tGalmuri11-Bold.ttf -ff files/g11b.fea -o dist/Galmuri11-Bold.ttf -osbOn 5 -addn
