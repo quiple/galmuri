@@ -10,9 +10,9 @@ COPYRIGHT Copyright (c) 2019-2022 Minseo Lee (itoupluk427@gmail.com), with Reser
 FOUNDRY Made with Bits'n'Picas by Kreative Software
 FONT_ASCENT 11
 FONT_DESCENT 1
-CAP_HEIGHT 10
 POINT_SIZE 10
 X_HEIGHT 6
+CAP_HEIGHT 9
 ENDPROPERTIES
 CHARS 20578
 STARTCHAR U+0020
