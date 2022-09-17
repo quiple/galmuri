@@ -83,4 +83,4 @@ Galmuri14와 Galmuri11, Galmuri9의 경우 라틴-1, 일부 기호와 한글 음
 적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 Galmuri의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
 </details>
 
-Nintendo DS is a trademark of Nintendo and this project has no relation with Nintendo.
+Nintendo DS is a trademark of Nintendo, and this project has no relation with Nintendo.
