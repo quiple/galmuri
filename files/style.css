@@ -138,6 +138,7 @@ pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1e
   .fea:not(.vert) { flex-direction: column; gap: 20px; }
   .octocat:hover .octocat-arm { animation: b .56s infinite; transform-origin: 8.5rem 6.5rem; }
   .btn { gap: 10px; }
+  .vert-more { display: none; }
 }
 @keyframes b {
   0%, 50% { transform: rotate(0); }
