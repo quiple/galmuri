@@ -16,14 +16,14 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 
 ## Summary of Supported Ranges
 
-| Range                         | Galmuri14          | Galmuri11                | Galmuri11 Bold           | Galmuri11 Condensed      | Galmuri9                 | Galmuri7                   |
-|-------------------------------|--------------------|--------------------------|--------------------------|--------------------------|--------------------------|----------------------------|
-| Hiragana                      | :heavy_check_mark: | :heavy_check_mark:       |                          | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:         |
-| Katakana                      | :heavy_check_mark: | :heavy_check_mark:       |                          | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:         |
-| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:       | :heavy_check_mark:[^old] | :heavy_check_mark:[^old] | :heavy_check_mark:       | :heavy_check_mark:[^old]   |
-| CJK Unified Ideographs        |                    | :heavy_check_mark:[^jis] |                          |                          | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis]   |
-| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:       | :heavy_check_mark:[^han] | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:[^han-1] |
-| CJK Compatibility Ideographs  |                    | :heavy_check_mark:[^ks]  |                          |                          | :heavy_check_mark:[^ks]  |                            |
+| Range                         | Galmuri14 (15px)   | Galmuri11 (12px, 9pt)    | Galmuri11 Bold (12px, 9pt) | Galmuri11 Condensed (12px, 9pt) | Galmuri9 (10px) | Galmuri7 (8px, 6pt) |
+|-------------------------------|--------------------|--------------------------|----------------------------|---------------------------------|--------------------------|----------------------------|
+| Hiragana                      | :heavy_check_mark: | :heavy_check_mark:       |                            | :heavy_check_mark:              | :heavy_check_mark:       | :heavy_check_mark:         |
+| Katakana                      | :heavy_check_mark: | :heavy_check_mark:       |                            | :heavy_check_mark:              | :heavy_check_mark:       | :heavy_check_mark:         |
+| Hangul Compatibility Jamo     | :heavy_check_mark: | :heavy_check_mark:       | :heavy_check_mark:[^old]   | :heavy_check_mark:[^old]        | :heavy_check_mark:       | :heavy_check_mark:[^old]   |
+| CJK Unified Ideographs        |                    | :heavy_check_mark:[^jis] |                            |                                 | :heavy_check_mark:[^jis] | :heavy_check_mark:[^jis]   |
+| Hangul Syllables              | :heavy_check_mark: | :heavy_check_mark:       | :heavy_check_mark:[^han]   | :heavy_check_mark:              | :heavy_check_mark:       | :heavy_check_mark:[^han-1] |
+| CJK Compatibility Ideographs  |                    | :heavy_check_mark:[^ks]  |                            |                                 | :heavy_check_mark:[^ks]  |                            |
 
 [^old]: Excluding Old Hangul Jamo.
 [^han]: Only 2,780 Hangul Syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0).
