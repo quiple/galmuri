@@ -16,7 +16,7 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 
 ## Summary of Supported Ranges
 
-| Range                         | Galmuri14 (15px)   | Galmuri11 (12px, 9pt)    | Galmuri11 Bold (12px, 9pt) | Galmuri11 Condensed (12px, 9pt) | Galmuri9 (10px) | Galmuri7 (8px, 6pt) |
+| Range                         | Galmuri14 (15px, 11pt)   | Galmuri11 (12px, 9pt)    | Galmuri11 Bold (12px, 9pt) | Galmuri11 Condensed (12px, 9pt) | Galmuri9 (10px, 7.5pt) | Galmuri7 (8px, 6pt) |
 |-------------------------------|--------------------|--------------------------|----------------------------|---------------------------------|--------------------------|----------------------------|
 | Hiragana                      | :heavy_check_mark: | :heavy_check_mark:       |                            | :heavy_check_mark:              | :heavy_check_mark:       | :heavy_check_mark:         |
 | Katakana                      | :heavy_check_mark: | :heavy_check_mark:       |                            | :heavy_check_mark:              | :heavy_check_mark:       | :heavy_check_mark:         |
