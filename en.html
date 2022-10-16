@@ -118,7 +118,15 @@
       <small>Also available on: <a href="https://www.sandollcloud.com" target="_blank"><img class="sandoll" src="./files/sandoll.png" alt="산돌구름"></a><a href="https://noonnu.cc" target="_blank"><img class="noonnu" src="./files/noonnu.png" alt="눈누"></a></small>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
   <script>
+    $(window).on('load', function() {
+      document.querySelector('#name').classList.add('move');
+      document.querySelectorAll('#title div')[0].classList.add('move');
+      document.querySelectorAll('#title div')[1].classList.add('move');
+      document.querySelectorAll('#title div')[2].classList.add('move');
+      document.querySelector('#more').classList.add('move');
+    });
     let swiper = new Swiper('.swiper', {
       loop: true,
       grabCursor: true,
