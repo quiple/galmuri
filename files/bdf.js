@@ -3,9 +3,9 @@ const list = document.getElementById('list');
 const tameshi = document.getElementById('tameshi');
 
 function viewFonts() {
-  document.getElementById('loading').style.display = 'flex';
   for (let i = 0; i < font.length; i++) {
     font[i].addEventListener('click', event => {
+      document.getElementById('loading').style.display = 'flex';
       var fileName = font[i].innerHTML;
       if (fileName == 'Galmuri14') {
         list.classList.add('g14');
@@ -96,6 +96,7 @@ function viewFonts() {
           worker.onmessage = function (glphs) {
             list.innerHTML = glphs.data;
           }
+          document.getElementById('loading').style.display = 'none';
         } else {
           alert('Your browser does not support Web Workers.');
           document.getElementById('loading').style.display = 'none';
@@ -104,7 +105,6 @@ function viewFonts() {
       });
     });
   }
-  document.getElementById('loading').style.display = 'none';
 }
 
 viewFonts();
