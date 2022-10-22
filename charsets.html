@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>Galmuri</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="작은 크기에서도 가독성 좋고 균형 있는 한글 비트맵 폰트.">
+  <meta name="author" content="Minseo Lee">
+  <meta name="theme-color" content="#6171eb">
+  <meta property="og:title" content="Galmuri">
+  <meta property="og:description" content="작은 크기에서도 가독성 좋고 균형 있는 한글 비트맵 폰트.">
+  <meta property="og:site_name" content="Galmuri">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://galmuri.quiple.dev">
+  <meta property="og:image" content="https://galmuri.quiple.dev/files/cover.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:locale" content="ko_KR">
+  <link rel="icon" type="image/svg+xml" href="./files/galmuri.svg">
+  <link rel="canonical" href="https://galmuri.quiple.dev">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./files/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XWK7FLW2C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3XWK7FLW2C');
+  </script>
+  <style>
+    ul { padding: 0; color: #fbfbfb; }
+    li { padding: 0 8px; background-color: #000; }
+    li span:last-child { float: right; }
+    li::before { content: ''; height: 24px; left: 0; background-color: rgba(255,255,255,.333); }
+    .doc { padding-bottom: 32px; }
+  </style>
+</head>
+
+<body>
+  <div id="preload"></div>
+  <div id="loading">Loading...</div>
+  <div class="container">
+    <div class="doc">
+      <h2>문자 집합별 지원 현황</h2>
+      <p>모두 불러오는 데 시간이 좀 걸립니다…</p>
+      <h3>Galmuri14</h3>
+      <ul>
+        <li id="Galmuri14_hangul">Hangul Syllables: <span></span> <span></span></li>
+        <li id="Galmuri14_ksx1001">KS X 1001: <span></span> <span></span></li>
+        <li id="Galmuri14_ksc5601">KS C 5601: <span></span> <span></span></li>
+        <li id="Galmuri14_cp949">CP949: <span></span> <span></span></li>
+      </ul>
+      <ul>
+        <li id="Galmuri14_jis0201">JIS 0201: <span></span> <span></span></li>
+        <li id="Galmuri14_jis0208">JIS 0208: <span></span> <span></span></li>
+        <li id="Galmuri14_jis0212">JIS 0212: <span></span> <span></span></li>
+        <li id="Galmuri14_shiftjis">SHIFT_JIS: <span></span> <span></span></li>
+        <li id="Galmuri14_cp932">CP932: <span></span> <span></span></li>
+      </ul>
+      <h3>Galmuri11</h3>
+      <ul>
+        <li id="Galmuri11_hangul">Hangul Syllables: <span></span> <span></span></li>
+        <li id="Galmuri11_ksx1001">KS X 1001: <span></span> <span></span></li>
+        <li id="Galmuri11_ksc5601">KS C 5601: <span></span> <span></span></li>
+        <li id="Galmuri11_cp949">CP949: <span></span> <span></span></li>
+      </ul>
+      <ul>
+        <li id="Galmuri11_jis0201">JIS 0201: <span></span> <span></span></li>
+        <li id="Galmuri11_jis0208">JIS 0208: <span></span> <span></span></li>
+        <li id="Galmuri11_jis0212">JIS 0212: <span></span> <span></span></li>
+        <li id="Galmuri11_shiftjis">SHIFT_JIS: <span></span> <span></span></li>
+        <li id="Galmuri11_cp932">CP932: <span></span> <span></span></li>
+      </ul>
+      <h3>Galmuri11 Bold</h3>
+      <ul>
+        <li id="Galmuri11-Bold_hangul">Hangul Syllables: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_ksx1001">KS X 1001: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_ksc5601">KS C 5601: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_cp949">CP949: <span></span> <span></span></li>
+      </ul>
+      <ul>
+        <li id="Galmuri11-Bold_jis0201">JIS 0201: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_jis0208">JIS 0208: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_jis0212">JIS 0212: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_shiftjis">SHIFT_JIS: <span></span> <span></span></li>
+        <li id="Galmuri11-Bold_cp932">CP932: <span></span> <span></span></li>
+      </ul>
+      <h3>Galmuri11 Condensed</h3>
+      <ul>
+        <li id="Galmuri11-Condensed_hangul">Hangul Syllables: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_ksx1001">KS X 1001: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_ksc5601">KS C 5601: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_cp949">CP949: <span></span> <span></span></li>
+      </ul>
+      <ul>
+        <li id="Galmuri11-Condensed_jis0201">JIS 0201: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_jis0208">JIS 0208: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_jis0212">JIS 0212: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_shiftjis">SHIFT_JIS: <span></span> <span></span></li>
+        <li id="Galmuri11-Condensed_cp932">CP932: <span></span> <span></span></li>
+      </ul>
+      <h3>Galmuri9</h3>
+      <ul>
+        <li id="Galmuri9_hangul">Hangul Syllables: <span></span> <span></span></li>
+        <li id="Galmuri9_ksx1001">KS X 1001: <span></span> <span></span></li>
+        <li id="Galmuri9_ksc5601">KS C 5601: <span></span> <span></span></li>
+        <li id="Galmuri9_cp949">CP949: <span></span> <span></span></li>
+      </ul>
+      <ul>
+        <li id="Galmuri9_jis0201">JIS 0201: <span></span> <span></span></li>
+        <li id="Galmuri9_jis0208">JIS 0208: <span></span> <span></span></li>
+        <li id="Galmuri9_jis0212">JIS 0212: <span></span> <span></span></li>
+        <li id="Galmuri9_shiftjis">SHIFT_JIS: <span></span> <span></span></li>
+        <li id="Galmuri9_cp932">CP932: <span></span> <span></span></li>
+      </ul>
+      <h3>Galmuri7</h3>
+      <ul>
+        <li id="Galmuri7_hangul">Hangul Syllables: <span></span> <span></span></li>
+        <li id="Galmuri7_ksx1001">KS X 1001: <span></span> <span></span></li>
+        <li id="Galmuri7_ksc5601">KS C 5601: <span></span> <span></span></li>
+        <li id="Galmuri7_cp949">CP949: <span></span> <span></span></li>
+      </ul>
+      <ul>
+        <li id="Galmuri7_jis0201">JIS 0201: <span></span> <span></span></li>
+        <li id="Galmuri7_jis0208">JIS 0208: <span></span> <span></span></li>
+        <li id="Galmuri7_jis0212">JIS 0212: <span></span> <span></span></li>
+        <li id="Galmuri7_shiftjis">SHIFT_JIS: <span></span> <span></span></li>
+        <li id="Galmuri7_cp932">CP932: <span></span> <span></span></li>
+      </ul>
+    </div>
+  </div>
+  <script src="./files/char.js"></script>
+</body>
+
+</html>
