@@ -40,6 +40,9 @@ jobs:
           pip3 install afdko
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
+      - name: Set up BeautifulSoup
+        run: pip3 install bs4
+
       - name: Clean up distribution files
         run: |
           rm -rf dist/*.bdf
@@ -91,6 +94,9 @@ jobs:
 
       - name: Make zip
         run: zip -r Galmuri-v${{ steps.package-version.outputs.current-version }}.zip dist
+
+      - name: Update progress
+        run: python files/updateChar.py
 
       - name: Release
         uses: softprops/action-gh-release@v1
