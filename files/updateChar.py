@@ -22,7 +22,7 @@ for font in fonts:
 
         with open(os.getcwd() + '/charsets.html', 'rt', encoding='utf8') as h:
           bs = BeautifulSoup(h.read(), 'html.parser')
-          bs.select_one('#' + font + '_' + char + '>span:first-child').string = str(available) + ' / ' + str(all)
+          bs.select_one('#' + font + '_' + char + '>span:first-child').string = str(len(set(fontArr) & set(charArr))) + ' / ' + str(all)
           bs.select_one('#' + font + '_' + char + '>span:last-child').string = str(round(available / all * 100, 3)) + ' %'
           bs.select_one('style').append('#' + font + '_' + char + '::before{width:' + str(available / all * 100) + '%}')
 
