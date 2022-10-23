@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 fonts = ['Galmuri14', 'Galmuri11', 'Galmuri11-Bold', 'Galmuri11-Condensed', 'Galmuri9', 'Galmuri7']
 chars = ['hangul', 'ksx1001', 'ksc5601', 'cp949', 'jis0201', 'jis0208', 'jis0212', 'shiftjis', 'cp932']
+styles = ''
 
 for font in fonts:
   with open(os.getcwd() + '/dist/' + font + '.bdf', 'rt', encoding='utf8') as f:
@@ -24,7 +25,14 @@ for font in fonts:
           bs = BeautifulSoup(h.read(), 'html.parser')
           bs.select_one('#' + font + '_' + char + '>span:first-child').string = str(available) + ' / ' + str(all)
           bs.select_one('#' + font + '_' + char + '>span:last-child').string = str(round(available / all * 100, 3)) + ' %'
-          bs.select_one('style').append('#' + font + '_' + char + '::before{width:' + str(available / all * 100) + '%}')
+          styles += '#' + font + '_' + char + '::before{width:' + str(available / all * 100) + '%}'
 
           with open(os.getcwd() + '/charsets.html', 'wt', encoding='utf8') as h:
             h.write(str(bs))
+
+with open(os.getcwd() + '/charsets.html', 'rt', encoding='utf8') as h:
+  bs = BeautifulSoup(h.read(), 'html.parser')
+  bs.select_one('#progress').string = styles
+
+  with open(os.getcwd() + '/charsets.html', 'wt', encoding='utf8') as h:
+    h.write(str(bs))
