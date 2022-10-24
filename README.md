@@ -32,7 +32,7 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 [^ks]: Only 268 CJK Compatibility Ideographs included in KS X 1001.
 
 ## License
-Copyright © 2019-2022 Minseo Lee (<itoupluk427@gmail.com>), with reserved font name “Galmuri”.
+Copyright © 2019-2022 Minseo Lee (<itoupluk427@gmail.com>)
 
 Galmuri is licensed under the [SIL Open Font License 1.1](https://github.com/quiple/galmuri/blob/main/OFL.md).
 
