@@ -6,7 +6,7 @@ import re
 fonts = ['Galmuri14', 'Galmuri11', 'Galmuri11-Bold', 'Galmuri11-Condensed', 'Galmuri9', 'Galmuri7']
 chars = ['hangul', 'ksx1001', 'ksc5601', 'cp949', 'jis0201', 'jis0208', 'jis0212', 'shiftjis', 'cp932']
 
-with open(os.getcwd() + '/dist/Galmuri7.bdf', 'rt', encoding='utf8') as f:
+with open(os.getcwd() + '/dist/Galmuri9.bdf', 'rt', encoding='utf8') as f:
   fontArr = re.findall(r'^STARTCHAR U\+([\d\w]{4})', f.read(), re.MULTILINE)
   available = len(set(fontArr))
 
