@@ -58,7 +58,7 @@ small:not(.detail):last-child { padding-bottom: 2em; }
 .btn { cursor: pointer; position: relative; text-align: center; flex: 1; padding: 0 36px; font-size: 16px; font-family: Galmuri7, sans-serif; display: flex; justify-content: center; align-items: center; height: 54px; color: #000; border: 2px solid #fbfbfb; outline: 2px solid #494949; z-index: 0; line-height: 1.5; }
 .btn::before { content: ''; position: absolute; width: 100%; height: 100%; z-index: -1; background-image: url('./bg.png'); background-size: contain; }
 .btn:hover { text-decoration: none; outline-color: #416179; }
-.btn-check:checked + .btn { text-decoration: underline; /*box-shadow: 0 0 0 4px var(--bg), 0 0 0 6px var(--cr);*/ }
+.btn-check:checked + .btn { text-decoration: underline; text-underline-position: under; text-underline-offset: 2px; }
 .btn:hover::before { background-image: url('./bgs.png'); }
 .btn:active::before { transform: rotate(180deg); }
 pre, code { font-family: HBIOS-SYS, monospace; font-size: 16px; padding: .5em 1em; color: var(--cr); background-color: var(--crooo); word-break: break-all; white-space: normal; border-radius: 8px; margin-top: 8px; }
