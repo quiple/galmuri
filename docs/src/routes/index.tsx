@@ -7,9 +7,27 @@ import Swiper from 'swiper';
 export default component$(() => {
   useStylesScoped$(styles);
 
+  let swiper = new Swiper('.swiper', {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: true,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    }
+  });
+
   return (
     <>
-      <div className="wrap">
+      <div className="wrap" window:onLoad$={(event) => {
+        document.getElementById('name').classList.add('move');
+        document.querySelectorAll('#title div')[0].classList.add('move');
+        document.querySelectorAll('#title div')[1].classList.add('move');
+        document.querySelectorAll('#title div')[2].classList.add('move');
+        document.getElementById('more').classList.add('move');
+      }}>
         <h1 id="name">Galmuri</h1>
         <h2 id="title">
           <div>작은 크기에서도</div>
@@ -26,28 +44,18 @@ export default component$(() => {
       </div>
       <div className="doc">
         <p>
-          Galmuri는 닌텐도 DS 본체와 소프트웨어에 사용되었던 폰트 디자인에서 영감을
-          받은 비트맵 폰트입니다. 2019년 10월 9일 한글날에 처음 공개되었으며,
-          Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인{" "}
-          <a href="https://cafe.naver.com/hansicgu" target="_blank">
-            한식구
-          </a>
-          에서 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘
-          <a href="https://cafe.naver.com/hansicgu/174" target="_blank">
-            갈무리M
-          </a>
-          ’에서 유래하였습니다.
+          Galmuri는 닌텐도 DS 본체와 소프트웨어에 사용되었던 폰트 디자인에서 영감을 받은 비트맵 폰트입니다. 2019년 10월 9일 한글날에 처음 공개되었으며, Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인 <a href="https://cafe.naver.com/hansicgu" target="_blank">한식구</a>에서 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘<a href="https://cafe.naver.com/hansicgu/174" target="_blank">갈무리M</a>’에서 유래하였습니다.
         </p>
         <div className="btns" style={{ whiteSpace: "nowrap" }}>
-          <a className="btn" href="./glyphs" style={{ flex: "initial" }}>
+          <Link className="btn" href="/glyphs" style={{ flex: "initial" }}>
             문자 미리보기
-          </a>
-          <a className="btn" href="./charsets" style={{ flex: "initial" }}>
+          </Link>
+          <Link className="btn" href="/charsets" style={{ flex: "initial" }}>
             문자 집합별 지원 현황
-          </a>
-          <a className="btn" href="./diff" style={{ flex: "initial" }}>
+          </Link>
+          <Link className="btn" href="/diff" style={{ flex: "initial" }}>
             주요 변경점
-          </a>
+          </Link>
         </div>
         <h2>라이선스</h2>
         <p>
@@ -72,8 +80,7 @@ export default component$(() => {
           </a>
         </div>
         <p>
-          Galmuri14는 15px (11pt), Galmuri11은 12px (9pt), Galmuri9는 10px (7.5pt),
-          Galmuri7은 8px (6pt) 크기와 그 배수에서 가장 명확하게 표시됩니다.
+          Galmuri14는 15px (11pt), Galmuri11은 12px (9pt), Galmuri9는 10px (7.5pt), Galmuri7은 8px (6pt) 크기와 그 배수에서 가장 명확하게 표시됩니다.
         </p>
         {/*<p>이름에 ‘Bitmap’이 붙은 파일은 윤곽선 데이터 없이 비트맵 스트라이크만 포함된 트루타입 폰트입니다. CrystalTile2에서 폰트 이미지를 삽입하는 등의 용도로 적합합니다.</p>*/}
         <h2>웹폰트로 사용</h2>
@@ -169,9 +176,7 @@ export default component$(() => {
         <p>세로쓰기 (vert)</p>
         <div className="fea vert">
           <pre>
-            「세로쓰기」는 한국어 환경에서 잘 사용되지 않는 관계로 문장부호 등도
-            모두 전각에 맞추어져 있습니다。「っ、ッ、ぁ、ヶ」 같은 스테가나도
-            세로쓰기에 맞는 모양으로 대체됩니다。
+            「세로쓰기」는 한국어 환경에서 잘 사용되지 않는 관계로 문장부호 등도 모두 전각에 맞추어져 있습니다。「っ、ッ、ぁ、ヶ」 같은 스테가나도 세로쓰기에 맞는 모양으로 대체됩니다。
             <div className="vert-more">
               <br />
               세로쓰기 전용 글리프의 예）
@@ -198,15 +203,14 @@ export default component$(() => {
         </div>
         <pre>writing-mode: vertical-rl; 혹은 writing-mode: vertical-lr;</pre>
         <p>
-          한자가 포함되지 않은 Galmuri14, Galmuri11 Bold, Galmuri11 Condensed는
-          세로쓰기를 지원하지 않습니다.
+          한자가 포함되지 않은 Galmuri14, Galmuri11 Bold, Galmuri11 Condensed는 세로쓰기를 지원하지 않습니다.
         </p>
         <h2>쇼케이스</h2>
       </div>
       <div className="swiper">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
-            <img src="./files/showcase/not-yet.png" alt="Keylocker" />
+            <img src="./images/showcase/not-yet.png" alt="Keylocker" />
             <span className="capt">
               <a href="https://store.steampowered.com/app/1325040" target="_blank">
                 Keylocker
@@ -214,10 +218,10 @@ export default component$(() => {
               © Moonana
             </span>
           </div>
-          {/*<div class="swiper-slide"><img src="./files/showcase/221106.png" alt="Kid Dracula"><span class="capt"><a href="https://blog.naver.com/devilucifer/222921095430" target="_blank">악마성 스페셜 - 나는 드라큐라군</a> (사용자 패치) by DQ군</span></div>*/}
+          {/*<div class="swiper-slide"><img src="./images/showcase/221106.png" alt="Kid Dracula"><span class="capt"><a href="https://blog.naver.com/devilucifer/222921095430" target="_blank">악마성 스페셜 - 나는 드라큐라군</a> (사용자 패치) by DQ군</span></div>*/}
           <div className="swiper-slide">
             <img
-              src="./files/showcase/220621.jpg"
+              src="./images/showcase/220621.jpg"
               alt="Shotgun King: The Final Checkmate"
             />
             <span className="capt">
@@ -229,7 +233,7 @@ export default component$(() => {
           </div>
           <div className="swiper-slide">
             <img
-              src="./files/showcase/220507.png"
+              src="./images/showcase/220507.png"
               alt="Monster Sanctuary (사용자 패치)"
             />
             <span className="capt">
@@ -241,7 +245,7 @@ export default component$(() => {
           </div>
           <div className="swiper-slide">
             <img
-              src="./files/showcase/220220.jpg"
+              src="./images/showcase/220220.jpg"
               alt="NEEDY GIRL OVERDOSE (사용자 패치)"
             />
             <span className="capt">
@@ -252,7 +256,7 @@ export default component$(() => {
             </span>
           </div>
           <div className="swiper-slide">
-            <img src="./files/showcase/210302.jpg" alt="Teamfight Manager" />
+            <img src="./images/showcase/210302.jpg" alt="Teamfight Manager" />
             <span className="capt">
               <a href="https://store.steampowered.com/app/1372810" target="_blank">
                 Teamfight Manager
@@ -262,7 +266,7 @@ export default component$(() => {
           </div>
           <div className="swiper-slide">
             <img
-              src="./files/showcase/210223.jpg"
+              src="./images/showcase/210223.jpg"
               alt="BLUE REVOLVER (사용자 패치)"
             />
             <span className="capt">
@@ -277,7 +281,7 @@ export default component$(() => {
           </div>
           <div className="swiper-slide">
             <img
-              src="./files/showcase/210105.jpg"
+              src="./images/showcase/210105.jpg"
               alt="Duke Dashington Remastered (사용자 패치)"
             />
             <span className="capt">
@@ -291,7 +295,7 @@ export default component$(() => {
             </span>
           </div>
           <div className="swiper-slide">
-            <img src="./files/showcase/201221.jpg" alt="Rev (사용자 패치)" />
+            <img src="./images/showcase/201221.jpg" alt="Rev (사용자 패치)" />
             <span className="capt">
               <a
                 href="https://blog.naver.com/bleach1491/222180900832"
@@ -304,7 +308,7 @@ export default component$(() => {
           </div>
           <div className="swiper-slide">
             <img
-              src="./files/showcase/200622.jpg"
+              src="./images/showcase/200622.jpg"
               alt="Alwa's Legacy (사용자 패치)"
             />
             <span className="capt">
@@ -319,7 +323,7 @@ export default component$(() => {
           </div>
           <div className="swiper-slide">
             <img
-              src="./files/showcase/200223.png"
+              src="./images/showcase/200223.png"
               alt="Westerado: Double Barreled (사용자 패치)"
             />
             <span className="capt">
@@ -437,10 +441,10 @@ export default component$(() => {
         <div className="donate-wrap">
           <div className="donate">
             <a href="https://toss.me/quiple">
-              <img className="donate-logo" src="./files/toss.svg" alt="토스" />
+              <img className="donate-logo" src="./images/toss.svg" alt="토스" />
               <img
                 className="donate-img"
-                src="./files/toss.gif"
+                src="./images/toss.gif"
                 alt="토스 송금하기"
               />
             </a>
@@ -449,12 +453,12 @@ export default component$(() => {
             <a href="https://qr.kakaopay.com/Ej8JN15fH">
               <img
                 className="donate-logo"
-                src="./files/kakaopay.svg"
+                src="./images/kakaopay.svg"
                 alt="카카오페이"
               />
               <img
                 className="donate-img"
-                src="./files/kakaopay.gif"
+                src="./images/kakaopay.gif"
                 alt="카카오페이 송금하기"
               />
             </a>
@@ -609,17 +613,15 @@ export default component$(() => {
           </li>
         </ul>
         <small>
-          © 2019-2022 Minseo Lee. Quiple은 Minseo Lee의 상표입니다. 닌텐도 DS는
-          Nintendo의 상표이며 이 프로젝트는 Nintendo와 어떠한 관련도 없습니다. 각
-          폰트 및 게임은 해당 소유자 및 사용 허가자의 상표 및 저작권 자산입니다.
+          © 2019-2022 Minseo Lee. Quiple은 Minseo Lee의 상표입니다. 닌텐도 DS는 Nintendo의 상표이며 이 프로젝트는 Nintendo와 어떠한 관련도 없습니다. 각 폰트 및 게임은 해당 소유자 및 사용 허가자의 상표 및 저작권 자산입니다.
         </small>
         <small>
           Also available on:{" "}
           <a href="https://www.sandollcloud.com" target="_blank">
-            <img className="sandoll" src="./files/sandoll.png" alt="산돌구름" />
+            <img className="sandoll" src="./images/sandoll.png" alt="산돌구름" />
           </a>
           <a href="https://noonnu.cc" target="_blank">
-            <img className="noonnu" src="./files/noonnu.png" alt="눈누" />
+            <img className="noonnu" src="./images/noonnu.png" alt="눈누" />
           </a>
           <br />
           산돌구름 및 눈누에 업로드되어 있는 파일은 최신 버전이 아닐 수 있습니다. 최신 버전을 사용하려면 <a href="https://github.com/quiple/galmuri/releases/latest" target="_blank">Github 릴리스 페이지에서 다운로드</a>하세요.
