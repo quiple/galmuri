@@ -1,22 +1,25 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import { component$, useStylesScoped$, useClientEffect$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { Link } from '@builder.io/qwik-city';
 import styles from './index.css?inline';
 import Swiper from 'swiper';
+import 'swiper/css';
 
 export default component$(() => {
   useStylesScoped$(styles);
 
-  let swiper = new Swiper('.swiper', {
-    loop: true,
-    grabCursor: true,
-    slidesPerView: 'auto',
-    centeredSlides: true,
-    spaceBetween: 30,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    }
+  useClientEffect$(() => {
+    const mainSwiper = new Swiper('.swiper', {
+      loop: true,
+      grabCursor: true,
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      }
+    });
   });
 
   return (
