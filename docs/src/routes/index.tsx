@@ -15,27 +15,13 @@ export default component$(() => {
           <div>가독성 좋고 균형 있는</div>
           <div>한글 비트맵 폰트</div>
         </h2>
-        <small
-          id="more"
-          className="detail"
-          style={{ justifyContent: "center", textAlign: "center" }}
-        >
+        <small id="more" className="detail" style={{ justifyContent: "center", textAlign: "center" }}>
           아래로 스크롤하여 더 많은 내용 확인하기
         </small>
       </div>
       <div className="doc">
         <p>
-          Galmuri는 닌텐도 DS 본체와 소프트웨어에 사용되었던 폰트 디자인에서 영감을
-          받은 비트맵 폰트입니다. 2019년 10월 9일 한글날에 처음 공개되었으며,
-          Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인{" "}
-          <a href="https://cafe.naver.com/hansicgu" target="_blank">
-            한식구
-          </a>
-          에서 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘
-          <a href="https://cafe.naver.com/hansicgu/174" target="_blank">
-            갈무리M
-          </a>
-          ’에서 유래하였습니다.
+          Galmuri는 닌텐도 DS 본체와 소프트웨어에 사용되었던 폰트 디자인에서 영감을 받은 비트맵 폰트입니다. 2019년 10월 9일 한글날에 처음 공개되었으며, Galmuri의 이름은 2008년 6월 사용자 한글화 커뮤니티인 <a href="https://cafe.naver.com/hansicgu" target="_blank">한식구</a>에서 김동한 님께서 만들어 배포하신 비트맵 폰트 ‘<a href="https://cafe.naver.com/hansicgu/174" target="_blank">갈무리M</a>’에서 유래하였습니다.
         </p>
         <div className="btns" style={{ whiteSpace: "nowrap" }}>
           <a className="btn" href="./glyphs" style={{ flex: "initial" }}>
@@ -54,31 +40,10 @@ export default component$(() => {
           font name “Galmuri”.
         </p>
         <p>
-          Galmuri는{" "}
-          <a href="https://scripts.sil.org/OFL" target="_blank">
-            SIL 오픈 폰트 라이선스 1.1
-          </a>
-          에 따라 사용할 수 있으며, 폰트가 자체적으로 판매되지 않는 한 자유롭게
-          사용·연구·수정·재배포할 수 있습니다. 또한 어떠한 경우에도 저작권자는
-          계약·불법 행위 또는 기타 계약의 조치로 인한 일반·특수·간접·부수·결과적
-          손해를 포함하여 어떠한 청구·손해 또는 기타 책임도 지지 않습니다.
+          Galmuri는 <a href="https://scripts.sil.org/OFL" target="_blank">SIL 오픈 폰트 라이선스 1.1</a>에 따라 사용할 수 있으며, 폰트가 자체적으로 판매되지 않는 한 자유롭게 사용·연구·수정·재배포할 수 있습니다. 또한 어떠한 경우에도 저작권자는 계약·불법 행위 또는 기타 계약의 조치로 인한 일반·특수·간접·부수·결과적 손해를 포함하여 어떠한 청구·손해 또는 기타 책임도 지지 않습니다.
         </p>
         <p>
-          OFL 1.1을 한국어로 번역한 내용은{" "}
-          <a
-            href="https://github.com/quiple/galmuri/blob/main/OFL-ko.md"
-            target="_blank"
-          >
-            이곳
-          </a>
-          에서 확인할 수 있으며, 라이선스 원문은{" "}
-          <a
-            href="https://github.com/quiple/galmuri/blob/main/OFL.md"
-            target="_blank"
-          >
-            이곳
-          </a>
-          에서 확인할 수 있습니다.
+          OFL 1.1을 한국어로 번역한 내용은 <a href="https://github.com/quiple/galmuri/blob/main/OFL-ko.md" target="_blank">이곳</a>에서 확인할 수 있으며, 라이선스 원문은 <a href="https://github.com/quiple/galmuri/blob/main/OFL.md" target="_blank">이곳</a>에서 확인할 수 있습니다.
         </p>
         <h2>다운로드</h2>
         <div className="btns">
@@ -92,8 +57,7 @@ export default component$(() => {
           </a>
         </div>
         <p>
-          Galmuri14는 15px (11pt), Galmuri11은 12px (9pt), Galmuri9는 10px (7.5pt),
-          Galmuri7은 8px (6pt) 크기와 그 배수에서 가장 명확하게 표시됩니다.
+          Galmuri14는 15px (11pt), Galmuri11은 12px (9pt), Galmuri9는 10px (7.5pt), Galmuri7은 8px (6pt) 크기와 그 배수에서 가장 명확하게 표시됩니다.
         </p>
         {/*<p>이름에 ‘Bitmap’이 붙은 파일은 윤곽선 데이터 없이 비트맵 스트라이크만 포함된 트루타입 폰트입니다. CrystalTile2에서 폰트 이미지를 삽입하는 등의 용도로 적합합니다.</p>*/}
         <h2>웹폰트로 사용</h2>
