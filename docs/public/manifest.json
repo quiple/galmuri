@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "qwik-project-name",
-  "short_name": "Welcome to Qwik",
+  "name": "galmuri-docs",
+  "short_name": "Galmuri",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
