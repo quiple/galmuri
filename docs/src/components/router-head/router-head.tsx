@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { useDocumentHead, useLocation } from '@builder.io/qwik-city';
+import 'the-new-css-reset/css/reset.css';
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
