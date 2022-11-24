@@ -1,34 +1,5 @@
-header {
-  display: flex;
-  background: white;
-  border-bottom: 10px solid var(--qwik-dark-purple);
-}
+/* header.css */
 
-header .logo a {
-  display: inline-block;
-  padding: 10px 10px 7px 20px;
-}
-
-header ul {
-  margin: 0;
-  padding: 3px 10px 0 0;
-  list-style: none;
-  flex: 1;
-  text-align: right;
-}
-
-header li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-header li a {
-  display: inline-block;
-  padding: 15px 10px;
-  text-decoration: none;
-}
-
-header li a:hover {
-  text-decoration: underline;
-}
+.octocat { border: 0; color: #fbfbfb; fill: var(--point-fixed); height: 5.2rem; position: fixed; right: 0; top: 0; width: 5.2rem; z-index: 2; filter: drop-shadow(var(--shadow));}
+.octocat:hover .octocat-arm { animation: b .56s infinite; transform-origin: 7rem 5.25rem; }
+.octocat .octocat-arm, .octocat .octocat-body { fill: #fbfbfb; }
