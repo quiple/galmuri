@@ -9,7 +9,7 @@ export default component$(() => {
   useStylesScoped$(styles);
 
   useClientEffect$(() => {
-    const mainSwiper = new Swiper('.swiper', {
+    const swiper = new Swiper('.swiper', {
       loop: true,
       grabCursor: true,
       slidesPerView: 'auto',
@@ -17,8 +17,8 @@ export default component$(() => {
       spaceBetween: 30,
       autoplay: {
         delay: 5000,
-        disableOnInteraction: false
-      }
+        disableOnInteraction: false,
+      },
     });
   });
 
