@@ -55,31 +55,10 @@ export default component$(() => {
           font name “Galmuri”.
         </p>
         <p>
-          Galmuri는{" "}
-          <a href="https://scripts.sil.org/OFL" target="_blank">
-            SIL 오픈 폰트 라이선스 1.1
-          </a>
-          에 따라 사용할 수 있으며, 폰트가 자체적으로 판매되지 않는 한 자유롭게
-          사용·연구·수정·재배포할 수 있습니다. 또한 어떠한 경우에도 저작권자는
-          계약·불법 행위 또는 기타 계약의 조치로 인한 일반·특수·간접·부수·결과적
-          손해를 포함하여 어떠한 청구·손해 또는 기타 책임도 지지 않습니다.
+          Galmuri는 <a href="https://scripts.sil.org/OFL" target="_blank">SIL 오픈 폰트 라이선스 1.1</a>에 따라 사용할 수 있으며, 폰트가 자체적으로 판매되지 않는 한 자유롭게 사용·연구·수정·재배포할 수 있습니다. 또한 어떠한 경우에도 저작권자는 계약·불법 행위 또는 기타 계약의 조치로 인한 일반·특수·간접·부수·결과적 손해를 포함하여 어떠한 청구·손해 또는 기타 책임도 지지 않습니다.
         </p>
         <p>
-          OFL 1.1을 한국어로 번역한 내용은{" "}
-          <a
-            href="https://github.com/quiple/galmuri/blob/main/OFL-ko.md"
-            target="_blank"
-          >
-            이곳
-          </a>
-          에서 확인할 수 있으며, 라이선스 원문은{" "}
-          <a
-            href="https://github.com/quiple/galmuri/blob/main/OFL.md"
-            target="_blank"
-          >
-            이곳
-          </a>
-          에서 확인할 수 있습니다.
+          OFL 1.1을 한국어로 번역한 내용은 <a href="https://github.com/quiple/galmuri/blob/main/OFL-ko.md" target="_blank">이곳</a>에서 확인할 수 있으며, 라이선스 원문은 <a href="https://github.com/quiple/galmuri/blob/main/OFL.md" target="_blank">이곳</a>에서 확인할 수 있습니다.
         </p>
         <h2>다운로드</h2>
         <div className="btns">
@@ -96,7 +75,7 @@ export default component$(() => {
           Galmuri14는 15px (11pt), Galmuri11은 12px (9pt), Galmuri9는 10px (7.5pt),
           Galmuri7은 8px (6pt) 크기와 그 배수에서 가장 명확하게 표시됩니다.
         </p>
-        {/*p>이름에 ‘Bitmap’이 붙은 파일은 윤곽선 데이터 없이 비트맵 스트라이크만 포함된 트루타입 폰트입니다. CrystalTile2에서 폰트 이미지를 삽입하는 등의 용도로 적합합니다.</p*/}
+        {/*<p>이름에 ‘Bitmap’이 붙은 파일은 윤곽선 데이터 없이 비트맵 스트라이크만 포함된 트루타입 폰트입니다. CrystalTile2에서 폰트 이미지를 삽입하는 등의 용도로 적합합니다.</p>*/}
         <h2>웹폰트로 사용</h2>
         <p style={{ marginBottom: 8 }}>HTML에서:</p>
         <pre>
@@ -235,7 +214,7 @@ export default component$(() => {
               © Moonana
             </span>
           </div>
-          {/*div class="swiper-slide"><img src="./files/showcase/221106.png" alt="Kid Dracula"><span class="capt"><a href="https://blog.naver.com/devilucifer/222921095430" target="_blank">악마성 스페셜 - 나는 드라큐라군</a> (사용자 패치) by DQ군</span></div*/}
+          {/*<div class="swiper-slide"><img src="./files/showcase/221106.png" alt="Kid Dracula"><span class="capt"><a href="https://blog.naver.com/devilucifer/222921095430" target="_blank">악마성 스페셜 - 나는 드라큐라군</a> (사용자 패치) by DQ군</span></div>*/}
           <div className="swiper-slide">
             <img
               src="./files/showcase/220621.jpg"
@@ -643,15 +622,7 @@ export default component$(() => {
             <img className="noonnu" src="./files/noonnu.png" alt="눈누" />
           </a>
           <br />
-          산돌구름 및 눈누에 업로드되어 있는 파일은 최신 버전이 아닐 수 있습니다.
-          최신 버전을 사용하려면{" "}
-          <a
-            href="https://github.com/quiple/galmuri/releases/latest"
-            target="_blank"
-          >
-            Github 릴리스 페이지에서 다운로드
-          </a>
-          하세요.
+          산돌구름 및 눈누에 업로드되어 있는 파일은 최신 버전이 아닐 수 있습니다. 최신 버전을 사용하려면 <a href="https://github.com/quiple/galmuri/releases/latest" target="_blank">Github 릴리스 페이지에서 다운로드</a>하세요.
         </small>
       </div>
     </>
