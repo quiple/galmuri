@@ -42,14 +42,14 @@ html, body { font-size: 20px; position: relative; font-family: Galmuri9, sans-se
 .note { opacity: .5; }
 small a img { image-rendering: initial; height: 42px; vertical-align: bottom; filter: grayscale(1); transition: .1s; }
 small a:hover img { filter: none; }
-h2 { line-height: 1; }
 h3 { font-size: 20px; font-weight: 400; margin: 32px 0 8px; }
 p, ul, small { line-height: 1.5; }
 ul { list-style-type: none; font-size: 16px; font-family: Galmuri7, sans-serif; padding-left: 16px; position: relative; }
 li { margin: .25em 0; }
 li::before { content: '•'; left: 2px; position: absolute; }
 .doc { max-width: 768px; padding: 0 24px; margin: 0 auto; }
-h2 { font-family: Galmuri11, sans-serif; font-size: 24px; font-weight: 700; margin: 24px 0; }
+h2 { font-family: Galmuri11, sans-serif; font-size: 24px; font-weight: 700; margin: 24px 0; line-height: 1; }
+h2:not(:first-child) { margin-top: 48px; }
 a { color: var(--point-color); text-decoration: none; }
 a:hover { text-decoration: underline; }
 small { display: block; font-size: 16px; font-family: Galmuri7, sans-serif; padding-bottom: .5em; color: var(--cro); }
