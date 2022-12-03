@@ -23,6 +23,7 @@
   src: url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/Galmuri7.woff2') format('woff2'),
   url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/Galmuri7.ttf') format('truetype');
 }
+@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
 
  :root {
   --yellow: #eab308;
@@ -40,6 +41,7 @@
 ::selection { background-color: var(--point-color); color: var(--bg); }
 * { image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
 html, body { font-size: 20px; position: relative; font-family: Galmuri9, sans-serif; box-sizing: border-box; background-color: var(--bg); color: var(--cr); }
+iframe { border: 0; }
 
 .g14 { font-family: Galmuri14, serif; font-weight: 400; font-stretch: normal; font-size: 30px; }
 .g11 { font-family: Galmuri11, serif; font-weight: 400; font-stretch: normal; font-size: 24px; }

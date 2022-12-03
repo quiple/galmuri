@@ -165,6 +165,13 @@ export default component$(() => {
             </span>
           </div>
           <div className="swiper-slide">
+            <img src="./images/showcase/221127.png" alt="Papers, Please" />
+            <span className="capt">
+              <a href="https://store.steampowered.com/app/239030" target="_blank">Papers, Please
+              </a> © Lucas Pope
+            </span>
+          </div>
+          <div className="swiper-slide">
             <img src="./images/showcase/220621.jpg" alt="Shotgun King: The Final Checkmate" />
             <span className="capt">
               <a href="https://store.steampowered.com/app/1972440" target="_blank">Shotgun King: The Final Checkmate
@@ -267,13 +274,7 @@ export default component$(() => {
           </div>
         </div>
         <p>
-          <iframe
-            src="https://github.com/sponsors/quiple/button"
-            title="Sponsor quiple"
-            style={{ border: 0 }}
-            width={116}
-            height={35}
-          />
+          <iframe src="https://github.com/sponsors/quiple/button" title="Sponsor quiple" width={116} height={35} />
         </p>
         <h2>비트맵 폰트 복각 프로젝트 모음</h2>
         <ul>
