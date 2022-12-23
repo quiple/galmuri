@@ -8,14 +8,14 @@
 <prop id="lineGap" value="0"/>
 <prop id="xHeight" value="10"/>
 <prop id="capHeight" value="14"/>
-<name id="0" value="Copyright (c) 2019-2022 Minseo Lee (itoupluk427@gmail.com), with Reserved Font Name &#34;Galmuri&#34;."/>
+<name id="0" value="Copyright (c) 2019-2022 Minseo Lee (itoupluk427@gmail.com),"/>
 <name id="1" value="Galmuri14"/>
 <name id="2" value="Regular"/>
 <name id="3" value="BitsNPicas: Galmuri: 2022"/>
-<name id="4" value="Galmuri14 Regular"/>
+<name id="4" value="Galmuri14 Rounded"/>
 <name id="5" value="2.33.2"/>
-<name id="6" value="Galmuri14-Regular"/>
-<name id="7" value="Galmuri and Quiple are trademarks of Minseo Lee."/>
+<name id="6" value="Galmuri14-Rounded"/>
+<name id="7" value="Quiple is a trademark of Minseo Lee."/>
 <name id="8" value="Made with Bits&#39;n&#39;Picas by Kreative Software"/>
 <name id="9" value="Quiple (Minseo Lee)"/>
 <name id="11" value="http://www.kreativekorp.com/software/bitsnpicas/"/>
@@ -24,7 +24,7 @@
 <name id="14" value="https://scripts.sil.org/OFL"/>
 <name id="16" value="Galmuri14"/>
 <name id="17" value="Regular"/>
-<name id="18" value="Galmuri14 Regular"/>
+<name id="18" value="Galmuri14 Rounded"/>
 <name id="21" value="Galmuri14"/>
 <name id="22" value="Regular"/>
 <g u="32" x="0" y="0" w="6" d="AAA"/>
@@ -1277,16 +1277,16 @@
 <g u="44076" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkzCAP8Kw/8A/wrD/wD/CkECSgE"/>
 <g u="44077" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkEKwv8ATMIA/wrD/wD/CkECSgE"/>
 <g u="44078" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkEDQQNBBEUDQQRBA0ECw/8A/wNBA8P/AP8DQQNDwgD/BUE"/>
-<g u="44079" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0ECQQVBA0QEQQRBAkECQgVBAkMHQQJBCUECQQZBAkECQQZBC8P/AP8IQgNCBEIHQw"/>
-<g u="44080" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBEEEFQQZBBUEFw/8A/wPD/wD/A0EDw/8A/wPD/wD/BUEFQQ"/>
-<g u="44081" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBD0oCQQrD/wD/CsP/AP8KQQJKAQ"/>
-<g u="44082" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkwGQQvD/wD/CEIDQgRCB0M"/>
-<g u="44083" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBE0EHTAXD/wD/CEIDQgRCB0M"/>
-<g u="44084" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBDksNwv8ATAxBDEE"/>
-<g u="44085" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBD0vCAP8MTMIA/w1L"/>
-<g u="44086" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkwDQQZBBUEGQQZBBEEETA"/>
-<g u="44087" x="1" y="14" w="15" d="Dg1HAkECQQZBAkECQQZBAkECQQVBA0QFQQNBAkEEQQRBAkECQgVBAkMHQQJBBkEHTBBIBEEIQQRIAg"/>
-<g u="44088" x="1" y="14" w="15" d="Dg5HBEEIQQRBCEEEQQhBBEEIQQRDBUEFQQdBBUEGQQZBBkEGQwNBB0EEQQhBAkIJQQ1BDUEC"/>
+<g u="44079" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkECQQVBA0QEQQRBAkECQgVBAkMHQQJBCUECQQZBAkECQQZBC8P/AP8IQgNCBEIHQw"/>
+<g u="44080" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBEEEFQQZBBUEFw/8A/wPD/wD/A0EDw/8A/wPD/wD/BUEFQQ"/>
+<g u="44081" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBD0oCQQrD/wD/CsP/AP8KQQJKAQ"/>
+<g u="44082" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkwGQQvD/wD/CEIDQgRCB0M"/>
+<g u="44083" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBE0EHTAXD/wD/CEIDQgRCB0M"/>
+<g u="44084" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBDksNwv8ATAxBDEE"/>
+<g u="44085" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBD0vCAP8MTMIA/w1L"/>
+<g u="44086" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBDkwDQQZBBUEGQQZBBEEETA"/>
+<g u="44087" x="1" y="14" w="15" d="Dg1GA0ECQQZBAkECQQZBAkECQQZBAkQFQQNBAkEEQQRBAkECQgVBAkMHQQJBBkEHTBBIBEEIQQRIAg"/>
+<g u="44088" x="1" y="14" w="15" d="Dg5GBUEIQQRBCEEEQQhBBEEIQQRDBUEFQQdBBUEGQQZBBkEGQwNBB0EEQQhBAkIJQQ1BDUEC"/>
 <g u="44089" x="1" y="14" w="15" d="Dg5HBEEIQQRBCEEEQwVBBUEHQQVBBkEGQwJCB0ECQglBEUoOQQ1BDUENQQI"/>
 <g u="44090" x="1" y="14" w="15" d="Dg5HBEEIQQRBCEEEQwVBBUEHQQVBBkEGQwJCB0ECQglBEUQCRAhBBUEHQQVBB0EFQQdBBUEC"/>
 <g u="44091" x="1" y="14" w="15" d="Dg5HBEEIQQRBCEEEQwVBBUEHQQVBBkEGQwJCB0ECQglBEUQEQQlBA0EJQQLD/wD/CMP/AP8DQQdCBcL/AA"/>
