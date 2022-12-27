@@ -28,8 +28,8 @@ feature kern {
   enum pos [T Y] [d @mid @hor] -100;
   enum pos [b h k @mid @hor] [T Y] -100;
   enum pos [C L] @hor -100;
-  enum pos [@smj @hor] j -100;
-  enum pos [@cpj @hor] J -100;
+  enum pos [@smj @hor @top] j -100;
+  enum pos [@cpj @hor @top] J -100;
   enum pos A W 0;
   enum pos W A 0;
   enum pos [A L backslash @btm] [T V W Y backslash @top] -100;

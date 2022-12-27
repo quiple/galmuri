@@ -25,16 +25,14 @@ feature kern {
   @cpj = [F P T Y f r];
   @smj = [B-D F G J O P S-W Y b f o p r s v w];
 
-  enum pos [T Y] [d @mid @hor] -100;
-  enum pos [b h k @mid @hor] [T Y] -100;
-  enum pos T @btm -200;
-  enum pos @btm T -200;
+  enum pos [T Y] [d @mid @hor @btm] -100;
+  enum pos [b h k @mid @hor @btm] [T Y] -100;
   enum pos @top @btm -100;
   enum pos @btm @top -100;
   enum pos L [T @top] -200;
-  enum pos [@smj @hor] j -100;
-  enum pos [@cpj @hor] J -100;
-  enum pos [Y f r @hor] [@btm] -100;
+  enum pos [@smj @hor @top] j -100;
+  enum pos [@cpj @hor @top] J -100;
+  enum pos [f r @hor] [@btm] -100;
 
 } kern;
 
