@@ -40,6 +40,9 @@ jobs:
 
       - name: Set up BeautifulSoup
         run: pip3 install bs4
+      
+      - name: Set up FontForge
+        run: sudo apt install fontforge python3-fontforge
 
       - name: Clean up distribution files
         run: |
