@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.349;
+  FontRevision   2.350;
 
 } head;
 
@@ -59,14 +59,20 @@ table vhea {
 
 table name {
 
-  nameid  0 3 1 0x0409 "Copyright \0028c\0029 2019-2022 Minseo Lee \0028itoupluk427@gmail.com\0029, with Reserved Font Name \0022Galmuri\0022.";
-  nameid  0 1 0      0 "Copyright \28c\29 2019-2022 Minseo Lee \28itoupluk427@gmail.com\29, with Reserved Font Name \22Galmuri\22.";
+  nameid  0 3 1 0x0409 "Copyright \0028c\0029 2019-2023 Minseo Lee \0028itoupluk427@gmail.com\0029";
+  nameid  0 1 0      0 "Copyright \28c\29 2019-2023 Minseo Lee \28itoupluk427@gmail.com\29";
 
-  nameid  7 3 1 0x0409 "Galmuri and Quiple are trademarks of Minseo Lee.";
-  nameid  7 3 1 0x0412 "Galmuri \bc0f Quiple\c740 \c774\bbfc\c11c\c758 \c0c1\d45c\c785\b2c8\b2e4.";
-  nameid  7 1 0      0 "Galmuri and Quiple are trademarks of Minseo Lee.";
-  nameid  7 1 3     23 "Galmuri \bc0f Quiple\c740 \c774\bbfc\c11c\c758 \c0c1\d45c\c785\b2c8\b2e4.";
-                       # Galmuri 및 Quiple은 이민서의 상표입니다.
+  nameid  1 3 1 0x0409 "Galmuri11";
+  nameid  1 1 0      0 "Galmuri11";
+
+  nameid  2 3 1 0x0409 "Bold";
+  nameid  2 1 0      0 "Bold";
+
+  nameid  7 3 1 0x0409 "Quiple is a trademark of Minseo Lee.";
+  nameid  7 3 1 0x0412 "Quiple\c740 \c774\bbfc\c11c\c758 \c0c1\d45c\c785\b2c8\b2e4.";
+  nameid  7 1 0      0 "Quiple is a trademark of Minseo Lee.";
+  nameid  7 1 3     23 "Quiple\c740 \c774\bbfc\c11c\c758 \c0c1\d45c\c785\b2c8\b2e4.";
+                       # Quiple은 이민서의 상표입니다.
 
   nameid  9 3 1 0x0409 "Minseo Lee \0028Quiple\0029";
   nameid  9 3 1 0x0412 "\c774\bbfc\c11c \0028Quiple\0029";

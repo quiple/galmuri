@@ -59,6 +59,10 @@ jobs:
           python files/versionBits.py files/g11.fea src/Galmuri9.kbitx
           python files/versionBits.py files/g11.fea src/Galmuri7.kbitx
 
+      - name: Get npm package version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@main
+
       - name: Convert to BDF font
         run: |
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri14.bdf src/Galmuri14.kbitx
@@ -67,6 +71,14 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Condensed.bdf src/Galmuri11-Condensed.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri9.bdf src/Galmuri9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri7.bdf src/Galmuri7.kbitx
+          python mkttf/mkttf.py -f Galmuri14Bitmap -n Galmuri14Bitmap-Regular -N "Galmuri14Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri14.bdf
+          python mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Regular -N "Galmuri11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11.bdf
+          python mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Bold -N "Galmuri11Bitmap Bold" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Bold.bdf
+          python mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Condensed -N "Galmuri11Bitmap Condensed" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Condensed.bdf
+          python mkttf/mkttf.py -f Galmuri9Bitmap -n Galmuri9Bitmap-Regular -N "Galmuri9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri9.bdf
+          python mkttf/mkttf.py -f Galmuri7Bitmap -n Galmuri7Bitmap-Regular -N "Galmuri7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri7.bdf
+          mv *.ttf dist
+          rm -rf *.sfd
 
       - name: Convert to TrueType font and compress to WOFF2
         run: |
@@ -89,10 +101,6 @@ jobs:
           fonttools ttLib.woff2 compress dist/Galmuri11-Condensed.ttf
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
           fonttools ttLib.woff2 compress dist/Galmuri7.ttf
-
-      - name: Get npm package version
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@main
 
       - name: Clean up Temporary Files
         run: rm -rf dist/*_mod.bdf
