@@ -47,6 +47,18 @@ jobs:
           rm -rf dist/*.ttf
           rm -rf dist/*.woff2
 
+      - name: Update version
+        run: |
+          python files/version.py files/g11.fea package.json
+          python files/version.py files/g11.fea package-lock.json
+          python files/versionBits.py files/g11.fea src/Galmuri14.kbitx
+          python files/versionBits.py files/g11.fea src/Galmuri14-Rounded.kbitx
+          python files/versionBits.py files/g11.fea src/Galmuri11.kbitx
+          python files/versionBits.py files/g11.fea src/Galmuri11-Bold.kbitx
+          python files/versionBits.py files/g11.fea src/Galmuri11-Condensed.kbitx
+          python files/versionBits.py files/g11.fea src/Galmuri9.kbitx
+          python files/versionBits.py files/g11.fea src/Galmuri7.kbitx
+
       - name: Convert to BDF font
         run: |
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri14.bdf src/Galmuri14.kbitx
@@ -77,11 +89,6 @@ jobs:
           fonttools ttLib.woff2 compress dist/Galmuri11-Condensed.ttf
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
           fonttools ttLib.woff2 compress dist/Galmuri7.ttf
-
-      - name: Update npm package version
-        run: |
-          python files/version.py files/g11.fea package.json
-          python files/version.py files/g11.fea package-lock.json
 
       - name: Get npm package version
         id: package-version
