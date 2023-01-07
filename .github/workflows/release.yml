@@ -42,7 +42,7 @@ jobs:
         run: pip3 install bs4
       
       - name: Set up FontForge
-        run: sudo apt-get install fontforge python-fontforge
+        run: sudo apt-get install fontforge python3-fontforge
 
       - name: Clean up distribution files
         run: |
