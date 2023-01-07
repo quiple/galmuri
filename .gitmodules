@@ -1,3 +1,6 @@
 [submodule "bitsnpicas"]
 	path = bitsnpicas
 	url = https://github.com/kreativekorp/bitsnpicas
+[submodule "mkttf"]
+	path = mkttf
+	url = https://github.com/Tblue/mkttf
