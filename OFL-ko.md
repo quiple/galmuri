@@ -1,4 +1,4 @@
-Copyright &copy; 2019-2022 Minseo Lee (itoupluk427@gmail.com)
+Copyright &copy; 2019-2023 Minseo Lee (itoupluk427@gmail.com)
 
 이 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 1.1에 따라 사용이 허가됩니다. 이 라이선스는 아래에 복사되어 있으며, <https://scripts.sil.org/OFL>에서 FAQ와 함께 확인할 수 있습니다.
 
