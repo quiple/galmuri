@@ -43,6 +43,7 @@ jobs:
       
       - name: Set up FontForge
         run: |
+          sudo apt-get install software-properties-common
           sudo add-apt-repository ppa:fontforge/fontforge
           sudo apt-get install fontforge python3-fontforge
 
