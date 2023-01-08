@@ -43,9 +43,9 @@ jobs:
       
       - name: Set up FontForge
         run: |
-          sudo apt-get install software-properties-common
+          sudo apt-get install -y software-properties-common
           sudo add-apt-repository ppa:fontforge/fontforge
-          sudo apt-get install fontforge python3-fontforge
+          sudo apt-get install -y fontforge python3-fontforge
 
       - name: Clean up distribution files
         run: |
