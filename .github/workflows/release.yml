@@ -45,6 +45,7 @@ jobs:
         run: |
           sudo apt-get install -y software-properties-common
           sudo add-apt-repository ppa:fontforge/fontforge
+          sudo apt-get update
           sudo apt-get install -y fontforge python3-fontforge
 
       - name: Clean up distribution files
