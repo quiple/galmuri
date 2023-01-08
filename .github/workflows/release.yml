@@ -43,7 +43,8 @@ jobs:
       
       - name: Set up FontForge
         run: |
-          sudo apt-get update
+          sudo apt-get install -y software-properties-common
+          sudo add-apt-repository ppa:fontforge/fontforge
           sudo apt-get install -y fontforge python3-fontforge
 
       - name: Clean up distribution files
@@ -54,15 +55,15 @@ jobs:
 
       - name: Update version
         run: |
-          python files/version.py files/g11.fea package.json
-          python files/version.py files/g11.fea package-lock.json
-          python files/versionBits.py files/g11.fea src/Galmuri14.kbitx
-          python files/versionBits.py files/g11.fea src/Galmuri14-Rounded.kbitx
-          python files/versionBits.py files/g11.fea src/Galmuri11.kbitx
-          python files/versionBits.py files/g11.fea src/Galmuri11-Bold.kbitx
-          python files/versionBits.py files/g11.fea src/Galmuri11-Condensed.kbitx
-          python files/versionBits.py files/g11.fea src/Galmuri9.kbitx
-          python files/versionBits.py files/g11.fea src/Galmuri7.kbitx
+          python3 files/version.py files/g11.fea package.json
+          python3 files/version.py files/g11.fea package-lock.json
+          python3 files/versionBits.py files/g11.fea src/Galmuri14.kbitx
+          python3 files/versionBits.py files/g11.fea src/Galmuri14-Rounded.kbitx
+          python3 files/versionBits.py files/g11.fea src/Galmuri11.kbitx
+          python3 files/versionBits.py files/g11.fea src/Galmuri11-Bold.kbitx
+          python3 files/versionBits.py files/g11.fea src/Galmuri11-Condensed.kbitx
+          python3 files/versionBits.py files/g11.fea src/Galmuri9.kbitx
+          python3 files/versionBits.py files/g11.fea src/Galmuri7.kbitx
 
       - name: Get npm package version
         id: package-version
@@ -76,12 +77,12 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri11-Condensed.bdf src/Galmuri11-Condensed.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri9.bdf src/Galmuri9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri7.bdf src/Galmuri7.kbitx
-          python mkttf/mkttf.py -f Galmuri14Bitmap -n Galmuri14Bitmap-Regular -N "Galmuri14Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri14.bdf
-          python mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Regular -N "Galmuri11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11.bdf
-          python mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Bold -N "Galmuri11Bitmap Bold" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Bold.bdf
-          python mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Condensed -N "Galmuri11Bitmap Condensed" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Condensed.bdf
-          python mkttf/mkttf.py -f Galmuri9Bitmap -n Galmuri9Bitmap-Regular -N "Galmuri9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri9.bdf
-          python mkttf/mkttf.py -f Galmuri7Bitmap -n Galmuri7Bitmap-Regular -N "Galmuri7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri7.bdf
+          python3 mkttf/mkttf.py -f Galmuri14Bitmap -n Galmuri14Bitmap-Regular -N "Galmuri14Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri14.bdf
+          python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Regular -N "Galmuri11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11.bdf
+          python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Bold -N "Galmuri11Bitmap Bold" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Bold.bdf
+          python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Condensed -N "Galmuri11Bitmap Condensed" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Condensed.bdf
+          python3 mkttf/mkttf.py -f Galmuri9Bitmap -n Galmuri9Bitmap-Regular -N "Galmuri9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri9.bdf
+          python3 mkttf/mkttf.py -f Galmuri7Bitmap -n Galmuri7Bitmap-Regular -N "Galmuri7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri7.bdf
           mv *.ttf dist
           rm -rf *.sfd
 
