@@ -1,0 +1,5 @@
+header {
+  display: flex;
+}
+
+.github { fill: var(--fg); }
