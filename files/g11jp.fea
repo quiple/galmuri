@@ -6,35 +6,6 @@ table head {
 
 languagesystem DFLT dflt;
 
-feature liga {
-
-  sub f f by uniFB00;
-  sub f i by fi;
-  sub f l by fl;
-  sub f f i by uniFB03;
-  sub f f l by uniFB04;
-
-} liga;
-
-feature kern {
-
-  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
-  @mid = [a c e g m-s u-z];
-  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
-  @btm = [comma period underscore];
-  @cpj = [F P T V W Y f r v w];
-  @smj = [B D F G J O P S-W Y b f o p r s v w];
-
-  enum pos [T Y] [d @mid @hor] -100;
-  enum pos [b h k @mid @hor] [T Y] -100;
-  enum pos [@smj @hor @top] j -100;
-  enum pos [@cpj @hor @top] J -100;
-  enum pos [L backslash @btm] [T V W Y backslash @top] -100;
-  enum pos [T V W Y slash @top] [slash @btm] -100;
-  enum pos [F P T V W Y f r v w @hor] [@btm] -100;
-
-} kern;
-
 feature vert {
 
   sub uni2025 by uniFE30; # ‥
@@ -92,23 +63,19 @@ feature vert {
 
 } vert;
 
-feature tnum { sub one by uniF001; } tnum;
-
-feature zero { sub zero by uniF000; } zero;
-
 table hhea {
 
-  CaretOffset   0;
-  Ascender    800;
-  Descender   100;
-  LineGap     200;
+  CaretOffset    0;
+  Ascender    1200;
+  Descender    200;
+  LineGap      200;
 
 } hhea;
 
 table vhea {
 
-  VertTypoAscender   400;
-  VertTypoDescender -400;
+  VertTypoAscender   600;
+  VertTypoDescender -600;
   VertTypoLineGap      0;
 
 } vhea;
@@ -118,8 +85,8 @@ table name {
   nameid  0 3 1 0x0409 "Copyright \0028c\0029 2019-2023 Minseo Lee \0028itoupluk427@gmail.com\0029";
   nameid  0 1 0      0 "Copyright \28c\29 2019-2023 Minseo Lee \28itoupluk427@gmail.com\29";
 
-  nameid  1 3 1 0x0409 "Galmuri7";
-  nameid  1 1 0      0 "Galmuri7";
+  nameid  1 3 1 0x0409 "Galmuri11JP";
+  nameid  1 1 0      0 "Galmuri11JP";
 
   nameid  2 3 1 0x0409 "Regular";
   nameid  2 1 0      0 "Regular";
@@ -151,8 +118,8 @@ table name {
   nameid 14 3 1 0x0409 "https:\002f\002fscripts.sil.org\002fOFL";
   nameid 14 1 0      0 "https:\2f\2fscripts.sil.org\2fOFL";
 
-  nameid 21 3 1 0x0409 "Galmuri7";
-  nameid 21 1 0      0 "Galmuri7";
+  nameid 21 3 1 0x0409 "Galmuri11JP";
+  nameid 21 1 0      0 "Galmuri11JP";
 
   nameid 22 3 1 0x0409 "Regular";
   nameid 22 1 0      0 "Regular";
@@ -172,9 +139,8 @@ table OS/2 {
                  0 0 0;  # Any
   UnicodeRange       0   # Basic Latin
                      1   # Latin-1 Supplement
-                     2   # Latin Extended-A
-                     3   # Latin Extended-B
-                    29   # Latin Extended Additional
+                     7   # Greek and Coptic
+                     9   # Cyrillic
                     31   # General Punctuation
                     33   # Currency Symbols
                     35   # Letterlike Symbols
@@ -201,19 +167,15 @@ table OS/2 {
                     68   # Halfwidth And Fullwidth Forms
                     69;  # Specials
   CodePageRange   1252   # Latin 1
-                  1250   # Latin 2: Eastern Europe
-                  1251   # Cyrillic
-                  1253   # Greek
-                  1254   # Turkish
                    932   # JIS/Japan
                    949;  # Korean Wansung
-  TypoAscender     800;
-  TypoDescender   -100;
+  TypoAscender    1200;
+  TypoDescender   -200;
   TypoLineGap      200;
-  winAscent        900;
-  winDescent       100;
-  XHeight          500;
-  CapHeight        700;
+  winAscent       1400;
+  winDescent       200;
+  XHeight          800;
+  CapHeight       1100;
   WeightClass      400;  # Normal (Regular)
   WidthClass         5;  # Medium (Normal)
   Vendor        "QPLE";
