@@ -15,6 +15,13 @@ function viewFonts() {
         list.classList.remove('g11jp');
         list.classList.remove('g9');
         list.classList.remove('g7');
+        tameshi.classList.add('g14');
+        tameshi.classList.remove('g11');
+        tameshi.classList.remove('g11b');
+        tameshi.classList.remove('g11c');
+        tameshi.classList.remove('g11jp');
+        tameshi.classList.remove('g9');
+        tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11') {
         list.classList.add('g11');
         list.classList.remove('g14');
@@ -23,6 +30,13 @@ function viewFonts() {
         list.classList.remove('g11jp');
         list.classList.remove('g9');
         list.classList.remove('g7');
+        tameshi.classList.add('g11');
+        tameshi.classList.remove('g14');
+        tameshi.classList.remove('g11b');
+        tameshi.classList.remove('g11c');
+        tameshi.classList.remove('g11jp');
+        tameshi.classList.remove('g9');
+        tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11 Bold') {
         var fileName = 'Galmuri11-Bold';
         list.classList.add('g11b');
@@ -32,6 +46,13 @@ function viewFonts() {
         list.classList.remove('g11jp');
         list.classList.remove('g9');
         list.classList.remove('g7');
+        tameshi.classList.add('g11b');
+        tameshi.classList.remove('g14');
+        tameshi.classList.remove('g11');
+        tameshi.classList.remove('g11c');
+        tameshi.classList.remove('g11jp');
+        tameshi.classList.remove('g9');
+        tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11 Condensed') {
         var fileName = 'Galmuri11-Condensed';
         list.classList.add('g11c');
@@ -41,6 +62,13 @@ function viewFonts() {
         list.classList.remove('g11jp');
         list.classList.remove('g9');
         list.classList.remove('g7');
+        tameshi.classList.add('g11c');
+        tameshi.classList.remove('g14');
+        tameshi.classList.remove('g11');
+        tameshi.classList.remove('g11b');
+        tameshi.classList.remove('g11jp');
+        tameshi.classList.remove('g9');
+        tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11JP') {
         list.classList.add('g11jp');
         list.classList.remove('g14');
@@ -49,6 +77,13 @@ function viewFonts() {
         list.classList.remove('g11c');
         list.classList.remove('g9');
         list.classList.remove('g7');
+        tameshi.classList.add('g11jp');
+        tameshi.classList.remove('g14');
+        tameshi.classList.remove('g11');
+        tameshi.classList.remove('g11b');
+        tameshi.classList.remove('g11c');
+        tameshi.classList.remove('g9');
+        tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri9') {
         list.classList.add('g9');
         list.classList.remove('g14');
@@ -57,6 +92,13 @@ function viewFonts() {
         list.classList.remove('g11c');
         list.classList.remove('g11jp');
         list.classList.remove('g7');
+        tameshi.classList.add('g9');
+        tameshi.classList.remove('g14');
+        tameshi.classList.remove('g11');
+        tameshi.classList.remove('g11b');
+        tameshi.classList.remove('g11c');
+        tameshi.classList.remove('g11jp');
+        tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri7') {
         list.classList.add('g7');
         list.classList.remove('g14');
@@ -65,6 +107,13 @@ function viewFonts() {
         list.classList.remove('g11c');
         list.classList.remove('g11jp');
         list.classList.remove('g9');
+        tameshi.classList.add('g7');
+        tameshi.classList.remove('g14');
+        tameshi.classList.remove('g11');
+        tameshi.classList.remove('g11b');
+        tameshi.classList.remove('g11c');
+        tameshi.classList.remove('g11jp');
+        tameshi.classList.remove('g9');
       }
       fetch('./dist/' + fileName + '.bdf').then(async function (res) {
         const text = await res.text();
