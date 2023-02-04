@@ -41,7 +41,7 @@ function viewFonts() {
         list.classList.remove('g11jp');
         list.classList.remove('g9');
         list.classList.remove('g7');
-      } else if (fileName == 'Galmuri11') {
+      } else if (fileName == 'Galmuri11JP') {
         list.classList.add('g11jp');
         list.classList.remove('g14');
         list.classList.remove('g11');
