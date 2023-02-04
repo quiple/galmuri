@@ -1,9 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "galmuri-docs",
-  "short_name": "Galmuri",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#6171eb",
-  "description": "Galmuri fonts website."
-}
