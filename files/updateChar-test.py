@@ -3,7 +3,7 @@
 import os
 import re
 
-fonts = ['Galmuri14', 'Galmuri11', 'Galmuri11-Bold', 'Galmuri11-Condensed', 'Galmuri9', 'Galmuri7']
+fonts = ['Galmuri14', 'Galmuri11', 'Galmuri11-Bold', 'Galmuri11-Condensed', 'Galmuri11JP', 'Galmuri9', 'Galmuri7']
 chars = ['hangul', 'ksx1001', 'ksc5601', 'cp949', 'jis0201', 'jis0208', 'jis0212', 'shiftjis', 'cp932']
 
 with open(os.getcwd() + '/dist/Galmuri9.bdf', 'rt', encoding='utf8') as f:
