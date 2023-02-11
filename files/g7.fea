@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.355;
+  FontRevision   2.356;
 
 } head;
 
@@ -100,7 +100,7 @@ table hhea {
 
   CaretOffset   0;
   Ascender    800;
-  Descender   100;
+  Descender  -100;
   LineGap     200;
 
 } hhea;
