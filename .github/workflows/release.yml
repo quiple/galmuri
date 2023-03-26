@@ -98,13 +98,13 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri11JP.ttf src/Galmuri11JP.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri9.ttf src/Galmuri9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbitx
-          makeotf -mf files/FontMenuNameDB -f tGalmuri14.ttf -ff files/g14.fea -o dist/Galmuri14.ttf -osbOn 6 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Bold.ttf -ff files/g11b.fea -o dist/Galmuri11-Bold.ttf -osbOn 5 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Condensed.ttf -ff files/g11c.fea -o dist/Galmuri11-Condensed.ttf -osbOn 6 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri11JP.ttf -ff files/g11jp.fea -o dist/Galmuri11JP.ttf -osbOn 6 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6 -addn
-          makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6 -addn
+          makeotf -mf files/FontMenuNameDB -f tGalmuri14.ttf -ff files/g14.fea -o dist/Galmuri14.ttf -osbOn 6
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Bold.ttf -ff files/g11b.fea -o dist/Galmuri11-Bold.ttf -osbOn 5
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11-Condensed.ttf -ff files/g11c.fea -o dist/Galmuri11-Condensed.ttf -osbOn 6
+          makeotf -mf files/FontMenuNameDB -f tGalmuri11JP.ttf -ff files/g11jp.fea -o dist/Galmuri11JP.ttf -osbOn 6
+          makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6
+          makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6
           otf2otc -o dist/Galmuri.ttc dist/Galmuri14.ttf dist/Galmuri11.ttf dist/Galmuri11-Bold.ttf dist/Galmuri11-Condensed.ttf dist/Galmuri9.ttf dist/Galmuri7.ttf
           fonttools ttLib.woff2 compress dist/Galmuri14.ttf
           fonttools ttLib.woff2 compress dist/Galmuri11.ttf
