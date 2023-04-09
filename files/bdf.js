@@ -19,7 +19,6 @@ function viewFonts() {
         tameshi.classList.remove('g11');
         tameshi.classList.remove('g11b');
         tameshi.classList.remove('g11c');
-        tameshi.classList.remove('g11jp');
         tameshi.classList.remove('g9');
         tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11') {
@@ -34,7 +33,6 @@ function viewFonts() {
         tameshi.classList.remove('g14');
         tameshi.classList.remove('g11b');
         tameshi.classList.remove('g11c');
-        tameshi.classList.remove('g11jp');
         tameshi.classList.remove('g9');
         tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11 Bold') {
@@ -50,7 +48,6 @@ function viewFonts() {
         tameshi.classList.remove('g14');
         tameshi.classList.remove('g11');
         tameshi.classList.remove('g11c');
-        tameshi.classList.remove('g11jp');
         tameshi.classList.remove('g9');
         tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri11 Condensed') {
@@ -66,22 +63,6 @@ function viewFonts() {
         tameshi.classList.remove('g14');
         tameshi.classList.remove('g11');
         tameshi.classList.remove('g11b');
-        tameshi.classList.remove('g11jp');
-        tameshi.classList.remove('g9');
-        tameshi.classList.remove('g7');
-      } else if (fileName == 'Galmuri11JP') {
-        list.classList.add('g11jp');
-        list.classList.remove('g14');
-        list.classList.remove('g11');
-        list.classList.remove('g11b');
-        list.classList.remove('g11c');
-        list.classList.remove('g9');
-        list.classList.remove('g7');
-        tameshi.classList.add('g11jp');
-        tameshi.classList.remove('g14');
-        tameshi.classList.remove('g11');
-        tameshi.classList.remove('g11b');
-        tameshi.classList.remove('g11c');
         tameshi.classList.remove('g9');
         tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri9') {
@@ -97,7 +78,6 @@ function viewFonts() {
         tameshi.classList.remove('g11');
         tameshi.classList.remove('g11b');
         tameshi.classList.remove('g11c');
-        tameshi.classList.remove('g11jp');
         tameshi.classList.remove('g7');
       } else if (fileName == 'Galmuri7') {
         list.classList.add('g7');
@@ -112,7 +92,6 @@ function viewFonts() {
         tameshi.classList.remove('g11');
         tameshi.classList.remove('g11b');
         tameshi.classList.remove('g11c');
-        tameshi.classList.remove('g11jp');
         tameshi.classList.remove('g9');
       }
       fetch('./dist/' + fileName + '.bdf').then(async function (res) {
