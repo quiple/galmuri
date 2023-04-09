@@ -42,17 +42,6 @@
   l = 3, 1, 0x0409,Galmuri11 Condensed
   m = 1, 0,      0,Galmuri11 Condensed
 
-[Galmuri11JP-Regular]
-
-  f = 3, 1, 0x0409,Galmuri11JP
-  f = 1, 0,      0,Galmuri11JP
-
-  s = 3, 1, 0x0409,Regular
-  s = 1, 0,      0,Regular
-
-  l = 3, 1, 0x0409,Galmuri11JP Regular
-  m = 1, 0,      0,Galmuri11JP Regular
-
 [Galmuri9-Regular]
 
   f = 3, 1, 0x0409,Galmuri9
@@ -74,3 +63,25 @@
 
   l = 3, 1, 0x0409,Galmuri7 Regular
   m = 1, 0,      0,Galmuri7 Regular
+
+[GalmuriMono7-Regular]
+
+  f = 3, 1, 0x0409,GalmuriMono7
+  f = 1, 0,      0,GalmuriMono7
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,GalmuriMono7 Regular
+  m = 1, 0,      0,GalmuriMono7 Regular
+
+[GalmuriMono11-Regular]
+
+  f = 3, 1, 0x0409,GalmuriMono11
+  f = 1, 0,      0,GalmuriMono11
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,GalmuriMono11 Regular
+  m = 1, 0,      0,GalmuriMono11 Regular
