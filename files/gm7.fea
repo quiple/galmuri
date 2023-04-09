@@ -63,10 +63,6 @@ feature vert {
 
 } vert;
 
-feature tnum { sub one by uniF001; } tnum;
-
-feature zero { sub zero by uniF000; } zero;
-
 table hhea {
 
   CaretOffset   0;
