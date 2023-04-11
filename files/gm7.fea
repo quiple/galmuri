@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.357;
+  FontRevision   2.358;
 
 } head;
 
@@ -85,8 +85,8 @@ table name {
   nameid  0 3 1 0x0409 "Copyright \0028c\0029 2019-2023 Minseo Lee \0028itoupluk427@gmail.com\0029";
   nameid  0 1 0      0 "Copyright \28c\29 2019-2023 Minseo Lee \28itoupluk427@gmail.com\29";
 
-  nameid  1 3 1 0x0409 "Galmuri7";
-  nameid  1 1 0      0 "Galmuri7";
+  nameid  1 3 1 0x0409 "GalmuriMono7";
+  nameid  1 1 0      0 "GalmuriMono7";
 
   nameid  2 3 1 0x0409 "Regular";
   nameid  2 1 0      0 "Regular";
@@ -118,8 +118,8 @@ table name {
   nameid 14 3 1 0x0409 "https:\002f\002fscripts.sil.org\002fOFL";
   nameid 14 1 0      0 "https:\2f\2fscripts.sil.org\2fOFL";
 
-  nameid 21 3 1 0x0409 "Galmuri7";
-  nameid 21 1 0      0 "Galmuri7";
+  nameid 21 3 1 0x0409 "GalmuriMono7";
+  nameid 21 1 0      0 "GalmuriMono7";
 
   nameid 22 3 1 0x0409 "Regular";
   nameid 22 1 0      0 "Regular";
