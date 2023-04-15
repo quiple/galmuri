@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.360;
+  FontRevision   2.361;
 
 } head;
 
@@ -98,7 +98,12 @@ feature vert {
 
 } vert;
 
-feature tnum { sub one by uniF001; } tnum;
+feature tnum {
+
+  sub one by uniF001;
+  sub seven by uniF007;
+
+} tnum;
 
 feature zero { sub zero by uniF000; } zero;
 

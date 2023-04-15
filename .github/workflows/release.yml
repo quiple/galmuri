@@ -65,6 +65,7 @@ jobs:
           python3 files/versionBits.py files/g11.fea src/Galmuri9.kbitx
           python3 files/versionBits.py files/g11.fea src/Galmuri7.kbitx
           python3 files/versionBits.py files/g11.fea src/GalmuriMono11.kbitx
+          python3 files/versionBits.py files/g11.fea src/GalmuriMono9.kbitx
           python3 files/versionBits.py files/g11.fea src/GalmuriMono7.kbitx
 
       - name: Get npm package version
@@ -80,6 +81,7 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri9.bdf src/Galmuri9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/Galmuri7.bdf src/Galmuri7.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/GalmuriMono11.bdf src/GalmuriMono11.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/GalmuriMono9.bdf src/GalmuriMono9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f bdf -o dist/GalmuriMono7.bdf src/GalmuriMono7.kbitx
           python3 mkttf/mkttf.py -f Galmuri14Bitmap -n Galmuri14Bitmap-Regular -N "Galmuri14Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri14.bdf
           python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Regular -N "Galmuri11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11.bdf
@@ -88,6 +90,7 @@ jobs:
           python3 mkttf/mkttf.py -f Galmuri9Bitmap -n Galmuri9Bitmap-Regular -N "Galmuri9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri9.bdf
           python3 mkttf/mkttf.py -f Galmuri7Bitmap -n Galmuri7Bitmap-Regular -N "Galmuri7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri7.bdf
           python3 mkttf/mkttf.py -f GalmuriMono11Bitmap -n GalmuriMono11Bitmap-Regular -N "GalmuriMono11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono11.bdf
+          python3 mkttf/mkttf.py -f GalmuriMono9Bitmap -n GalmuriMono9Bitmap-Regular -N "GalmuriMono9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono9.bdf
           python3 mkttf/mkttf.py -f GalmuriMono7Bitmap -n GalmuriMono7Bitmap-Regular -N "GalmuriMono7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono7.bdf
           mv *.ttf dist
           rm -rf *.sfd
@@ -101,6 +104,7 @@ jobs:
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri9.ttf src/Galmuri9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuri7.ttf src/Galmuri7.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuriMono11.ttf src/GalmuriMono11.kbitx
+          java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuriMono9.ttf src/GalmuriMono9.kbitx
           java -jar bitsnpicas/downloads/BitsNPicas.jar convertbitmap -f ttf -o tGalmuriMono7.ttf src/GalmuriMono7.kbitx
           makeotf -mf files/FontMenuNameDB -f tGalmuri14.ttf -ff files/g14.fea -o dist/Galmuri14.ttf -osbOn 6
           makeotf -mf files/FontMenuNameDB -f tGalmuri11.ttf -ff files/g11.fea -o dist/Galmuri11.ttf -osbOn 6
@@ -109,6 +113,7 @@ jobs:
           makeotf -mf files/FontMenuNameDB -f tGalmuri9.ttf -ff files/g9.fea -o dist/Galmuri9.ttf -osbOn 6
           makeotf -mf files/FontMenuNameDB -f tGalmuri7.ttf -ff files/g7.fea -o dist/Galmuri7.ttf -osbOn 6
           makeotf -mf files/FontMenuNameDB -f tGalmuriMono11.ttf -ff files/gm11.fea -o dist/GalmuriMono11.ttf -osbOn 6
+          makeotf -mf files/FontMenuNameDB -f tGalmuriMono9.ttf -ff files/gm9.fea -o dist/GalmuriMono9.ttf -osbOn 6
           makeotf -mf files/FontMenuNameDB -f tGalmuriMono7.ttf -ff files/gm7.fea -o dist/GalmuriMono7.ttf -osbOn 6
           otf2otc -o dist/Galmuri.ttc dist/Galmuri14.ttf dist/Galmuri11.ttf dist/Galmuri11-Bold.ttf dist/Galmuri11-Condensed.ttf dist/Galmuri9.ttf dist/Galmuri7.ttf
           fonttools ttLib.woff2 compress dist/Galmuri14.ttf
@@ -118,6 +123,7 @@ jobs:
           fonttools ttLib.woff2 compress dist/Galmuri9.ttf
           fonttools ttLib.woff2 compress dist/Galmuri7.ttf
           fonttools ttLib.woff2 compress dist/GalmuriMono11.ttf
+          fonttools ttLib.woff2 compress dist/GalmuriMono9.ttf
           fonttools ttLib.woff2 compress dist/GalmuriMono7.ttf
 
       - name: Clean up Temporary Files

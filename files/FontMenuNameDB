@@ -75,6 +75,17 @@
   l = 3, 1, 0x0409,GalmuriMono7 Regular
   m = 1, 0,      0,GalmuriMono7 Regular
 
+[GalmuriMono9-Regular]
+
+  f = 3, 1, 0x0409,GalmuriMono9
+  f = 1, 0,      0,GalmuriMono9
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,GalmuriMono9 Regular
+  m = 1, 0,      0,GalmuriMono9 Regular
+
 [GalmuriMono11-Regular]
 
   f = 3, 1, 0x0409,GalmuriMono11

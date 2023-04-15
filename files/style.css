@@ -3,9 +3,11 @@
 @font-face { font-family: Galmuri11; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri11.woff2') format('woff2'), url('../dist/Galmuri11.ttf') format('truetype'); }
 @font-face { font-family: Galmuri11; font-weight: 700; font-style: normal; font-display: block; src: url('../dist/Galmuri11-Bold.woff2') format('woff2'), url('../dist/Galmuri11-Bold.ttf') format('truetype'); }
 @font-face { font-family: Galmuri11; font-weight: 400; font-style: normal; font-stretch: condensed; font-display: block; src: url('../dist/Galmuri11-Condensed.woff2') format('woff2'), url('../dist/Galmuri11-Condensed.ttf') format('truetype'); }
-@font-face { font-family: Galmuri11JP; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri11JP.woff2') format('woff2'), url('../dist/Galmuri11JP.ttf') format('truetype'); }
 @font-face { font-family: Galmuri9; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri9.woff2') format('woff2'), url('../dist/Galmuri9.ttf') format('truetype'); }
 @font-face { font-family: Galmuri7; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/Galmuri7.woff2') format('woff2'), url('../dist/Galmuri7.ttf') format('truetype'); }
+@font-face { font-family: GalmuriMono11; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/GalmuriMono11.woff2') format('woff2'), url('../dist/GalmuriMono11.ttf') format('truetype'); }
+@font-face { font-family: GalmuriMono9; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/GalmuriMono9.woff2') format('woff2'), url('../dist/GalmuriMono9.ttf') format('truetype'); }
+@font-face { font-family: GalmuriMono7; font-weight: 400; font-style: normal; font-display: block; src: url('../dist/GalmuriMono7.woff2') format('woff2'), url('../dist/GalmuriMono7.ttf') format('truetype'); }
 :root {
   --yellow: #eab308;
   --point-color: #6171eb;
@@ -25,9 +27,11 @@ html, body { font-size: 20px; position: relative; font-family: Galmuri9, sans-se
 .g11 { font-family: Galmuri11, serif; font-weight: 400; font-stretch: normal; font-size: 24px; }
 .g11b { font-family: Galmuri11, serif; font-weight: 700; font-stretch: normal; font-size: 24px; }
 .g11c { font-family: Galmuri11, serif; font-weight: 400; font-stretch: condensed; font-size: 24px; }
-.g11jp { font-family: Galmuri11JP, serif; font-weight: 400; font-stretch: normal; font-size: 24px; }
 .g9 { font-family: Galmuri9, serif; font-weight: 400; font-stretch: normal; font-size: 20px; }
 .g7 { font-family: Galmuri7, serif; font-weight: 400; font-stretch: normal; font-size: 16px; }
+.g11.mono { font-family: GalmuriMono11, monospace; }
+.g9.mono { font-family: GalmuriMono9, monospace; }
+.g7.mono { font-family: GalmuriMono7, monospace; }
 .fea { display: flex; gap: 10px; }
 .fea pre { flex: 1; font-family: Galmuri11, sans-serif; font-size: 24px; line-height: 1.5; margin: 0; margin-top: -10px; }
 .fea pre span { color: var(--point-color); }
