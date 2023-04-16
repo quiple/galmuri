@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="theme-color" content="#6171eb">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} • {% endif -%}{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:image" content="{{ site.url }}/files/cover.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:locale" content="ko_KR">
+  <title>{% if page.title %}{{ page.title }} • {% endif -%}{{ site.title }}</title>
+  <link rel="canonical" href="{{ site.url }}">
+  <link rel="icon" type="image/svg+xml" href="./assets/galmuri.svg">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/syntax.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XWK7FLW2C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3XWK7FLW2C');
+  </script>
+</head>
+
+<body>
+  <main>{{ content }}</main>
+  <footer>
+    <small>Copyright &copy; 2019-2023 {{ site.author }}. Quiple은 Minseo Lee의 상표입니다. 닌텐도 DS는 Nintendo의 상표이며 이 프로젝트는 Nintendo와 어떠한 관련도 없습니다. 각 폰트 및 게임은 해당 소유자 및 사용 허가자의 상표 및 저작권 자산입니다.</small>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{{ content }}
+<script>
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      document.querySelector('#title').classList.add('show');
+    }, 500);
+  });
+  const test = document.getElementById('test');
+  const testFamily = document.getElementById('test-family');
+  const testSize = document.getElementById('test-size');
+  const testSizeIndicator = document.getElementById('test-size-indicator');
+  testFamily.addEventListener('change', function() {
+    let testFontValue = this.value;
+    if (testFontValue == 'g14') {
+      test.style.fontFamily = 'Galmuri14-web, sans-serif';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'g11') {
+      test.style.fontFamily = 'Galmuri11-web, sans-serif';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'g11b') {
+      test.style.fontFamily = 'Galmuri11-web, sans-serif';
+      test.style.fontWeight = '700';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'g11c') {
+      test.style.fontFamily = 'Galmuri11-web, sans-serif';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'condensed';
+    } else if (testFontValue == 'g9') {
+      test.style.fontFamily = 'Galmuri9-web, sans-serif';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'g7') {
+      test.style.fontFamily = 'Galmuri7-web, sans-serif';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'gm11') {
+      test.style.fontFamily = 'GalmuriMono11-web, monospace';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'gm9') {
+      test.style.fontFamily = 'GalmuriMono9-web, monospace';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    } else if (testFontValue == 'gm7') {
+      test.style.fontFamily = 'GalmuriMono7-web, monospace';
+      test.style.fontWeight = '400';
+      test.style.fontStretch = 'normal';
+    }
+  });
+  testSize.addEventListener('input', function() {
+    test.style.fontSize = this.value + 'px';
+    testSizeIndicator.innerText = this.value + 'px';
+  });
+</script>
