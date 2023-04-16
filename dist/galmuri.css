@@ -65,3 +65,33 @@
        url('./Galmuri7.woff2') format('woff2'),
        url('./Galmuri7.ttf') format('truetype');
 }
+@font-face {
+  font-family: GalmuriMono11;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GalmuriMono11 Regular'),
+       url('./GalmuriMono11.woff2') format('woff2'),
+       url('./GalmuriMono11.ttf') format('truetype');
+}
+@font-face {
+  font-family: GalmuriMono9;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GalmuriMono9 Regular'),
+       url('./GalmuriMono9.woff2') format('woff2'),
+       url('./GalmuriMono9.ttf') format('truetype');
+}
+@font-face {
+  font-family: GalmuriMono7;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('GalmuriMono7 Regular'),
+       url('./GalmuriMono7.woff2') format('woff2'),
+       url('./GalmuriMono7.ttf') format('truetype');
+}
