@@ -27,11 +27,11 @@ url: https://galmuri.quiple.dev # the base hostname & protocol for your site, e.
 twitter_username: kuipuru
 github_username: quiple
 github_reponame: galmuri
+sass:
+  style: compressed
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-sass:
-  style: compressed
 
 # Build settings
 # theme:
