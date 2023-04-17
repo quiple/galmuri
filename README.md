@@ -1,18 +1,8 @@
-![Cover](files/cover_light.png#gh-light-mode-only)![Cover](files/cover_dark.png#gh-dark-mode-only)
+![Galmuri](files/cover.png)
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/galmuri" target="_blank"><img src="https://img.shields.io/npm/v/galmuri" alt="npm Package Version"></a>
-  <a href="https://github.com/quiple/galmuri/blob/main/OFL.md"><img src="https://img.shields.io/github/license/quiple/galmuri" alt="License"></a>
-  <a href="https://github.com/quiple/galmuri/actions/workflows/release.yml"><img src="https://github.com/quiple/galmuri/workflows/release/badge.svg" alt="GitHub Workflow Status"></a>
-  <a href="https://github.com/quiple/galmuri/releases/latest"><img src="https://img.shields.io/github/downloads/quiple/galmuri/total" alt="GitHub all releases"></a>
-  <a href="https://www.jsdelivr.com/package/npm/galmuri?version=latest" target="_blank"><img src="https://data.jsdelivr.com/v1/package/npm/galmuri/badge?style=rounded" alt="jsDelivr Hits"></a>
-</p>
+[![npm Package Version](https://img.shields.io/npm/v/galmuri)](https://www.npmjs.com/package/galmuri) [![License](https://img.shields.io/github/license/quiple/galmuri)](https://github.com/quiple/galmuri/blob/main/OFL.md) [![GitHub Workflow Status](https://github.com/quiple/galmuri/workflows/release/badge.svg)](https://github.com/quiple/galmuri/actions/workflows/release.yml) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/galmuri/badge)](https://www.jsdelivr.com/package/npm/galmuri)
 
 Bitmap fonts inspired by the font design from Nintendo DS.
-
-## Character Preview
-
-- [Galmuri Character Preview](https://galmuri.quiple.dev/glyphs)
 
 ## Summary of Supported Ranges
 
@@ -30,11 +20,6 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 [^han-1]: Only 4,358 Hangul Syllables included in [Adobe-KR-0](https://github.com/adobe-type-tools/Adobe-KR#supplement-0adobe-kr-0) and [Adobe-KR-1](https://github.com/adobe-type-tools/Adobe-KR#supplement-1adobe-kr-1).
 [^jis]: Only 6,355 CJK Unified Ideographs included in JIS X 0208.
 [^ks]: Only 268 CJK Compatibility Ideographs included in KS X 1001.
-
-## License
-Copyright © 2019-2022 Minseo Lee (<itoupluk427@gmail.com>)
-
-Galmuri is licensed under the [SIL Open Font License 1.1](https://github.com/quiple/galmuri/blob/main/OFL.md).
 
 ## Use as Web Fonts
 
