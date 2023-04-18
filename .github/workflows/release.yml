@@ -132,9 +132,6 @@ jobs:
       - name: Make zip
         run: zip -r Galmuri-v${{ steps.package-version.outputs.current-version }}.zip dist
 
-      - name: Update progress
-        run: python files/updateChar.py
-
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
