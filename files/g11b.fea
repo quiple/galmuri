@@ -18,7 +18,7 @@ feature liga {
 
 feature kern {
 
-  @A = [A Agrave-Aring];
+  @A = [A Agrave Aacute Acircumflex Atilde Adieresis Aring];
   @Y = [Y Yacute];
   @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
   @mid = [a ae c ccedilla e g m-s oslash u-z];

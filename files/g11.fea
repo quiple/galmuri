@@ -18,7 +18,7 @@ feature liga {
 
 feature kern {
 
-  @A = [A Agrave-Aring Amacron Abreve Aogonek uni01CD uni01DE uni01E0 Aringacute uni0200 uni0202 uni0226 uni0245];
+  @A = [A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek uni01CD uni01DE uni01E0 Aringacute uni0200 uni0202 uni0226 uni0245];
   @F = [F uni0191];
   @L = [L Lacute Lcommaaccent Lcaron Ldot Lslash uni023D uni029F];
   @T = [T Tcommaaccent Tcaron Tbar uni01AC uni01AE uni021A];
