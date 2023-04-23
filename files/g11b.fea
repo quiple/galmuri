@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.366;
+  FontRevision   2.367;
 
 } head;
 
@@ -18,23 +18,25 @@ feature liga {
 
 feature kern {
 
+  @A = [A Agrave-Aring];
+  @Y = [Y Yacute];
   @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
-  @mid = [a c e g m-s u-z];
+  @mid = [a ae c ccedilla e g m-s oslash u-z];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
-  @cpj = [seven F P T Y f r];
-  @smj = [seven B-D F G J O P S-W Y b f o p r s v w];
+  @cpj = [seven F P T @Y f r];
+  @smj = [seven B-D F G J O P S-W @Y b f o p r s v w];
 
-  enum pos [T Y] [d @mid @hor @btm] -100;
-  enum pos [b h k @mid @hor @btm] [T Y] -100;
+  enum pos [T @Y] [d @mid @hor @btm] -100;
+  enum pos [b h k thorn @mid @hor @btm] [T @Y] -100;
   enum pos @top @btm -100;
   enum pos @btm @top -100;
   enum pos L [T @top] -200;
   enum pos [@smj @hor @top] j -100;
   enum pos [@cpj @hor @top] J -100;
-  enum pos [A L backslash @btm] [T V W Y backslash @top] -100;
-  enum pos [seven T V W Y slash @top] [A slash @btm] -100;
-  enum pos [F P f r v w y @hor] [@btm] -100;
+  enum pos [@A L backslash @btm] [T V W @Y backslash @top] -100;
+  enum pos [seven T V W @Y slash @top] [@A AE slash @btm] -100;
+  enum pos [F P f r v w y yacute ydieresis @hor] [@btm] -100;
 
 } kern;
 
