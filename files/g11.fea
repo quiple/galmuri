@@ -27,7 +27,7 @@ feature kern {
   @mid = [a aogonek ae aeacute c ccedilla e eogonek g kgreenlandic m-s ncommaaccent eng uni019E oslash oe uni01A8 u-z uni018D uni01B6 uni01B9 uni01BD uni01DD uni01EB uni01F3 uni0219 uni0225 uni0229 uni0238 uni0239 uni023F uni0240 uni0242 uni024B racute rcommaaccent rcaron uni0211 uni0213 uni024D yacute ydieresis ycircumflex uni01B4 uni0233 uni024F uni0250-uni0252 uni0254 uni0255 uni0258 uni0259 uni025A-uni025F uni0261-uni0265 dotlessi uni0269 uni026A uni0237 uni026F uni0270-uni0279 uni027B-uni027F uni0280-uni0282 uni0285 uni0287 uni0289 uni028D uni028F uni0290-uni0293 uni0297 uni0299 uni029A uni029C uni029E uni029F uni02A3-uni02A6 uni02AE uni02AF];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
-  @bar = [i igrave iacute icircumflex ideresis itilde imacron ibreve iogonek dotlessi uni01D0 uni0268 ij j jcircumflex uni01F0 uni0237 l lacute lcommaaccent lcaron ldot uni01C9 uni026D];
+  @bar = [i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi uni01D0 uni0268 ij j jcircumflex uni01F0 uni0237 l lacute lcommaaccent lcaron ldot uni01C9 uni026D];
   @cpj = [seven @F K @L P R @T V-Z f i-l r v-z];
   @smj = [seven B-D @F G J O P S-W @Y b c f o p r-w y];
 
