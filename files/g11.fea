@@ -1,20 +1,10 @@
 table head {
 
-  FontRevision   2.368;
+  FontRevision   2.369;
 
 } head;
 
 languagesystem DFLT dflt;
-
-feature liga {
-
-  sub f f by uniFB00;
-  sub f i by fi;
-  sub f l by fl;
-  sub f f i by uniFB03;
-  sub f f l by uniFB04;
-
-} liga;
 
 feature kern {
 
@@ -27,10 +17,11 @@ feature kern {
   @mid = [a aogonek ae aeacute c ccedilla e eogonek g kgreenlandic m-s ncommaaccent eng uni019E oslash oe uni01A8 u-z uni018D uni01B6 uni01B9 uni01BD uni01DD uni01EB uni01F3 uni0219 uni0225 uni0229 uni0238 uni0239 uni023F uni0240 uni0242 uni024B racute rcommaaccent rcaron uni0211 uni0213 uni024D yacute ydieresis ycircumflex uni01B4 uni0233 uni024F uni0250-uni0252 uni0254 uni0255 uni0258 uni0259 uni025A-uni025F uni0261 uni0262 uni0263 uni0264 uni0265 dotlessi uni0269 uni026A uni0237 uni026F uni0270 uni0271 uni0272 uni0273 uni0274 uni0275 uni0276 uni0277 uni0278 uni0279 uni027B-uni027F uni0280-uni0282 uni0285 uni0287 uni0289 uni028D uni028F uni0290 uni0291 uni0292 uni0293 uni0297 uni0299 uni029A uni029C uni029E uni029F uni02A3 uni02A4 uni02A5 uni02A6 uni02AE uni02AF];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
-  @bar = [i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi uni01D0 uni0268 ij j jcircumflex uni01F0 uni0237 l lacute lcommaaccent lcaron ldot uni01C9 uni026D];
+  @bar = [f florin longs uni0283 uni0284 uni0285 uni0286 t tcommaaccent tcaron tbar uni01AB uni01AD uni021B uni0287 uni0288 I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent uni019A uni0197 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi uni0196 uni01CF uni01D0 uni0208 uni0209 uni020A uni020B uni0268 uni0269 uni026A-uni026D ij j jcircumflex uni01F0 uni0237 uni0249 uni025F l lacute lcommaaccent lcaron ldot uni01C9];
   @cpj = [seven @F K @L P R @T V-Z f i-l r v-z];
   @smj = [seven B-D @F G J O P S-W @Y b c f o p r-w y];
 
+  enum pos f f -200;
   enum pos [@T @Y @top] [d dcaron dcroat uni01A1 uni01B0 uni01C6 uni0256 uni0257 uni029B uni02A0 @mid @hor] -100;
   enum pos [b uni0180 uni0184 uni0185 uni01F2 uni0253 h hbar uni0195 uni01F6 uni021F uni0266 uni0267 k kcommaaccent uni0199 uni01E9 napostrophe thorn uni026E uni02A8 uni02A9 uni02AA uni02AB @mid @hor] [@T @Y @top] -100;
   enum pos @L @hor -100;
@@ -39,7 +30,7 @@ feature kern {
   enum pos @L [@T @top] -200;
   enum pos [@smj @hor @top] j -100;
   enum pos [@cpj @hor @top] J -100;
-  enum pos [@bar uni01C8 uni01CB uni01CC fi fl uniFB03 uniFB04] @bar -100;
+  enum pos [@bar r racute rcommaaccent rcaron uni0211 uni0213 uni024D uni027C-uni027E uni01C8 uni01CB uni01CC] [@bar uni026E] -100;
   enum pos [@A @L backslash @btm] [T V W @Y backslash @top uni0279 uni027A uni027B uni028E] -100;
   enum pos [seven @T V W @Y slash @top] [@A AE uni01E2 AEacute slash @btm] -100;
   enum pos [F P f r racute rcommaaccent rcaron uni0211 uni0213 uni024D uni027C-uni027E v w y yacute ydieresis ycircumflex uni01B4 uni0233 uni024F @hor] [@btm] -100;

@@ -1,20 +1,10 @@
 table head {
 
-  FontRevision   2.368;
+  FontRevision   2.369;
 
 } head;
 
 languagesystem DFLT dflt;
-
-feature liga {
-
-  sub f f by uniFB00;
-  sub f i by fi;
-  sub f l by fl;
-  sub f f i by uniFB03;
-  sub f f l by uniFB04;
-
-} liga;
 
 feature kern {
 
@@ -27,6 +17,8 @@ feature kern {
   @cpj = [seven F P T @Y f r];
   @smj = [seven B-D F G J O P S-W @Y b f o p r s v w];
 
+  enum pos f f -100;
+  enum pos t t -100;
   enum pos [T @Y] [d @mid @hor @btm] -100;
   enum pos [b h k thorn @mid @hor @btm] [T @Y] -100;
   enum pos @top @btm -100;

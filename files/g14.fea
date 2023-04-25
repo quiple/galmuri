@@ -1,20 +1,10 @@
 table head {
 
-  FontRevision   2.368;
+  FontRevision   2.369;
 
 } head;
 
 languagesystem DFLT dflt;
-
-feature liga {
-
-  sub f f by uniFB00;
-  sub f i by fi;
-  sub f l by fl;
-  sub f f i by uniFB03;
-  sub f f l by uniFB04;
-
-} liga;
 
 feature kern {
 
@@ -22,10 +12,12 @@ feature kern {
   @mid = [a c e g m-s u-z];
   @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
   @btm = [comma period underscore];
-  @bar = [f i j l t fi fl uniFB03 uniFB04];
+  @bar = [f i j l t];
   @cpj = [seven F K L P R T V-Z f i-l r v-z];
   @smj = [seven B-D F G J O P S-W Y b c f o p r-w y];
 
+  enum pos f f -200;
+  enum pos t t -200;
   enum pos [T Y] [d @mid @hor] -200;
   enum pos [b h k @mid @hor] [T Y] -200;
   enum pos @top [d @mid @hor] -100;
