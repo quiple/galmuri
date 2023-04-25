@@ -26,13 +26,13 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 ### HTML
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css">
 ```
 
 ### CSS
 
 ```css
-@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@import url('https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css');
 ```
 
 ### CSS Rules to Specify Families
