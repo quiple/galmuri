@@ -8,10 +8,10 @@ languagesystem DFLT dflt;
 
 feature kern {
 
-  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
+  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave quoteleft quoteright quotereversed quotedblleft quotedblright uni201F];
   @mid = [a c e g m-s u-z];
-  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
-  @btm = [comma period underscore];
+  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208 uni2025 ellipsis];
+  @btm = [comma period underscore quotesinglbase quotedblbase uni2024];
   @cpj = [seven F P T V W Y f r v w y];
   @smj = [seven B D F G J O P S-W Y b f o p r s v w y];
 

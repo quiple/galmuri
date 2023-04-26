@@ -10,10 +10,10 @@ feature kern {
 
   @A = [A Agrave Aacute Acircumflex Atilde Adieresis Aring];
   @Y = [Y Yacute];
-  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave];
+  @top = [quotedbl quotesingle quoteleft quoteright asciicircum grave quoteleft quoteright quotereversed quotedblleft quotedblright uni201F];
   @mid = [a ae c ccedilla e g m-s oslash u-z];
-  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208];
-  @btm = [comma period underscore];
+  @hor = [hyphen equal plus asterisk asciitilde uni2010-uni2012 endash emdash afii00208 uni2025 ellipsis];
+  @btm = [comma period underscore quotesinglbase quotedblbase uni2024];
   @cpj = [seven F P T @Y f r];
   @smj = [seven B-D F G J O P S-W @Y b f o p r s v w];
 
