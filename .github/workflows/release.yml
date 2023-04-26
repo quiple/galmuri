@@ -19,16 +19,16 @@ jobs:
           distribution: 'zulu'
           java-version: '18'
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-      
-      # - name: Set up Python and FontForge
-      #   run: |
-      #     sudo apt-get install -y software-properties-common
-      #     sudo add-apt-repository ppa:fontforge/fontforge
-      #     sudo apt-get install -y python3 fontforge python3-fontforge
+      # - name: Set up Python
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: '3.x'
+
+      - name: Set up Python and FontForge
+        run: |
+          sudo apt-get install -y software-properties-common
+          sudo add-apt-repository ppa:fontforge/fontforge
+          sudo apt-get install -y python3 fontforge python3-fontforge
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -37,15 +37,15 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Set up fontTools
-        run: pip install fonttools[woff]
+        run: pip3 install fonttools[woff]
 
       - name: Set up AFDKO
         run: |
-          pip install afdko
+          pip3 install afdko
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Set up BeautifulSoup
-        run: pip install bs4
+        run: pip3 install bs4
 
       - name: Clean up distribution files
         run: |
