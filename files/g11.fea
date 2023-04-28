@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.373;
+  FontRevision   2.374;
 
 } head;
 
@@ -26,7 +26,8 @@ feature kern {
 
   enum pos f f -200;
   enum pos t t -100;
-  enum pos [@T @Y @top] [d dcaron dcroat uni01A1 uni01B0 uni01C6 uni0256 uni0257 uni029B uni02A0 @mid @hor] -100;
+  enum pos @T [d dcaron dcroat uni01A1 uni01B0 uni01C6 uni0256 uni0257 uni029B uni02A0 @mid @hor] -100;
+  enum pos [@Y @top] [a aogonek ae aeacute c ccedilla d dcaron dcroat uni01A1 uni01B0 uni01C6 uni0256 uni0257 uni029B uni02A0 e eogonek uni01DD g o oe q s uni01A8 @hor] -100;
   enum pos [b uni0180 uni0184 uni0185 uni01F2 uni0253 h hbar uni0195 uni01F6 uni021F uni0266 uni0267 k kcommaaccent uni0199 uni01E9 napostrophe thorn uni026E uni02A8 uni02A9 uni02AA uni02AB @mid @hor] [@T @Y] -100;
   enum pos @L @hor -100;
   enum pos @T @btm -200;
