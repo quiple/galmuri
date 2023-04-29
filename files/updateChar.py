@@ -4,7 +4,7 @@ import re
 from bs4 import BeautifulSoup
 from os.path import dirname, abspath
 
-fonts = ['Galmuri14', 'Galmuri11', 'Galmuri11-Bold', 'Galmuri11-Condensed', 'Galmuri9', 'Galmuri7', 'GalmuriMono11', 'GalmuriMono7']
+fonts = ['Galmuri14', 'Galmuri11', 'Galmuri11-Bold', 'Galmuri11-Condensed', 'Galmuri9', 'Galmuri7', 'GalmuriMono11', 'GalmuriMono9', 'GalmuriMono7']
 chars = ['hangul', 'ksx1001', 'ksc5601', 'cp949', 'jis0201', 'jis0208', 'jis0212', 'shiftjis', 'cp932']
 styles = ''
 
