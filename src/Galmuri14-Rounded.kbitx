@@ -2,7 +2,7 @@
 <!DOCTYPE kbits PUBLIC "-//Kreative//DTD BitsNPicasBitmap 1.0//EN" "http://www.kreativekorp.com/dtd/kbitx.dtd">
 <kbits>
 <prop id="emAscent" value="15"/>
-<prop id="emDescent" value="3"/>
+<prop id="emDescent" value="0"/>
 <prop id="lineAscent" value="18"/>
 <prop id="lineDescent" value="3"/>
 <prop id="lineGap" value="0"/>
