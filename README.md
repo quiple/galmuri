@@ -57,8 +57,7 @@ import 'galmuri/dist/galmuri.css';
 ## Sponsor
 
 <div style="display: flex">
-  <img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/toss.svg" alt="Toss" style="height:240px">
-  <img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/kakao.svg" alt="Kakao Pay" style="height:240px">
+  <img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/toss.svg" height="240" alt="Toss"><img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/kakao.svg" height="240" alt="Kakao Pay">
 </div>
 
 ----
