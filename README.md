@@ -56,7 +56,10 @@ import 'galmuri/dist/galmuri.css';
 
 ## Sponsor
 
-<img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/donate.png" alt="Donate" style="height:240px">
+<div style="display: flex">
+  <img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/toss.svg" alt="Toss" style="height:240px">
+  <img src="https://raw.githubusercontent.com/quiple/galmuri/main/files/kakao.svg" alt="Kakao Pay" style="height:240px">
+</div>
 
 ----
 
