@@ -18,8 +18,8 @@ feature kern {
 
   enum pos f f -200;
   enum pos t t -200;
-  enum pos f t -100;
-  enum pos t f -100;
+  enum pos f t -200;
+  enum pos t f -200;
   enum pos T [d @mid @hor] -200;
   enum pos Y [a ae c d e g o oe q s] -200;
   enum pos Y [@mid @hor] -100;
