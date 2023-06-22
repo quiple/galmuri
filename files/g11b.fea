@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.381;
+  FontRevision   2.382;
 
 } head;
 
@@ -19,6 +19,8 @@ feature kern {
 
   enum pos f f -100;
   enum pos t t -100;
+  enum pos f t -100;
+  enum pos t f -100;
   enum pos T [d @mid @hor] -100;
   enum pos @Y [c d e g o q s @hor] -100;
   enum pos [b h k thorn @mid @hor @btm] [T @Y] -100;
@@ -150,8 +152,6 @@ table OS/2 {
                     69;  # Specials
   CodePageRange   1252   # Latin 1
                   1250   # Latin 2: Eastern Europe
-                  1251   # Cyrillic
-                  1253   # Greek
                   1254   # Turkish
                    932   # JIS/Japan
                    949;  # Korean Wansung

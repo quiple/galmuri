@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.381;
+  FontRevision   2.382;
 
 } head;
 
@@ -17,6 +17,8 @@ feature kern {
 
   enum pos f f -100;
   enum pos t t -100;
+  enum pos f t -100;
+  enum pos t f -100;
   enum pos T [d uni01A1 uni01B0 @mid @hor] -100;
   enum pos Y [c ccedilla d uni01A1 e eogonek g o oe q s @hor] -100;
   enum pos [b h k @mid @hor] [T Y] -100;
@@ -176,6 +178,8 @@ table OS/2 {
                      1   # Latin-1 Supplement
                      2   # Latin Extended-A
                      3   # Latin Extended-B
+                     7   # Greek and Coptic
+                     9   # Cyrillic
                     29   # Latin Extended Additional
                     31   # General Punctuation
                     33   # Currency Symbols

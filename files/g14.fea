@@ -1,6 +1,6 @@
 table head {
 
-  FontRevision   2.381;
+  FontRevision   2.382;
 
 } head;
 
@@ -18,6 +18,8 @@ feature kern {
 
   enum pos f f -200;
   enum pos t t -200;
+  enum pos f t -100;
+  enum pos t f -100;
   enum pos T [d @mid @hor] -200;
   enum pos Y [a ae c d e g o oe q s] -200;
   enum pos Y [@mid @hor] -100;
@@ -146,6 +148,8 @@ table OS/2 {
                     68   # Halfwidth And Fullwidth Forms
                     69;  # Specials
   CodePageRange   1252   # Latin 1
+                  1250   # Latin 2: Eastern Europe
+                  1254   # Turkish
                    949;  # Korean Wansung
   TypoAscender    1500;
   TypoDescender   -300;
