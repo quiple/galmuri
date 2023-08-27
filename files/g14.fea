@@ -36,6 +36,7 @@ feature kern {
   enum pos [A L backslash @btm] [T V W Y backslash @top] -200;
   enum pos [seven T V W Y slash @top] [A slash @btm] -200;
   enum pos [F P f r v w y @hor] [@btm] -200;
+  enum pos seven four -200;
 
 } kern;
 
