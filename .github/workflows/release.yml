@@ -45,7 +45,7 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Set up Bits'N'Picas
-        run: gh release download -repo 'kreativekorp/bitsnpicas' --pattern 'BitsNPicas.jar'
+        run: gh release download --repo 'kreativekorp/bitsnpicas' --pattern 'BitsNPicas.jar'
 
       - name: Clean up distribution files
         run: |
