@@ -67,6 +67,14 @@ jobs:
           python3 files/versionBits.py files/g11.fea src/GalmuriMono11.kbitx
           python3 files/versionBits.py files/g11.fea src/GalmuriMono9.kbitx
           python3 files/versionBits.py files/g11.fea src/GalmuriMono7.kbitx
+          python3 files/versionFea.py files/g11.fea files/g14.fea
+          python3 files/versionFea.py files/g11.fea files/g11b.fea
+          python3 files/versionFea.py files/g11.fea files/g11c.fea
+          python3 files/versionFea.py files/g11.fea files/g9.fea
+          python3 files/versionFea.py files/g11.fea files/g7.fea
+          python3 files/versionFea.py files/g11.fea files/gm11.fea
+          python3 files/versionFea.py files/g11.fea files/gm9.fea
+          python3 files/versionFea.py files/g11.fea files/gm7.fea
 
       - name: Get npm package version
         id: package-version
