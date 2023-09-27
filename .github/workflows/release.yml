@@ -46,6 +46,8 @@ jobs:
 
       - name: Set up Bits'N'Picas
         run: gh release download --repo 'kreativekorp/bitsnpicas' --pattern 'BitsNPicas.jar'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Clean up distribution files
         run: |
