@@ -3,11 +3,11 @@ FONT -Galmuri7-Regular-R-Regular--10-10-75-75-c-80-iso10646-1
 SIZE 10 75 75
 FONTBOUNDINGBOX 15 15 -4 -3
 STARTPROPERTIES 10
-FAMILY_NAME Galmuri7
-WEIGHT_NAME Regular
-FONT_VERSION 2.387
-COPYRIGHT Copyright (c) 2019-2023 Minseo Lee (itoupluk427@gmail.com)
-FOUNDRY Made with Bits'n'Picas by Kreative Software
+FAMILY_NAME "Galmuri7"
+WEIGHT_NAME "Regular"
+FONT_VERSION "2.388"
+COPYRIGHT "Copyright (c) 2019-2023 Minseo Lee (itoupluk427@gmail.com)"
+FOUNDRY "Made with Bits'n'Picas by Kreative Software"
 FONT_ASCENT 9
 FONT_DESCENT 1
 POINT_SIZE 8
