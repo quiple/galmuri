@@ -24,11 +24,11 @@ jobs:
       #   with:
       #     python-version: '3.x'
 
-      - name: Set up Python, FontForge and ImageMagick
+      - name: Set up Python and FontForge
         run: |
           sudo apt-get install -y software-properties-common
           sudo add-apt-repository ppa:fontforge/fontforge
-          sudo apt-get install -y python3 fontforge python3-fontforge imagemagick
+          sudo apt-get install -y python3 fontforge python3-fontforge
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
