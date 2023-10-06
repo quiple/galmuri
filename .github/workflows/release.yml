@@ -152,6 +152,7 @@ jobs:
         run: |
           rm -rf Galmuri-v*.zip
           rm -rf tGalmuri*.ttf
+          rm -rf BitsNPicas.jar
 
       - name: Publish to npm
         run: |
