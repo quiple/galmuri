@@ -60,7 +60,6 @@ jobs:
           python3 files/version.py files/g11.fea package.json
           python3 files/version.py files/g11.fea package-lock.json
           python3 files/versionBits.py files/g11.fea src/Galmuri14.kbitx
-          python3 files/versionBits.py files/g11.fea src/Galmuri14-Rounded.kbitx
           python3 files/versionBits.py files/g11.fea src/Galmuri11.kbitx
           python3 files/versionBits.py files/g11.fea src/Galmuri11-Bold.kbitx
           python3 files/versionBits.py files/g11.fea src/Galmuri11-Condensed.kbitx
