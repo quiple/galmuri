@@ -24,11 +24,11 @@ jobs:
       #   with:
       #     python-version: '3.x'
 
-      - name: Set up Python and FontForge
+      - name: Set up Python, FontForge and ImageMagick
         run: |
           sudo apt-get install -y software-properties-common
           sudo add-apt-repository ppa:fontforge/fontforge
-          sudo apt-get install -y python3 fontforge python3-fontforge
+          sudo apt-get install -y python3 fontforge python3-fontforge imagemagick
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -92,15 +92,15 @@ jobs:
           java -jar BitsNPicas.jar convertbitmap -f bdf -o dist/GalmuriMono11.bdf src/GalmuriMono11.kbitx
           java -jar BitsNPicas.jar convertbitmap -f bdf -o dist/GalmuriMono9.bdf src/GalmuriMono9.kbitx
           java -jar BitsNPicas.jar convertbitmap -f bdf -o dist/GalmuriMono7.bdf src/GalmuriMono7.kbitx
-          python3 mkttf/mkttf.py -f Galmuri14Bitmap -n Galmuri14Bitmap-Regular -N "Galmuri14Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri14.bdf
-          python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Regular -N "Galmuri11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11.bdf
-          python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Bold -N "Galmuri11Bitmap Bold" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Bold.bdf
-          python3 mkttf/mkttf.py -f Galmuri11Bitmap -n Galmuri11Bitmap-Condensed -N "Galmuri11Bitmap Condensed" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Condensed.bdf
-          python3 mkttf/mkttf.py -f Galmuri9Bitmap -n Galmuri9Bitmap-Regular -N "Galmuri9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri9.bdf
-          python3 mkttf/mkttf.py -f Galmuri7Bitmap -n Galmuri7Bitmap-Regular -N "Galmuri7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri7.bdf
-          python3 mkttf/mkttf.py -f GalmuriMono11Bitmap -n GalmuriMono11Bitmap-Regular -N "GalmuriMono11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono11.bdf
-          python3 mkttf/mkttf.py -f GalmuriMono9Bitmap -n GalmuriMono9Bitmap-Regular -N "GalmuriMono9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono9.bdf
-          python3 mkttf/mkttf.py -f GalmuriMono7Bitmap -n GalmuriMono7Bitmap-Regular -N "GalmuriMono7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono7.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f Galmuri14Bitmap -n Galmuri14Bitmap-Regular -N "Galmuri14Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri14.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f Galmuri11Bitmap -n Galmuri11Bitmap-Regular -N "Galmuri11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f Galmuri11Bitmap -n Galmuri11Bitmap-Bold -N "Galmuri11Bitmap Bold" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Bold.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f Galmuri11Bitmap -n Galmuri11Bitmap-Condensed -N "Galmuri11Bitmap Condensed" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri11-Condensed.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f Galmuri9Bitmap -n Galmuri9Bitmap-Regular -N "Galmuri9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri9.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f Galmuri7Bitmap -n Galmuri7Bitmap-Regular -N "Galmuri7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/Galmuri7.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f GalmuriMono11Bitmap -n GalmuriMono11Bitmap-Regular -N "GalmuriMono11Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono11.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f GalmuriMono9Bitmap -n GalmuriMono9Bitmap-Regular -N "GalmuriMono9Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono9.bdf
+          python3 mkttf/mkttf.py -n "QPLE" -f GalmuriMono7Bitmap -n GalmuriMono7Bitmap-Regular -N "GalmuriMono7Bitmap Regular" -V ${{ steps.package-version.outputs.current-version }} dist/GalmuriMono7.bdf
           mv *.ttf dist
           rm -rf *.sfd
 
