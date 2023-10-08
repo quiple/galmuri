@@ -11,7 +11,7 @@ Bitmap fonts inspired by the font design from Nintendo DS.
 | Hiragana                      | ✓                      | ✓                     |                            | ✓                               | ✓                      | ✓                   |
 | Katakana                      | ✓                      | ✓                     |                            | ✓                               | ✓                      | ✓                   |
 | Hangul Compatibility Jamo     | ✓                      | ✓                     | ✓[^old]                    | ✓[^old]                         | ✓                      | ✓[^old]             |
-| CJK Unified Ideographs        |                        | ✓[^jis]               |                            |                                 | ✓[^jis]                | ✓[^jis]             |
+| CJK Unified Ideographs        | ✓[^jis]                | ✓[^jis]               |                            |                                 | ✓[^jis]                | ✓[^jis]             |
 | Hangul Syllables              | ✓                      | ✓                     | ✓                          | ✓                               | ✓                      | ✓[^han-1]           |
 | CJK Compatibility Ideographs  |                        | ✓[^ks]                |                            |                                 | ✓[^ks]                 |                     |
 
