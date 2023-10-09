@@ -144,6 +144,7 @@ table OS/2 {
                     54   # Enclosed CJK Letters And Months
                     55   # CJK Compatibility
                     56   # Hangul Syllables
+                    59   # CJK Unified Ideographs
                     60   # Private Use Area
                     62   # Alphabetic Presentation Forms
                     68   # Halfwidth And Fullwidth Forms
@@ -151,6 +152,7 @@ table OS/2 {
   CodePageRange   1252   # Latin 1
                   1250   # Latin 2: Eastern Europe
                   1254   # Turkish
+                   932   # JIS/Japan
                    949;  # Korean Wansung
   TypoAscender    1500;
   TypoDescender   -300;
