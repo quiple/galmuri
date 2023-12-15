@@ -1,4 +1,4 @@
-![Galmuri](files/cover.png)
+# Galmuri
 
 [![npm Package Version](https://img.shields.io/npm/v/galmuri)](https://www.npmjs.com/package/galmuri) [![License](https://img.shields.io/github/license/quiple/galmuri)](https://github.com/quiple/galmuri/blob/main/OFL.md) [![GitHub Workflow Status](https://github.com/quiple/galmuri/workflows/release/badge.svg)](https://github.com/quiple/galmuri/actions/workflows/release.yml) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/galmuri/badge)](https://www.jsdelivr.com/package/npm/galmuri)
 
