@@ -1,8 +1,8 @@
-Copyright &copy; 2019-2023 Minseo Lee (<itoupluk427@gmail.com>)
+Copyright &copy; 2019-2024 Minseo Lee (<quiple@quiple.dev>)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-<https://scripts.sil.org/OFL>
+<https://openfontlicense.org>
 
 # SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 
