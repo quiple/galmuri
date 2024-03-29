@@ -8,7 +8,7 @@
 <prop id="lineGap" value="0"/>
 <prop id="xHeight" value="5"/>
 <prop id="capHeight" value="7"/>
-<name id="0" value="Copyright (c) 2019-2023 Minseo Lee (itoupluk427@gmail.com)"/>
+<name id="0" value="Copyright (c) 2019-2024 Minseo Lee (quiple@quiple.dev)"/>
 <name id="1" value="GalmuriMono7"/>
 <name id="2" value="Regular"/>
 <name id="3" value="BitsNPicas: GalmuriMono: 2023"/>
@@ -21,7 +21,7 @@
 <name id="11" value="http://www.kreativekorp.com/software/bitsnpicas/"/>
 <name id="12" value="https://quiple.dev"/>
 <name id="13" value="This Font Software is licensed under the SIL Open Font License 1.1."/>
-<name id="14" value="https://scripts.sil.org/OFL"/>
+<name id="14" value="https://openfontlicense.org"/>
 <name id="16" value="GalmuriMono7"/>
 <name id="17" value="Regular"/>
 <name id="18" value="GalmuriMono7 Regular"/>

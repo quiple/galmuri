@@ -1,4 +1,4 @@
-Copyright &copy; 2019-2024 Minseo Lee (<quiple@quiple.dev>)
+Copyright &copy; 2019-2024 Minseo Lee (quiple@quiple.dev)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
