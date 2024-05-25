@@ -136,7 +136,7 @@ jobs:
           fonttools ttLib.woff2 compress dist/GalmuriMono9.ttf
           fonttools ttLib.woff2 compress dist/GalmuriMono7.ttf
 
-      - name: Clean up Temporary Files
+      - name: Clean up temporary files
         run: rm -rf dist/*_mod.bdf
 
       - name: Make zip
@@ -148,7 +148,7 @@ jobs:
           files: Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
           tag_name: 'v${{ steps.package-version.outputs.current-version }}'
 
-      - name: Clean up Temporary Files
+      - name: Clean up temporary files
         run: |
           rm -rf Galmuri-v*.zip
           rm -rf tGalmuri*.ttf
