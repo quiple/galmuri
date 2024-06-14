@@ -140,17 +140,19 @@ jobs:
         run: rm -rf dist/*_mod.bdf
 
       - name: Make zip
-        run: zip Galmuri-v${{ steps.package-version.outputs.current-version }}.zip dist/*
+        run: |
+          cd dist
+          zip Galmuri-v${{ steps.package-version.outputs.current-version }}.zip ./*
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
+          files: dist/Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
           tag_name: 'v${{ steps.package-version.outputs.current-version }}'
 
       - name: Clean up temporary files
         run: |
-          rm -rf Galmuri-v*.zip
+          rm -rf dist/Galmuri-v*.zip
           rm -rf tGalmuri*.ttf
           rm -rf BitsNPicas.jar
 
