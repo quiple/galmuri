@@ -7,7 +7,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -16,8 +15,8 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'oracle'
-          java-version: '21'
+          distribution: "oracle"
+          java-version: "21"
 
       # - name: Set up Python
       #   uses: actions/setup-python@v4
@@ -33,7 +32,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
           registry-url: https://registry.npmjs.org/
 
       - name: Set up fontTools
@@ -148,7 +147,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: dist/Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
-          tag_name: 'v${{ steps.package-version.outputs.current-version }}'
+          tag_name: "v${{ steps.package-version.outputs.current-version }}"
 
       - name: Clean up temporary files
         run: |
