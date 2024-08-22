@@ -90,14 +90,14 @@ table name {
   nameid 12 3 1 0x0409 "https:\002f\002fquiple.dev";
   nameid 12 1 0      0 "https:\2f\2fquiple.dev";
 
-  nameid 13 3 1 0x0409 "This Font Software is licensed under the SIL Open Font License 1.1.";
+  nameid 13 3 1 0x0409 "This font software is licensed under the SIL Open Font License 1.1.";
   nameid 13 3 1 0x0412 "\c774 \d3f0\d2b8 \c18c\d504\d2b8\c6e8\c5b4\b294 SIL \c624\d508 \d3f0\d2b8 \b77c\c774\c120\c2a4 1.1\c5d0 \b530\b77c \c0ac\c6a9\c774 \d5c8\ac00\b429\b2c8\b2e4.";
-  nameid 13 1 0      0 "This Font Software is licensed under the SIL Open Font License 1.1.";
+  nameid 13 1 0      0 "This font software is licensed under the SIL Open Font License 1.1.";
   nameid 13 1 3     23 "\c774 \d3f0\d2b8 \c18c\d504\d2b8\c6e8\c5b4\b294 SIL \c624\d508 \d3f0\d2b8 \b77c\c774\c120\c2a4 1.1\c5d0 \b530\b77c \c0ac\c6a9\c774 \d5c8\ac00\b429\b2c8\b2e4.";
                        # 이 폰트 소프트웨어는 SIL 오픈 폰트 라이선스 1.1에 따라 사용이 허가됩니다.
 
-  nameid 14 3 1 0x0409 "https:\002f\002fscripts.sil.org\002fOFL";
-  nameid 14 1 0      0 "https:\2f\2fscripts.sil.org\2fOFL";
+  nameid 14 3 1 0x0409 "https:\002f\002fopenfontlicense.org";
+  nameid 14 1 0      0 "https:\2f\2fopenfontlicense.org";
 
   nameid 21 3 1 0x0409 "Galmuri11";
   nameid 21 1 0      0 "Galmuri11";
