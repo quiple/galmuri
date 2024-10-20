@@ -28,20 +28,20 @@
 <name id="21" value="Galmuri11"/>
 <name id="22" value="Bold"/>
 <g u="32" x="0" y="0" w="5" d="AAA"/>
-<g u="33" x="0" y="11" w="3" d="CwJQAkQ"/>
+<g u="33" x="1" y="11" w="5" d="CwJQAkQ"/>
 <g u="34" x="0" y="11" w="6" d="BAVCAUQBRAFEAUI"/>
 <g u="35" x="0" y="11" w="10" d="CwkDQgFCBEIBQgJIAUgCQgFCBEIBQgJIAUgCQgFCBEIBQgRCAUID"/>
 <g u="36" x="0" y="11" w="9" d="CwgDQgRGAUoBQgFHBEYERwFCAUoBRgRCAw"/>
 <g u="37" x="0" y="11" w="12" d="CwsBQwdFA0IBQgFCAkMBRQFDA0MBQwdDB0MBQwNDAUUBQwJCAUIBQgNFB0MB"/>
 <g u="38" x="0" y="11" w="11" d="CwoCRAVGBEICQgRCAkIERgVEBUYBRQJHBEMBSgFGAUI"/>
-<g u="39" x="0" y="11" w="3" d="BAJI"/>
+<g u="39" x="1" y="11" w="5" d="BAJI"/>
 <g u="40" x="0" y="11" w="5" d="CwQCQgFDAUIBQwFCAkICQgJDAkICQwJC"/>
 <g u="41" x="0" y="11" w="5" d="CwRCAkMCQgJDAkICQgJCAUMBQgFDAUIC"/>
 <g u="42" x="0" y="8" w="7" d="BwYCQgLC/wBCAUcBRAFHAULCAP8CQgI"/>
 <g u="43" x="0" y="9" w="9" d="CAgDQgZCBkIDUANCBkIGQgM"/>
-<g u="44" x="0" y="2" w="3" d="BAJEAUIB"/>
+<g u="44" x="1" y="2" w="5" d="BAJEAUIB"/>
 <g u="45" x="0" y="6" w="7" d="AgZM"/>
-<g u="46" x="0" y="2" w="3" d="AgJE"/>
+<g u="46" x="1" y="2" w="5" d="AgJE"/>
 <g u="47" x="0" y="11" w="7" d="CwYEQgRCA0MDQgNDA0IDQwNCA0MDQgRCBA"/>
 <g u="48" x="0" y="11" w="8" d="CwcBRQFJA0QDRANEA0QDRANEA0kBRQE"/>
 <g u="49" x="0" y="11" w="5" d="CwMBSAFCAUIBQgFCAUIBQgFCAUI"/>
@@ -53,8 +53,8 @@
 <g u="55" x="0" y="11" w="8" d="CwdOBUIEQwRCBEMEQgRDBEIFQgVCAw"/>
 <g u="56" x="0" y="11" w="8" d="CwcBRQFJA0QDSQFFAUIDRANEA0kBRQE"/>
 <g u="57" x="0" y="11" w="8" d="CwcBRQFJA0QDRANJAUYFRANJAUUB"/>
-<g u="58" x="0" y="8" w="3" d="BgJEBEQ"/>
-<g u="59" x="0" y="8" w="3" d="CAJEBEQBQgE"/>
+<g u="58" x="1" y="8" w="5" d="BgJEBEQ"/>
+<g u="59" x="1" y="8" w="5" d="CAJEBEQBQgE"/>
 <g u="60" x="0" y="9" w="7" d="CQYEQgNDAkMCQwJDBEMEQwRDBEI"/>
 <g u="61" x="0" y="7" w="6" d="BQVKBUo"/>
 <g u="62" x="0" y="9" w="7" d="CQZCBEMEQwRDBEMCQwJDAkMDQgQ"/>
@@ -119,11 +119,11 @@
 <g u="121" x="0" y="8" w="8" d="CgdCA0QDRQFDAUIBQgJFA0QDQwRDAkQDQwQ"/>
 <g u="122" x="0" y="8" w="7" d="CAZMA0MCQwJDAkMDTA"/>
 <g u="123" x="0" y="11" w="6" d="CwUCQwFEAUIDQgNCAkIEQgNCA0IDRAJD"/>
-<g u="124" x="0" y="11" w="3" d="CwJW"/>
+<g u="124" x="1" y="11" w="5" d="CwJW"/>
 <g u="125" x="0" y="11" w="6" d="CwVDAkQDQgNCA0IEQgJCA0IDQgFEAUMC"/>
 <g u="126" x="0" y="7" w="10" d="AwkBRAJNAkQB"/>
 <g u="160" x="0" y="0" w="5" d="AAA"/>
-<g u="161" x="0" y="8" w="3" d="CwJEAlA"/>
+<g u="161" x="1" y="8" w="5" d="CwJEAlA"/>
 <g u="162" x="0" y="11" w="8" d="CwcDQgVCA08BQgJCAUICQgFCAkcBRgNCBUIC"/>
 <g u="163" x="0" y="11" w="9" d="CwgDRANGAkICQgJCBEcBRwNCBkIFQgVQ"/>
 <g u="164" x="0" y="9" w="9" d="CAjC/wBEwwD/AEYBQwJFBEQERQJDAUbDAP8ARMIA/w"/>
@@ -145,7 +145,7 @@
 <g u="180" x="0" y="13" w="5" d="AwQCQgFCAUIC"/>
 <g u="181" x="0" y="8" w="8" d="CgdCA0QDRANEA0QDRAJOAUQFQgU"/>
 <g u="182" x="0" y="11" w="7" d="CwYBSQFFAUXDAP8AQ8IA/wPD/wD/A8P/AP8Dw/8A/wPD/wD/A8P/AP8Dw/8A/w"/>
-<g u="183" x="0" y="7" w="3" d="AgJE"/>
+<g u="183" x="1" y="7" w="5" d="AgJE"/>
 <g u="184" x="0" y="2" w="4" d="AwNCAkQB"/>
 <g u="185" x="0" y="12" w="5" d="BgQBQgFDAkICQgJCAUQ"/>
 <g u="186" x="0" y="12" w="5" d="BwQBQsMA/wBDAUMBQgFCBUQ"/>
@@ -226,10 +226,10 @@
 <g u="8213" x="0" y="6" w="12" d="AgtW"/>
 <g u="8214" x="0" y="11" w="6" d="DQVCAUQBRAFEAUQBRAFEAUQBRAFEAUQBRAFEAUI"/>
 <g u="8215" x="0" y="3" w="6" d="BQZMBkw"/>
-<g u="8216" x="0" y="11" w="3" d="BAIBQgFE"/>
-<g u="8217" x="0" y="11" w="3" d="BAJEAUIB"/>
-<g u="8218" x="0" y="2" w="3" d="BAJEAUIB"/>
-<g u="8219" x="0" y="11" w="3" d="BAJFAkE"/>
+<g u="8216" x="1" y="11" w="5" d="BAIBQgFE"/>
+<g u="8217" x="1" y="11" w="5" d="BAJEAUIB"/>
+<g u="8218" x="1" y="2" w="5" d="BAJEAUIB"/>
+<g u="8219" x="1" y="11" w="5" d="BAJFAkE"/>
 <g u="8220" x="0" y="11" w="6" d="BAXCAP8CQgLC/wBCAUQBQg"/>
 <g u="8221" x="0" y="11" w="6" d="BAVCAUQBQsIA/wJCAsL/AA"/>
 <g u="8222" x="0" y="2" w="6" d="BAVCAUQBQsIA/wJCAsL/AA"/>
@@ -238,10 +238,10 @@
 <g u="8225" x="0" y="11" w="7" d="CwYCQgRCAkwCQgRCBEICTAJCBEIC"/>
 <g u="8226" x="0" y="7" w="5" d="BAQBQgFIAUIB"/>
 <g u="8227" x="1" y="8" w="5" d="BQNBAkIBRcIA/wI"/>
-<g u="8228" x="0" y="2" w="3" d="AgJE"/>
-<g u="8229" x="2" y="7" w="12" d="AgdCA0QDQg"/>
-<g u="8230" x="1" y="7" w="12" d="AgpCAkICRAJCAkI"/>
-<g u="8231" x="0" y="7" w="3" d="AgJE"/>
+<g u="8228" x="1" y="2" w="5" d="AgJE"/>
+<g u="8229" x="1" y="7" w="12" d="AghCBEQEQg"/>
+<g u="8230" x="0" y="7" w="12" d="AgpCAkICRAJCAkI"/>
+<g u="8231" x="1" y="7" w="5" d="AgJE"/>
 <g u="8240" x="0" y="11" w="15" d="Cw4BQwpFA0IEQgFCAkMERQFDBkMBQwpDCkMBQwFCA0MBSAFDAkIBQgFCAUIDSAdDAUIB"/>
 <g u="8241" x="0" y="11" w="18" d="CxEBQw1FA0IHQgFCAkMHRQFDCUMBQw1DDUMBQwFCAUIDQwFLAUMCQgFCAUIBQgFCA0sHQwFCAUIB"/>
 <g u="8248" x="0" y="0" w="6" d="AwUCQQNDAUIBQg"/>
@@ -271,7 +271,7 @@
 <g u="8470" x="0" y="11" w="12" d="CwtCAkEGQgJBBkPCAP8GQ8IA/wJCAkPFAP8A/wBCAUXDAP8AQsMA/wBDwwD/AELDAP8AQ8MA/wBCwwD/AEPDAP8AQsIA/wJCwwD/AELCAP8CQgJCwgD/"/>
 <g u="8481" x="0" y="11" w="12" d="CwtHAUICQgFCAkICQgFCAkICQgFCAkICQgFCAkICQgFDAUICQgFCAkICQgFCAkICQgFCAkICQgFCAkICQgFDAUM"/>
 <g u="8482" x="0" y="11" w="12" d="BApEAUIBQgFCAkUBQgLG/wD/AP8AQgJBA0E"/>
-<g u="8486" x="1" y="11" w="12" d="CwgCRANBBMP/AP8GQgZCBkIGQgbD/wD/BEEDQQJBBEECQQJDAkM"/>
+<g u="8486" x="0" y="11" w="12" d="CwoCRgNIAUMERQZEBkQGRQRDAUMCQwNCAkICRAJIAkQ"/>
 <g u="8494" x="0" y="11" w="12" d="CwsDRQVBBUEDQQfC/wBCB0QHTwlCCkEHQQNBBUEFRQM"/>
 <g u="8528" x="0" y="11" w="12" d="CwsBQghDBkECQgVBA0IEQQRCA0EERMMA/wBEBEEEQgNBBEIDQQVCAkEFQglCAg"/>
 <g u="8529" x="0" y="11" w="12" d="CwsBQghDBkECQgVBA0IEQQRCA0EERMMA/wBDBcL/AEIBQgNBAkIBQgJBBETCAP8HQgdDAQ"/>
