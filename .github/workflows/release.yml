@@ -40,7 +40,7 @@ jobs:
 
       - name: Set up AFDKO
         run: |
-          pip3 install afdko
+          pip3 install afdko==4.0.1
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Set up Bits'N'Picas
