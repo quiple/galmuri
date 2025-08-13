@@ -65,7 +65,7 @@ import 'galmuri/dist/galmuri.css';
 <details>
 <summary>Legal Stuff</summary>
 
-All glyphs except for Latin-1, some symbols and 2,355 Hangul syllables in Galmuri14, Galmuri11 and Galmuri9; and all glyphs except for Latin-1 and some symbols in Galmuri7; and all glyphs in Galmuri11 Bold and Galmuri11 Condensed are my pure creations. But it does not mean that Nintendo owns the rights to glyphs that I did not create and I'm violating Nintendo's rights.
+All glyphs except for Latin-1, Kana, Kanji, some symbols and 2,355 Hangul syllables in Galmuri14, Galmuri11 and Galmuri9; and all glyphs except for Latin-1, Kana, Kanji, and some symbols in Galmuri7; and all glyphs in Galmuri11 Bold and Galmuri11 Condensed are my pure creations. But it does not mean that Nintendo owns the rights to glyphs that I did not create and I'm violating Nintendo's rights.
 
 At least in the US and South Korea, the font file and code are copyrighted, but the font design cannot be copyrighted. And likewise in both countries, bitmap fonts in general cannot be copyrighted. See also: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://www.faqs.org/faqs/fonts-faq/part2/) Also, Galmuri's outline (scalable) font file is purely my creation for the first time, so I own the copyright, and I do not claim any rights to the "font design".
 
