@@ -8,5 +8,6 @@
 | [muan](https://github.com/muan) | - | $20 | 2023-08-27 |
 | 익명의수박 | 폰트 너무 잘 쓰고 있습니다. | ₩1,000 | 2024-04-02 |
 | [jfaz](https://github.com/jfaz1) | - | $50 | 2024-08-12 |
+| [pnku](https://github.com/pnk2u) | - | $1 | 2025-08-25 |
 
 감사합니다.
