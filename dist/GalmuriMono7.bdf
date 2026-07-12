@@ -1,11 +1,11 @@
 STARTFONT 2.1
-FONT -GalmuriMono7-Regular-R-Regular--9-9-75-75-c-80-iso10646-1
+FONT -Made with Bits'n'Picas by Kreative Software-GalmuriMono7-Regular-R-Regular--9-9-75-75-c-80-iso10646-1
 SIZE 9 75 75
 FONTBOUNDINGBOX 12 11 -4 -2
 STARTPROPERTIES 10
 FAMILY_NAME "GalmuriMono7"
 WEIGHT_NAME "Regular"
-FONT_VERSION "2.403"
+FONT_VERSION "2.404"
 COPYRIGHT "Copyright (c) 2019–2025 Lee Minseo (quiple@quiple.dev)"
 FOUNDRY "Made with Bits'n'Picas by Kreative Software"
 FONT_ASCENT 8
@@ -272277,6 +272277,20 @@ F6
 EE
 FE
 EE
+FE
+ENDCHAR
+STARTCHAR .notdef
+ENCODING -1
+SWIDTH 666 0
+DWIDTH 8 0
+BBX 7 7 0 0
+BITMAP
+FE
+C6
+AA
+92
+AA
+C6
 FE
 ENDCHAR
 ENDFONT

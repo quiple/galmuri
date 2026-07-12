@@ -1,11 +1,11 @@
 STARTFONT 2.1
-FONT -Galmuri11-Condensed-R-Condensed--16-16-75-75-c-80-iso10646-1
+FONT -Made with Bits'n'Picas by Kreative Software-Galmuri11-Condensed-R-Condensed--16-16-75-75-c-80-iso10646-1
 SIZE 16 75 75
 FONTBOUNDINGBOX 15 20 -4 -3
 STARTPROPERTIES 10
 FAMILY_NAME "Galmuri11"
 WEIGHT_NAME "Condensed"
-FONT_VERSION "2.403"
+FONT_VERSION "2.404"
 COPYRIGHT "Copyright (c) 2019–2025 Lee Minseo (quiple@quiple.dev)"
 FOUNDRY "Made with Bits'n'Picas by Kreative Software"
 FONT_ASCENT 14
@@ -234339,6 +234339,24 @@ EE
 FE
 EE
 EE
+FE
+ENDCHAR
+STARTCHAR .notdef
+ENCODING -1
+SWIDTH 533 0
+DWIDTH 8 0
+BBX 7 11 0 0
+BITMAP
+FE
+C6
+C6
+AA
+AA
+92
+AA
+AA
+C6
+C6
 FE
 ENDCHAR
 ENDFONT
