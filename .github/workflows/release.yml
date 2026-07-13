@@ -144,7 +144,7 @@ jobs:
           zip Galmuri-v${{ steps.package-version.outputs.current-version }}.zip ./*
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           files: dist/Galmuri-v${{ steps.package-version.outputs.current-version }}.zip
           tag_name: "v${{ steps.package-version.outputs.current-version }}"
