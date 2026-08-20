@@ -1,0 +1,22 @@
+{
+glyphname = "space-han";
+layers = (
+{
+layerId = m01;
+width = 1200;
+},
+{
+layerId = "D5D059AA-4C23-4C0C-AD8D-F4F6FD545972";
+width = 800;
+},
+{
+layerId = "7A2ECE36-6EC7-407E-89AA-72FA5DAD4E88";
+width = 1000;
+},
+{
+layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
+width = 1500;
+}
+);
+unicode = 12288;
+}

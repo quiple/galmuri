@@ -1,0 +1,350 @@
+{
+.appVersion = "3531";
+.formatVersion = 3;
+customParameters = (
+{
+name = "Disable Subroutines";
+value = 1;
+},
+{
+name = codePageRanges;
+value = (
+"1252",
+"932",
+"949"
+);
+},
+{
+name = ROS;
+value = "Adobe-Identity-0";
+}
+);
+date = "2026-08-19 22:52:00 +0000";
+familyName = Galmuri;
+features = (
+{
+automatic = 1;
+code = "sub A by A.full;
+sub B by B.full;
+sub C by C.full;
+sub D by D.full;
+sub E by E.full;
+sub F by F.full;
+sub G by G.full;
+sub H by H.full;
+sub I by I.full;
+sub J by J.full;
+sub K by K.full;
+sub L by L.full;
+sub M by M.full;
+sub N by N.full;
+sub O by O.full;
+sub P by P.full;
+sub Q by Q.full;
+sub R by R.full;
+sub S by S.full;
+sub T by T.full;
+sub U by U.full;
+sub V by V.full;
+sub W by W.full;
+sub X by X.full;
+sub Y by Y.full;
+sub Z by Z.full;
+sub a by a.full;
+sub b by b.full;
+sub c by c.full;
+sub d by d.full;
+sub e by e.full;
+sub f by f.full;
+sub g by g.full;
+sub h by h.full;
+sub i by i.full;
+sub j by j.full;
+sub k by k.full;
+sub l by l.full;
+sub m by m.full;
+sub n by n.full;
+sub o by o.full;
+sub p by p.full;
+sub q by q.full;
+sub r by r.full;
+sub s by s.full;
+sub t by t.full;
+sub u by u.full;
+sub v by v.full;
+sub w by w.full;
+sub x by x.full;
+sub y by y.full;
+sub z by z.full;
+sub zero by zero.full;
+sub one by one.full;
+sub two by two.full;
+sub three by three.full;
+sub four by four.full;
+sub five by five.full;
+sub six by six.full;
+sub seven by seven.full;
+sub eight by eight.full;
+sub nine by nine.full;
+sub ampersand by ampersand.full;
+sub asterisk by asterisk.full;
+sub at by at.full;
+sub backslash by backslash.full;
+sub colon by colon.full;
+sub comma by comma.full;
+sub exclam by exclam.full;
+sub numbersign by numbersign.full;
+sub percent by percent.full;
+sub period by period.full;
+sub question by question.full;
+sub quotedbl by quotedbl.full;
+sub quotesingle by quotesingle.full;
+sub semicolon by semicolon.full;
+sub slash by slash.full;
+sub underscore by underscore.full;
+sub hyphen by hyphen.full;
+sub braceleft by braceleft.full;
+sub braceright by braceright.full;
+sub bracketleft by bracketleft.full;
+sub bracketright by bracketright.full;
+sub parenleft by parenleft.full;
+sub parenright by parenright.full;
+sub asciicircum by asciicircum.full;
+sub grave by grave.full;
+sub macron by macron.full;
+sub brokenbar by brokenbar.full;
+sub cent by cent.full;
+sub dollar by dollar.full;
+sub sterling by sterling.full;
+sub won by won.full;
+sub yen by yen.full;
+sub asciitilde by asciitilde.full;
+sub bar by bar.full;
+sub equal by equal.full;
+sub greater by greater.full;
+sub less by less.full;
+sub logicalnot by logicalnot.full;
+sub plus by plus.full;
+";
+tag = fwid;
+}
+);
+fontMaster = (
+{
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = eight.blackCircled;
+}
+);
+iconName = SemiBold_SemiCondensed;
+id = "D5D059AA-4C23-4C0C-AD8D-F4F6FD545972";
+metricValues = (
+{
+pos = 700;
+},
+{
+pos = 700;
+},
+{
+pos = 500;
+},
+{
+pos = -100;
+},
+{
+},
+{
+}
+);
+name = 8px;
+},
+{
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = one_zero.blackCircled;
+}
+);
+id = "7A2ECE36-6EC7-407E-89AA-72FA5DAD4E88";
+metricValues = (
+{
+pos = 900;
+},
+{
+pos = 900;
+},
+{
+pos = 600;
+},
+{
+pos = -100;
+},
+{
+},
+{
+}
+);
+name = 10px;
+},
+{
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = one_two.blackCircled;
+}
+);
+iconName = SemiLight_SemiExtended;
+id = m01;
+metricValues = (
+{
+pos = 1100;
+},
+{
+pos = 1100;
+},
+{
+pos = 800;
+},
+{
+pos = -200;
+},
+{
+},
+{
+}
+);
+name = 12px;
+},
+{
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = one_five.blackCircled;
+}
+);
+iconName = Light_Extended;
+id = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
+metricValues = (
+{
+pos = 1400;
+},
+{
+pos = 1400;
+},
+{
+pos = 1000;
+},
+{
+pos = -300;
+},
+{
+},
+{
+}
+);
+name = 15px;
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"D5D059AA-4C23-4C0C-AD8D-F4F6FD545972" = 1;
+};
+name = 11px;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = descender;
+},
+{
+type = baseline;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2019–2026 Lee Minseo (quiple@quiple.dev)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = quiple;
+}
+);
+},
+{
+key = designerURL;
+value = "https://quiple.dev";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = quiple;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://quiple.dev";
+},
+{
+key = postscriptFontName;
+value = Galmuri;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = dflt;
+value = Galmuri;
+}
+);
+},
+{
+key = vendorID;
+value = QPLE;
+}
+);
+settings = {
+gridLength = 100;
+};
+unitsPerEm = 1200;
+versionMajor = 3;
+versionMinor = 0;
+}

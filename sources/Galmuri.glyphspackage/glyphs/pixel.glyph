@@ -1,0 +1,66 @@
+{
+export = 0;
+glyphname = pixel;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,100,l),
+(0,100,l),
+(0,0,l)
+);
+}
+);
+width = 100;
+},
+{
+layerId = "7A2ECE36-6EC7-407E-89AA-72FA5DAD4E88";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,100,l),
+(0,100,l),
+(0,0,l)
+);
+}
+);
+width = 100;
+},
+{
+layerId = "D5D059AA-4C23-4C0C-AD8D-F4F6FD545972";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,100,l),
+(0,100,l),
+(0,0,l)
+);
+}
+);
+width = 100;
+},
+{
+layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,100,l),
+(0,100,l),
+(0,0,l)
+);
+}
+);
+width = 100;
+}
+);
+}
