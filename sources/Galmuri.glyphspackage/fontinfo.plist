@@ -23,6 +23,10 @@ value = (
 {
 name = ROS;
 value = "Adobe-Identity-0";
+},
+{
+name = "Enforce Compatibility Check";
+value = 0;
 }
 );
 date = "2026-08-19 22:52:00 +0000";
