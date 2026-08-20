@@ -3,7 +3,7 @@
 .formatVersion = 3;
 axes = (
 {
-name = "pixel size";
+name = "Pixel size";
 tag = PIXL;
 }
 );

@@ -149,6 +149,11 @@ ref = pixel;
 alignment = -1;
 pos = (300,0);
 ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,200);
+ref = pixel;
 }
 );
 width = 800;
