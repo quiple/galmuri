@@ -6,22 +6,22 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (400,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,600);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (400,500);
 ref = pixel;
 },
 {
 alignment = -1;
 pos = (500,500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (500,400);
 ref = pixel;
 }
 );
@@ -36,22 +36,22 @@ layerId = "7A2ECE36-6EC7-407E-89AA-72FA5DAD4E88";
 shapes = (
 {
 alignment = -1;
-pos = (300,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,500);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (300,400);
 ref = pixel;
 },
 {
 alignment = -1;
 pos = (400,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,300);
 ref = pixel;
 }
 );

@@ -256,31 +256,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (0,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,500);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (600,500);
 ref = pixel;
 },
@@ -317,11 +292,6 @@ ref = pixel;
 {
 alignment = -1;
 pos = (300,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,300);
 ref = pixel;
 },
 {
@@ -366,11 +336,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,100);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (600,100);
 ref = pixel;
 },
@@ -397,6 +362,31 @@ ref = pixel;
 {
 alignment = -1;
 pos = (800,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (500,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (500,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,400);
 ref = pixel;
 }
 );
