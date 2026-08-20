@@ -81,16 +81,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,700);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (700,700);
 ref = pixel;
 },
@@ -227,6 +217,16 @@ ref = pixel;
 {
 alignment = -1;
 pos = (900,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (600,800);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (500,800);
 ref = pixel;
 }
 );
