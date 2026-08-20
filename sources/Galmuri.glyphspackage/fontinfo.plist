@@ -297,14 +297,6 @@ pos = -300;
 name = 15px;
 }
 );
-instances = (
-{
-instanceInterpolations = {
-"D5D059AA-4C23-4C0C-AD8D-F4F6FD545972" = 1;
-};
-name = 11px;
-}
-);
 metrics = (
 {
 type = ascender;
