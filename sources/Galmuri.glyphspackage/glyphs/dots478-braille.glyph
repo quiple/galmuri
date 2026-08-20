@@ -26,26 +26,6 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,600);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (0,100);
 ref = pixel;
 },
