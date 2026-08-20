@@ -1,6 +1,12 @@
 {
 .appVersion = "3531";
 .formatVersion = 3;
+axes = (
+{
+name = "pixel size";
+tag = PIXL;
+}
+);
 customParameters = (
 {
 name = "Disable Subroutines";
@@ -182,6 +188,9 @@ tag = vert;
 );
 fontMaster = (
 {
+axesValues = (
+8
+);
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -211,6 +220,9 @@ pos = -100;
 name = 8px;
 },
 {
+axesValues = (
+10
+);
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -239,6 +251,9 @@ pos = -100;
 name = 10px;
 },
 {
+axesValues = (
+12
+);
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -268,6 +283,9 @@ pos = -200;
 name = 12px;
 },
 {
+axesValues = (
+15
+);
 customParameters = (
 {
 name = "Master Icon Glyph Name";
@@ -294,6 +312,44 @@ pos = -300;
 {
 }
 );
+name = 15px;
+}
+);
+instances = (
+{
+axesValues = (
+8
+);
+instanceInterpolations = {
+"D5D059AA-4C23-4C0C-AD8D-F4F6FD545972" = 1;
+};
+name = 8px;
+},
+{
+axesValues = (
+10
+);
+instanceInterpolations = {
+"7A2ECE36-6EC7-407E-89AA-72FA5DAD4E88" = 1;
+};
+name = 10px;
+},
+{
+axesValues = (
+12
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = 12px;
+},
+{
+axesValues = (
+15
+);
+instanceInterpolations = {
+"BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D" = 1;
+};
 name = 15px;
 }
 );
