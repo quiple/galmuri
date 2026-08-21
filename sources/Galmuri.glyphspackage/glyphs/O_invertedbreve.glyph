@@ -367,27 +367,27 @@ ref = O;
 },
 {
 alignment = -1;
-pos = (300,1600);
+pos = (300,1500);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,1700);
+pos = (700,1500);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,1700);
+pos = (600,1600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (600,1700);
+pos = (500,1600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (700,1600);
+pos = (400,1600);
 ref = pixel;
 }
 );
