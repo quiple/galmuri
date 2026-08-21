@@ -348,14 +348,7 @@ width = 600;
 layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
 shapes = (
 {
-alignment = -1;
-pos = (300,1600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,1600);
-ref = pixel;
+ref = U;
 },
 {
 alignment = -1;
@@ -374,157 +367,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,1300);
+pos = (700,1600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (900,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,1200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,1200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,1100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,1100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (900,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (800,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,0);
+pos = (300,1600);
 ref = pixel;
 }
 );

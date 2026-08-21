@@ -374,22 +374,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (500,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,0);
+pos = (500,200);
 ref = pixel;
 }
 );

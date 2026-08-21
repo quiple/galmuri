@@ -285,158 +285,21 @@ width = 500;
 layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
 shapes = (
 {
+ref = Z;
+},
+{
 alignment = -1;
-pos = (600,1700);
+pos = (500,1500);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,1600);
+pos = (600,1600);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,1500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (800,1300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,1200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,1100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (800,0);
+pos = (700,1700);
 ref = pixel;
 }
 );

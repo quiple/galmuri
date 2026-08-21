@@ -271,22 +271,7 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,400);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (100,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,300);
 ref = pixel;
 },
 {
@@ -296,27 +281,32 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (100,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (600,100);
+pos = (700,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,0);
+pos = (600,200);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (700,0);
+pos = (500,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,500);
 ref = pixel;
 }
 );

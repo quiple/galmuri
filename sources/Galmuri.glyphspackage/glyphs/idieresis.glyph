@@ -149,16 +149,6 @@ layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
 shapes = (
 {
 alignment = -1;
-pos = (100,1200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,1200);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (200,900);
 ref = pixel;
 },
@@ -204,7 +194,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,0);
+pos = (100,1200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,1200);
 ref = pixel;
 }
 );

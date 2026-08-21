@@ -251,17 +251,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,0);
+pos = (100,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,0);
+pos = (300,100);
 ref = pixel;
 }
 );

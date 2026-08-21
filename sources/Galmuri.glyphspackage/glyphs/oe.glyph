@@ -494,67 +494,57 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (100,200);
+pos = (1300,300);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (700,200);
+pos = (1200,200);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (1300,200);
+pos = (1100,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (200,100);
+pos = (1000,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (600,100);
+pos = (900,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (800,100);
+pos = (600,200);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (1200,100);
+pos = (800,200);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,0);
+pos = (500,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,0);
+pos = (400,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,0);
+pos = (300,100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (900,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (1000,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (1100,0);
+pos = (200,200);
 ref = pixel;
 }
 );

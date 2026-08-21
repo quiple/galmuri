@@ -400,7 +400,27 @@ width = 800;
 },
 {
 layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
-width = 600;
+shapes = (
+{
+ref = Oslash;
+},
+{
+alignment = -1;
+pos = (500,1500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (600,1600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (700,1700);
+ref = pixel;
+}
+);
+width = 1100;
 }
 );
 unicode = 510;

@@ -190,92 +190,25 @@ width = 500;
 layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
 shapes = (
 {
+ref = r;
+},
+{
 alignment = -1;
-pos = (100,900);
+pos = (100,-100);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (300,900);
+pos = (0,-200);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,-200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (0,-300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (-100,-400);
+pos = (-100,-300);
 ref = pixel;
 }
 );
-width = 600;
+width = 700;
 }
 );
 unicode = 343;

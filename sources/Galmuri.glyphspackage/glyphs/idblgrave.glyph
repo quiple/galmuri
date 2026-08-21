@@ -176,6 +176,83 @@ width = 400;
 },
 {
 layerId = "BF8C3E40-66B3-4D52-A7D0-EA691F6EED4D";
+shapes = (
+{
+alignment = -1;
+pos = (300,900);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,800);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,700);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,600);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,500);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,400);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (500,1100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (400,1200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (300,1300);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (200,1100);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (100,1200);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (0,1300);
+ref = pixel;
+}
+);
 width = 600;
 }
 );
