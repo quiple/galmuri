@@ -5,93 +5,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+ref = T;
+},
+{
 alignment = -1;
 pos = (300,1200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (0,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,0);
 ref = pixel;
 }
 );

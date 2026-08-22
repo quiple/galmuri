@@ -5,24 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (500,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,700);
-ref = pixel;
+ref = J;
 },
 {
 alignment = -1;
@@ -36,66 +19,11 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (500,600);
-ref = pixel;
-},
-{
-alignment = -1;
 pos = (600,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (0,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,0);
 ref = pixel;
 }
 );
-width = 900;
+width = 800;
 },
 {
 layerId = "D5D059AA-4C23-4C0C-AD8D-F4F6FD545972";
