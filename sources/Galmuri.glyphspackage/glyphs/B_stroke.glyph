@@ -6,117 +6,12 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (200,1000);
-ref = pixel;
+pos = (200,0);
+ref = B;
 },
 {
 alignment = -1;
-pos = (300,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,1000);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,900);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (800,800);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (800,700);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,600);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,500);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,400);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (0,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (100,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,300);
+pos = (400,300);
 ref = pixel;
 },
 {
@@ -126,57 +21,12 @@ ref = pixel;
 },
 {
 alignment = -1;
-pos = (400,300);
+pos = (100,300);
 ref = pixel;
 },
 {
 alignment = -1;
-pos = (800,300);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (800,200);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (700,100);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (200,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (300,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (400,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (500,0);
-ref = pixel;
-},
-{
-alignment = -1;
-pos = (600,0);
+pos = (0,300);
 ref = pixel;
 }
 );
